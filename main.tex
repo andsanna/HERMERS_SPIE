@@ -1,0 +1,785 @@
+\documentclass[]{spie}  %>>> use for US letter paper
+%\documentclass[a4paper]{spie}  %>>> use this instead for A4 paper
+%\documentclass[nocompress]{spie}  %>>> to avoid compression of citations
+
+
+
+
+%\definecolor{dodgerblue}{rgb}{0.12, 0.56, 1.0}
+%\definecolor{coral}{rgb}{1.0, 0.5, 0.31}
+
+
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage[table]{xcolor}
+\usepackage{graphicx}
+\usepackage{txfonts}
+\usepackage{lscape}
+\usepackage{hyperref}
+\usepackage{comment}
+\usepackage{xspace}
+
+
+
+\renewcommand{\baselinestretch}{1.0} % Change to 1.65 for double spacing
+ 
+%\newcommand{\degree}{$^{\circ}$\xspace}
+%\newcommand{\Fermi}{\textit{Fermi}\xspace}
+%\newcommand{\gbm}{\textit{GBM}\xspace}
+%\newcommand{\her}{\textit{HERMES}\xspace}
+%\newcommand{\us}{$\mu s$\xspace}
+%\newcommand{\mq}{$m^{2}$\xspace}
+
+
+\def \her{\textit{HERMES}\xspace}
+\def \Fermi{\textit{Fermi}\xspace}
+\def \gbm{\textit{GBM}\xspace}
+\def \us{$\mu s$\xspace}
+\def \mq{$m^{2}$\xspace}
+\def \degree{$^{\circ}$\xspace}
+
+\title{SPIE Proceedings: Style template and guidelines for authors}
+
+\author[a]{Anna A. Author}
+\author[b]{Barry B. Author}
+\affil[a]{Affiliation1, Address, City, Country}
+\affil[b]{Affiliation2, Address, City, Country}
+
+\authorinfo{Further author information: (Send correspondence to A.A.A.)\\A.A.A.: E-mail: aaa@tbk2.edu, Telephone: 1 505 123 1234\\  B.B.A.: E-mail: bba@cmp.com, Telephone: +33 (0)1 98 76 54 32}
+
+% Option to view page numbers
+\pagestyle{empty} % change to \pagestyle{plain} for page numbers   
+\setcounter{page}{301} % Set start page numbering at e.g. 301
+ 
+\begin{document} 
+\maketitle
+
+\begin{abstract}
+TBD  
+\end{abstract}
+
+% Include a list of keywords after the abstract 
+\keywords{Manuscript format, template, SPIE Proceedings, LaTeX}
+
+\section{INTRODUCTION}
+
+
+The HERMES (High Energy Rapid Modular Ensemble of Satellites) project is based on a revolutionary mission concept based on modular astronomy. More specifically, HERMES is conceived as a constellation of nano/micro/small satellites in low Earth orbits, hosting technologically advanced X/gamma-ray detectors, with relatively small effective area, to localise and investigate the spectral and temporal properties the high-energy emission of bright highly-energetic transient events.
+
+Interestingly, we are now in the middle of a transition phase both scientifically and technologically speaking. On one hand, we recently witness the beginning of the so-called \emph{Multi-messenger Astronomy}, that coincided with the observation of the Gravitational Wave Event GW170817 by the Advanced LIGO/Virgo, followed by the detection of the associated short Gamma-Ray Burst (GRB) detected by the Fermi and INTEGRAL satellites, as well as the countless follow-up multi-wavelength observations. Immediately after this discovery, it become even clearer for the community the urgency for an high-energy all-sky with good localisation capabilities to work in parallel with gravitational wave observatories such as Ligo/Virgo/Kagra that will reach their final sensitivity within a few years. At the moment, all the available satellites providing the detection and localisation of GRBs have been operational for more than a decade with large chances of decommissioning in the next years, while next-generation large-area detectors will not be available for at least 10-15 years from now. 
+
+On the other hand, we are living in the hera where new technologies can finally challenge the current assumptions that high-energy astronomical observations from space can only be achieved by big satellites, usually designed, built, launched and managed by government space agencies. CubeSats, light spacecrafts with small sizes and reduced costs, are now considered a competitive solution for space applications as they allow equilibrium among crucial variables of a space project, such as development time, cost, reliability, mission lifetime, and replacement. Interestingly, they represent the key to realise the revolutionary concept of distributed (modular) space astronomy crucial to investigate the unknown of the Universe. Indeed, the large number of photons required to performe cutting edge (astro)physical space science can be collected adding up the contribution of a large number of astrophysical detectors distributed over a fleet of nano/micro/small-satellites allowing to achieve huge overall collecting areas which otherwise would be unreachable with a single instrument and impossible to carry with the current rocket load capabilities. The decreasing trend of producing costs as well as the increase of launching opportunities witnessed in recent years, allows us to concretely conceive fleets of hundreds/thousands of coordinated satellites acting as a single detector of unprecedented collecting power.
+
+
+The HERMES Full Constellation (HFC) has been conceived to tackle three main scientific objectives: 
+\begin{itemize}
+\item the accurate and prompt localization of bright hard X-ray/soft gamma-ray transients such as GRBs. Fast high-energy transients are among the likely electromagnetic counterparts of the gravitational wave events (GWE) recently discovered by Advanced LIGO/Virgo, and of the Fast Radio Burst; 
+\item Open a new window of timing at X/gamma-ray energies, and thus investigate for the first time the temporal structure of GRBs down to fractions of micro-seconds, to constrain models for the GRB engine;
+\item Test quantum space-time scenarios by measuring the delay time between GRB photons of different energy.
+\end{itemize}
+
+The determination of the position in the sky of an astrophysical transient source is crucial to investigate its origin. A clear example of that is the case of Gamma Ray Bursts (GRBs, hereinafter). Indeed, for almost thirty years after their discovery, GRBs remained poorly understood due to the lack of precise localization. Only in the late 90s, with the launch of the Italian-Dutch X-ray satellite BeppoSAX (ref), the detection of the GRB X-ray afterglow (van Paradijs, J., et al., 1997 Nature, 386, 686) and the subsequent identification of the optical and radio transient by ground-based telescopes, allowed the identification of the host galaxy and hence its extragalactic origin (see e.g. Schilling, Govert, 2002, Cambridge University Press, for a review). This paramount discovery allowed to gauge the energy output of the GRBs, establishing their cosmological nature. GRBs proved to be, eventually, the most powerful electromagnetic explosions in the Universe, one of the best tools to investigate the Universe during its infancy. Similarly, the recent confirmation of short GRBs being the electromagnetic counterparts of a Gravitational Wave Events (see e.g. the Ns-Ns event GW170817 and the corresponding GRB event GRB170817A, Abbott, B.P., et al 2017, Physical Review Letters, 119, 161101) made the improvement of localisation capabilities of the astronomical observatories a short term technological priority. Indeed, the key to exploiting the “Multi-messenger Astronomy” is the fast and accurate identification of the electromagnetic counterparts of GWEs, that is crucial to promptly characterised the properties of these events. 
+
+The improved sensibilities of the next generation interferometers, will allow the detection of fainter and further away events, making more challenging the identification of their electromagnetic counterparts given the larger portions of space to be searched. Taking as a reference the famous GW170817 event, the horizon for NS-NS merging events detected with a similar signal to noise will reach up to 200 Mpc for LIGO and 100-130 Mpc for Virgo in a few years from now. This implies an increase of the discovery volume a factor $\sim$100 with respect to the GW170817 case. In this scenario, the operation of an efficient X/gamma-ray all-sky-monitor with good localization capability will have a pivotal role in quickly discovering the high-energy counterparts of GWEs and triggering coordinate multi-wavelength observing campaigns.
+
+Another key aspect of modular astronomy is the possibility to combine together the information collected by single elements of the constellation to increase the signal-to-noise ratio, recreating the capabilities of a single observatory with large collecting area. Indeed, once the transients are detected and localised, the signals received by the different detectors can be combined together, after correcting for the delay time of arrivals, significantly increasing their statistics and thus the sensitivity to finer temporal structures. This aspect is particularly important for events such as GRBs,  characterised by huge luminosities and fast variability, often as short as one millisecond. Best most accurate available description of these events is included in the so-called \emph{fireball model}, i.e. a relativistic bulk flow where shocks efficiently accelerate particles. Interestingly, while successful in explaining GRB observations, this model implies a thick photosphere, hampering direct observations of the hidden inner engine that accelerate the bulk flow. One possibility to shed light on their inner engines is through GRB fast variability (see e.g. Kobayashi et al. 1997, ApJ, 490, 92; Morsony et al. 2010, ApJ, 539, 712; Nakar \& Piran 2002, ApJ Letters, 572, L139). GRB light-curves have been investigated in detail down to $sim$1 ms or slightly lower (see e.g. Walker et al. 2000, ApJ, 537, 264; MacLachlan et al. 2013, MNRAS, 432, 857), while the $\mu$s-ms window is basically unexplored, as little known is also the real duration of the prompt event. We do not know how many shells are ejected from the central engine, which is the frequency of ejection and which is its length. With HFC it will be possible to possible to access the the $\mu$s-ms timing window for GRBs, allowing to further investigate their central engines.
+
+
+The extraordinary capabilities of the HFC will also allow the first dedicated experiment for testing quantum gravity theories. The experiment is based on the predictions of a discrete structure for space on small scales (of the order of the Plack length) proposed by several theories. This space discretization implies the onset of a dispersion relation for photons, as well as an energy dependence of their propagation speed. A promising method for constraining a first order dispersion relation for photons in vacuo is the study of discrepancies in the arrival times of high-energy photons of GRBs emitted at cosmological distances in different energy bands (see e.g. Burderi et al. 2020 and references therein for more details on the topic).
+
+
+\subsection{Mission scenario}
+Taking advantage of the modularity of the project, the HERMES concept will be tested following a step-by-step strategy. More specifically, at first it will be realised the HERMES Pathfinder with the aim at proving in space the HERMES concepts, by detecting and localizing GRBs with six units. The successful realization of this experiment will guide the consolidation of the HERMES full constellation design with  the final goal to monitor the full sky and provide <arcmin localization of most GRBs.
+The HERMES Pathfinder consist of two different projects: the HERMES Technological Pathfinder (HTP) and the HERMES Scientific Pathfinder (HSP). The former, funded by the Italian Ministry of University and Research (MIUR) and the Italian Space Agency (ASI), aims at producing three 3U nano-satellites equipped with X/gamma-ray detectors [\citenum{Fuschino20,Evangelista20}]. The latter, funded by the European Union’s Horizon 2020 Research and Innovation Program, aims at realising three additional units (payload+spacecraft). Moreover, the project includes the design and development the mission and science operation centers (MOC \& SOC). 
+The HTP/HSP mini-constellation of six 3U units should provide enough GRB detections and localizations to:
+\begin{itemize}
+	\item validate the overall concept as well as study the statistical and systematic uncertainty on both detection and localization to design the full constellation;\\ 
+	\item prove that accurate timing in the still little explored window $\mu$s-ms is feasible using detectors with relatively small collecting area;\\
+	\item study uncertainties associated to the addition of the signal from different detectors to improve the statistics on high-resolution time series. 
+\end{itemize}
+
+Finally, ASI recently approved and funded the participation to the project SpIRIT (Space Industry Responsive Intellingent Thermal), founded by the Australian Space Agency, and led by University of Melbourne. SpIRIT will host an HERMES-like detector and S-band transmission systems. The HERMES-TP/SP mini-constellation of six satellites plus SpIRIT should be tested in orbit during 2022. More details on the overall HERMES 
+
+
+
+
+
+
+
+\subsection{Intro Angelo}
+\label{sec:intro}  % \label{} allows reference to this section
+
+
+The Gamma Ray bursts are transient celestial events that are thought to be produced by the collapse of massive stars or by the coalescence of two compact objects. Their main observational characteristics are the huge luminosity and fast variability, often as short as one millisecond, with a spectral emission localized between the hard X-rays and soft Gamma rays. This phenomena have duration that can vary in each case, starting from few decimals of seconds up to hundreds of seconds. For this reason the GRBs population is catalogued according to the time scale during which the 90\% of the flux is emitted by the source (F$_{90}$). The population of Short GRBs includes bursts with T$_{90}$ $\lesssim$2 s, whilst GRBs with larger values of T$_{90}$ are catalogues as Long GRBs.
+Assuming isotropic emission the energy released can attain 10$^{54}$ erg, i. e. the rest mass energy of the Sun (see e.g. Bloom et al. 2009, ApJ, 691, 723), in about 100s duration. However it is now believed that strong beaming reduces the energetic budget up to three orders of magnitude (Abdo et al. 2009, Science, 323, 1688).\\
+The coalescence of compact objects, neutron stars (NS) and black holes (BH), and the sudden collapse to form a BH, are fundamental to investigate both the physics of matter under extreme conditions, and the ultimate structure of space-time. For this reason, a fast and accurate localization of the prompt emission of the GRBs is fundamental, especially for the syncronous observation of the GRB phenomenology with different observatories. 
+In this work we investigate on the position accuracy that can be reached using a couple of mini-satellites of the \her{} swarm.
+The spatial localization of the events can be estimated taking advantage from the direct measurement of the photon arrival times in each detector and then by an estimation of the photons arrival times that can be obtained by a cross-correlation analysis. 
+In the hypothesis of GRB whose emitted photons arrive to a series of N detectors uniformly distibuted in an orbit, the positional accuracy that can be obtained is given by:
+
+\begin{equation}
+\label{eq:sigma_pos}
+\sigma_{pos} = \dfrac{(E_{cc}+E_{pos}+E_{time})^2}{<Baseline>\sqrt{(N-1-2)}}
+\end{equation}
+
+where E$_{cc}$ is the error on the delay time given by the cross-correlation between the light-curves recorded by two detectors, E$_{POS}$ is the error induced by the uncertainty in the space localisation of the detectors,  E$_{time}$ is the error on the absolute time reconstruction, $<Baseline>$ is the average distance between the detectors ad N$_{ind} = N-1$ is the number of statistically independent couples of satellites. \\
+This relation highlights how the positional accuracy, in addition to the number of satellites making up the swarm, is strongly dependent from the uncertainty on the cross-correlation delay measurement E$_{cc}$. In order to obtain a realistic estimation of this uncertainty as a function of the GRB duration, flux and of its intrinsic variability, we have to take advantage of the current repositories of both short and long GRB data, in order to simulate as much as possible the wide phenomenological properties characterizing these transient events, as seen by the future \her mission. 
+
+
+
+\begin{comment}
+\begin{table}[ht]
+\caption{Fonts sizes to be used for various parts of the manuscript.  Table captions should be centered above the table.  When the caption is too long to fit on one line, it should be justified to the right and left margins of the body of the text.} 
+\label{tab:fonts}
+\begin{center}       
+\begin{tabular}{|l|l|} %% this creates two columns
+%% |l|l| to left justify each column entry
+%% |c|c| to center each column entry
+%% use of \rule[]{}{} below opens up each row
+\hline
+\rule[-1ex]{0pt}{3.5ex}  Article title & 16 pt., bold, centered  \\
+\hline
+\rule[-1ex]{0pt}{3.5ex}  Author names and affiliations & 12 pt., normal, centered   \\
+\hline
+\rule[-1ex]{0pt}{3.5ex}  Keywords & 10 pt., normal, left justified   \\
+\hline
+\rule[-1ex]{0pt}{3.5ex}  Abstract Title & 11 pt., bold, centered   \\
+\hline
+\rule[-1ex]{0pt}{3.5ex}  Abstract body text & 10 pt., normal, justified   \\
+\hline
+\rule[-1ex]{0pt}{3.5ex}  Section heading & 11 pt., bold, centered (all caps)  \\
+\hline
+\rule[-1ex]{0pt}{3.5ex}  Subsection heading & 11 pt., bold, left justified  \\
+\hline
+\rule[-1ex]{0pt}{3.5ex}  Sub-subsection heading & 10 pt., bold, left justified  \\
+\hline
+\rule[-1ex]{0pt}{3.5ex}  Normal text & 10 pt., normal, justified  \\
+\hline
+\rule[-1ex]{0pt}{3.5ex}  Figure and table captions & \, 9 pt., normal \\
+\hline
+\rule[-1ex]{0pt}{3.5ex}  Footnote & \, 9 pt., normal \\
+\hline 
+\rule[-1ex]{0pt}{3.5ex}  Reference Heading & 11 pt., bold, centered   \\
+\hline
+\rule[-1ex]{0pt}{3.5ex}  Reference Listing & 10 pt., normal, justified   \\
+\hline
+\end{tabular}
+\end{center}
+\end{table} 
+
+\begin{table}[ht]
+\caption{Margins and print area specifications.} 
+\label{tab:Paper Margins}
+\begin{center}       
+\begin{tabular}{|l|l|l|} 
+\hline
+\rule[-1ex]{0pt}{3.5ex}  Margin & A4 & Letter  \\
+\hline
+\rule[-1ex]{0pt}{3.5ex}  Top margin & 2.54 cm & 1.0 in.   \\
+\hline
+\rule[-1ex]{0pt}{3.5ex}  Bottom margin & 4.94 cm & 1.25 in.  \\
+\hline
+\rule[-1ex]{0pt}{3.5ex}  Left, right margin & 1.925 cm & .875 in.  \\
+\hline
+\rule[-1ex]{0pt}{3.5ex}  Printable area & 17.15 x 22.23 cm & 6.75 x 8.75 in.  \\
+\hline 
+\end{tabular}
+\end{center}
+\end{table}
+
+LaTeX margins are related to the document's paper size. The paper size is by default set to USA letter paper. To format a document for A4 paper, the first line of this LaTeX source file should be changed to \verb|\documentclass[a4paper]{spie}|.   
+
+Authors are encouraged to follow the principles of sound technical writing, as described in Refs.~\citenum{Alred03} and \citenum{Perelman97}, for example.  Many aspects of technical writing are addressed in the {\em AIP Style Manual}, published by the American Institute of Physics.  It is available on line at \url{https://publishing.aip.org/authors}. A spelling checker is helpful for finding misspelled words. 
+
+An author may use this LaTeX source file as a template by substituting his/her own text in each field.  This document is not meant to be a complete guide on how to use LaTeX.  For that, please see the list of references at \url{http://latex-project.org/guides/} and for an online introduction to LaTeX please see \citenum{Lees-Miller-LaTeX-course-1}. 
+\end{comment}
+
+
+
+
+
+
+
+
+
+
+
+\section{Data Analysis}
+\label{sec:analysis}
+
+One of the most performant GRB monitors currently on orbit is part of the \Fermi mission, launched on June 11th 2008.
+The \Fermi Gamma-ray Space Telescope explores energetic and transient phenomena in an energy range that is included between 10 keV and 300 GeV. It consists of the Large Area Telescope (\textit{LAT}) and of the  Gamma-ray Burst Monitor (\gbm). The first instrument observes in the energy range 20 MeV – 300 GeV with a maximum effective area of about 8000 cm$^2$. 
+The \gbm, on the other hand, consists of two different kinds of detectors: twelve sodium iodide (NaI) scintillators and two cylindrical bismuth germanate (BGO) scintillators, both having a collecting area of about 125 cm$^2$. The NaI detectors are sensitive to energies included between few keV up to about 1 MeV, while the BGO detectors cover the energy range ~150 keV to ~30 MeV.
+The triggering process of \gbm starts when a significant change in count-rate due to an event is recorded in at least two of the NaI scintillators. In addition, data captured with the so called \textit{Time-tagged event (TTE)} format, can continuously be recorded with a time resolution of 2\us to provide about 15-30 s of pre-trigger information for each GRB and about 300 s of data after the trigger time.
+Due to the good time resolution provided by this instrument, the \textit{TTE} data represent a powerful mean for studying the performances of the \her mission.\\
+\her will consist of a swarm of cubesats that will equipped with scintillators that will be nominally be sentitive to the energy range 50 keV - 300 keV. For this reason each observation of the \gbm has been previously filtered in order to have events only in this energy range. \\
+
+The aim of this work is to test the accuracy in detecting the delays of the GRBs photon arrival times in a couple of detectors via cross-correlation techniques. For this reason, the \gbm light curves opportunely processed will be fundamental to simulate light curves of a sample of GRB using Montecarlo simulations. These curves will be cross-correlated in order to obtain a cross-correlation profile from which the delay will be measured as shown in the following. \\
+
+In order to simulate the cross correlation profiles of the burst as seen by \her, we have first to build a functional model describing the observed profile of the event; this model will be hereafter called \textit{GRB template}.
+In order to produce the template for each analysed GRB, we followed some precise steps that we report in the following. \\
+The cross correlation of light curves with extremely small bin time are considerable challenging due to the fact that the statistics of the detection processes is essentially Poissonian, and for this reason the fluctuations in each bin with respect to the expected counts are of the order of the 100\%, especially for weak sources. This is a relevant problem when we try to amplify the signal of the source to take into account a specific effective area to simulate for the detector. We found a partial solution to this problem adopting time bins in the light curves that are characterized by a constant number of counts. In particular, we rebinned each light curve defining a temporal bin every time 6 counts were collected; this technique actually provides a preservation of the variability of the signal, introducing fluctuations that are not larger than the 30\%.\\ 
+The curves we obtain in this way shows uneven bins and for this reason these needs to be processed in order to be used with different bin times. Then, we performed a linear interpolation of the counts on the uneven bin light curve and rebinned each obtained curve with the bin time we want to use for our work. In addition, before and after the burst, where only background noise is collected by the detector, we considered to evaluate the mean value of the counts that and to replace this value to the actual signal. This step will be useful to speed up the Montecarlo simulation of the light curves of the source and it is based on the fact that the cross correlation of random noise due to the background contribution before and after the GRB is flat. The obtained curve is the template of the GRB we want to simulate and it is shown in \autoref{fig:template_short_long} for the case of the long GRB 130502327 and of the short GRB 120323507. \\
+
+
+
+\begin{figure*}[h!]
+\centering
+\includegraphics[scale=0.52,angle=0]{fig/Template_comparison_Long.pdf}
+\includegraphics[scale=0.52,angle=0]{fig/Template_comparison_Short.pdf}
+
+\caption{The Fermi/GBM light curves of the long GRB 130502327 and of the short GRB 120323507 and the relative \textit{template} obtained with the procedure described in the text. In both cases, for reasons of clarity, we used a bin time of 10$^{-2}$ s for the light curves and templates of both the GRBs.} 
+\label{fig:template_short_long}
+\end{figure*}
+
+
+
+Each template represents the model of the GRB we want to simulate, and for this reason it will be used to simulate the light curves observed by each couple of detectors we want to consider. In order to simulate detectors with different overall effective areas, each template has been amplified by a constant factor $k$ that is equal to $k=A_{sim}/A_{GBM}$, where $A_{sim}$ and $A_{GBM}$ are the areas we want to simulate and that of \gbm, respectively. The Montecarlo simulations of the light curves of each GRB are successively performed with a Poissonian randomization of the counts contained in each bin of the template. The obtained couple of light curves is then cross-correlated in order to highlight the injected time delay between the curves. In our case, we did not injected a delay between the two signals, then simulating the case in which the couple of detectors is located in the same plane. \\
+The obtained cross correlation profiles are extremely different between each other. The length of the signal is equivalent to the total duration of the analysed light curves but the shape but its variability is strongly related to the complexity of the input light curves and to their intrinsic time variability, as visible in \autoref{fig:xc_profiles}. The main peak of this profile returns the value of the time delay for which the pair of input light curves match as much as possible. To obtain the value of this delay, we fitted each profile with an 'ad hoc' function in a limited range of delays around the peak. In the insets of \autoref{fig:xc_profiles}, for example, we report a zoom of the peak of the cross-correlation obtained for the long GRB 130502327 and for the short GRB 120323507. In both these cases, this limited part of the cross correlation profile has been fitted with a Gaussian function (red solid line), where the value of the centroid represents the time delay between the light curves collected by the two detectors.\\
+ 
+
+\begin{figure*}[h!]
+\centering
+\includegraphics[scale=0.52,angle=0]{fig/CrossCorrelation_fit_LONG.pdf}
+\includegraphics[scale=0.52,angle=0]{fig/CrossCorrelation_fit_Short.pdf}
+
+\caption{The Cross correlation profiles obtained by simulating the Fermi/GBM light curves of the long GRB 130502327 and of the short GRB 120323507 using the templates shown in \autoref{fig:template_short_long} for each burst. In each panel we also report an inset showing a zoom of the cross correlation profiles around the peak, and the best fit function resulting by fitting the cross correlation profile in this region with a Gaussian function (red solid line). For the reported cross correlation profiles we used a bin time of 1\us. } 
+\label{fig:xc_profiles}
+\end{figure*}
+
+
+In order to investigate how the accuracy of the measurement for a certain burst is statistically distributed we have to perform Montecarlo simulations of a large number of light curves, as they were collected by detectors with a given collecting area. In addition, it is also considerably interesting to investigate on how this accuracy depends on the area of the detectors, considering both long and short GRBs. \\
+For this reason, we selected a sample of 100 long and short GRBs from the Fermi/GBM archive and chose to perform the analysis taking into account six different areas to simulate for the couple of the detectors: 100 \mq, 50 \mq, 10 \mq, 1 \mq, 0.0125 \mq (i.e the \gbm effective area) and 0.0056 \mq (i.e. the expected area of each HERMES nano-sat). \\
+The sample of GRB we chose is absolutely casual and for this reason is absolutely rapresentative of the wide variety of phenomenologies, fluxes, durations and intrinsic variability that were recorded during the Fermi mission up to the moment in which this paper was written. For the long GRBs we selected bursts having net fluxes ranging between 0.16 and 26 ph cm$^{-2}$ s$^{-1}$, durations of the bursts between 3 and 138 s, and fluences between 1.67 and 4 ph cm$^{-2}$. On the other hands, we selected short GRBs with net fluxes between 0.6 and 188 ph cm$^{-2}$ s$^{-1}$, durations between 0.03 and 1.9 s and fluences between 0.2 and 75 ph cm$^{-2}$. Just for comparison, in all the \gbm observations the average value of the background flux is of about 3 ph cm$^{-2}$ s$^{-1}$.\\
+For each selected burst, and for each considered area we simulated 1000 cross correlation curves (i.e. 1000 couples of light curves of the burst). For each cross correlation profile, as previously shown, we found the injected value of the delay by fitting the peak region with a function that in turn was chosen between a Gaussian function, a composite function consisting in two Gaussian profiles having a common centroid but different $\sigma$, a Gaussian function plus an asymmetric double exponential function or alternatively a pure asymmetric double exponential function. Depending on the particular shape of the cross correlation profile we chose that function between those listed for which the fit returned the minimum $\chi^{2}$ value. This analysis has been repeated for both the samples of GRBs (long and short) and for all the considered areas and consisted in 1.2$\times10^{6}$ couples of simulated light curves from which we obtained the same number of cross correlation profiles, with an overall substantial computational effort that required high storage and computational performances in a multi-core server of 144 logical processors and 504 Gb of RAM.
+
+
+%% da Grailquest - modifificare il testo
+\subsection{Gamma--ray Burst fast variability}
+ 
+GRBs are thought to be produced by the collapse of massive stars
+and/or by the coalescence of two compact objects. Their main
+observational characteristics are the huge luminosity and fast
+variability, often as short as one millisecond, as shown by 
+\citet{Walker00}, both in isolated flares and in lower amplitude
+flickering. These characteristics soon led to the development of the
+{\it fireball model}, i.e. a relativistic bulk flow where shocks
+efficiently accelerate particles. The cooling of the
+ultra-relativistic particles then produces the observed X-ray and
+$\gamma$-ray emission. One possibility to shed light on their inner 
+engines is through GRB fast variability.  Early numerical simulations 
+\citep{Kobayashi97,Ramirez00,Spada00} suggested that the GRB light-curve 
+reproduces the activity of the inner engine. More recently, hydrodynamical simulations of GRB jets showed that, in order to reproduce the 
+observed light-curves, fast variability must be injected at the base of 
+the jet by the inner engine, while slower variations may be due to the 
+interactions of the jets with the surrounding matter \citep{Morsony10}.
+ 
+The most systematic searches for the shortest timescales in GRBs so
+far are those of \citet{Walker00}, \citet{MacLachlan13} and
+\citet{Bhat12}. The first two works exploit rather sophisticated
+statistical (wavelet) analyses, while the latter performs a parametric
+burst deconvolution in pulses. \citet{Walker00} conclude that the 
+majority of analysed {\it BATSE} GRBs show rise-times faster than 4msec and 
+30\% of the events have rise-time faster than 1msec (observer frame).  
+\citet{MacLachlan13} use Fermi/GBM data binned at 200$\mu$s (the original 
+bin size of GBM data is 2$\mu$s) and report somewhat longer minimum 
+variability timescales than \citet{Walker00}, but conclude that variability 
+of the order of a few msec is not uncommon (although they are limited by 
+the wider temporal bin size adopted of 200$\mu$s and much worse statistics 
+with respect to the {\it BATSE} sample).  Systematically longer time-scales are reported 
+by \citet{Bhat12}, using data binned at 1msec. This is not surprising, 
+because direct pulse deconvolution needs best statistics, which can hardly 
+be obtained for the shortest pulses. 
+
+
+%% da Grailquest - modifificare il testo
+
+\subsection{Template implementation}
+
+Simulations on short time scales ($\sim0.1$ ms) of a unique type of transient 
+event such as a GRB, based on observed light curves, can be challenging when the 
+effective area of the detector is so small that the statistics are fully dominated 
+by Poissonian fluctuations that unavoidably characterise the (quantum) detection 
+process. 
+In particular, if the detected counts within the given time scale is $\le 1$, 
+quantum fluctuations of the order of $100\%$ are expected. If, naively, the 
+number of counts per bin is simply rescaled to account for an increase of 
+effective area, these quantum fluctuations can introduce a false imprint of 
+$100\%$ variability with respect to the original signal. No definite cure is 
+available to mitigate this problem, that could be, however, alleviated by 
+rebinning and/or smoothing techniques. Although smoothing techniques allow to 
+create light curves for a desired temporal resolution, correlations between 
+subsequent bins is unavoidable. Cross-correlation techniques are strongly 
+biased by this effect, hence we opted for a more conservative method implying 
+standard rebinning in which the number of photons accumulated in each (variable) 
+bin is fixed. After several trials and Monte-Carlo simulations we find that 
+6 photons per bin allows us to preserve the signal variability introducing undesired 
+fluctuations not larger than $\sim 30\%$. 
+Applying this rebinning technique to the GBM light curves (at the maximum time 
+resolution of $2\mu$s) discussed above, we generated a variable bin size light 
+curve. In order to produce a template for Monte-Carlo simulations, usable on any 
+time scale, we linearly interpolated the previous light curve to create a 
+functional expression (template) for the theoretical light curve. We note explicitly 
+that linear interpolation between subsequent bins is the most conservative approach 
+that does not introduce spurious variability on any time scale.
+ 
+For a given temporal bin size, we amplified the GRB template previously described 
+in order to take into account the overall effective area of the detector(s) and 
+used this value as the expectation number of photons within the bin. 
+Poissonian randomisation was then applied to produce a simulated light curve. 
+The insets of Fig.~\ref{fig:gbm} show the results of this process for the Long and 
+Short GRB described above simulated for a timescale of $10^{-4}$ seconds and overall 
+effective area of 100 square meters. 
+
+
+\section{Localisation methods}
+
+\subsection{ToA delays}
+
+Let's consider a swarm of $n$ satellites, each one identified by a position vector $\vec{r}_i$ (with $i=0,\dots, n-1$) with respect to a suitable reference frame, e.g. the Earth barycenter in equatorial coordinates.
+To determine the direction $\hat{d}$ of a GRB, it is possible to measure the time delays of the GRB signal as seen from each pair of  satellites. 
+Defining $t_0$ the time at which the GRB signal arrives at the origin of the chosen reference frame, each $i$-th satellite will receive the GRB at a time $t_i$
+\begin{equation}
+  t_i = t_0 - \frac{\vec{r}_i \cdot \hat{d}}{c}.
+\end{equation}
+The expected time delays between two satellites will be
+\begin{equation}
+    \Delta t_{ij}(\hat{d}) \equiv t_j - t_i = \frac{(\vec{r}_j - \vec{r}_i) \cdot \hat{d}}{c} =  \frac{\vec{\rho}_{ij} \cdot \hat{d}}{c},
+\label{eq:delayexp}
+\end{equation}
+where $\vec{\rho}_{ij} \equiv \vec{r}_j - \vec{r}_i$.
+The real (measured) time delay between the signal of two satellites $\Delta \tau_{ij}$ is measured by fitting the cross-correlation of the two light curves.
+The direction of the GRB, e.g. its equatorial coordinates, can be estimated comparing the computed and measured delays between satellites using e.g. the non linear least squared method.
+We define the $\chi^2(\hat{d})$ function as the sum the squares of the difference between the expected and observed time delay divided by its statistical error
+  \begin{equation}
+    \chi^2(\hat{d}) = \sum_{i = 0}^{n - 2}\sum_{j = i + 1}^{n - 1} \frac{(\Delta \tau_{ij} - \Delta t_{ij}(\hat{d}))^2}{\delta\Delta \tau_{ij}^2 + \delta\Delta t_{ij}^2},
+    \label{eq:chisq}
+  \end{equation}
+where $\delta\Delta t_{ij}$ is the uncertainty on $\Delta t_{ij}$ which depends on the positional error on the satellites expressed in light-seconds.
+We note that $\delta\Delta t_{ij}$, due to the GPS positioning system errors of the order of 10 meters, is of the order of 30 ns.
+Taking into account the HERMES set up, we can conclude that, even for the brightest GRBs, this error is negligible with respect to $\delta\Delta \tau_{ij}$.
+For simplicity, we define $\Theta_{ij}^2 \equiv \delta\Delta \tau_{ij}^2 + \delta\Delta t_{ij}^2$, so Eq. \ref{eq:chisq} can be rewritten
+\begin{equation}
+    \chi^2(\hat{d}) = \sum_{i = 0}^{n - 2}\sum_{j = i + 1}^{n - 1} \frac{(\Delta \tau_{ij} - \Delta t_{ij}(\hat{d}))^2}{\Theta_{ij}^2}.
+    \label{eq:chisq_2}
+  \end{equation}
+  
+The unitary vector $\hat{d}$ identifying the GRB direction can be written in terms of Right Ascension $\alpha$ and Declination $\delta$, that is
+  
+  \begin{equation}
+    \hat{d} = \{\cos{\alpha} \cos{\delta}, \sin{\alpha} \cos{\delta}, \sin{\delta}\}.
+  \end{equation}
+
+Minimising Eq. \ref{eq:chisq_2} with respect to $\alpha$ and $\delta$ gives us an estimate of the direction of the GRB.
+Moreover, if Eq. \ref{eq:chisq_2} satisfies all the hypotheses in [AD10], we can also calculate the confidence region for the GRB equatorial coordinates on the plane of the sky.
+
+\section{Discussion}
+
+To obtain a realistic estimation of the accuracy that can be achieved in the measurement of the delays of the arrival times for photons emitted by GRBs in two detectors, we built a method with which we simulated several light curves of different kinds of GRBs. From a cross correlation of each couple of curves we obtained a measurement of the delay between the two signals that was obtained by fitting the peak of the cross correlation profile with an opportune function. \\
+With a so large sample of GRBs events analysed, a good estimation of the accuracy in determining the delays is given by measuring how for a given typology of burst (long or short) and for each simulated area the centroids distributes around the value of the injected delay. We show the distributions obtained for the long GRB 130502327 and for the short GRB 120323507 in \autoref{fig:centroid_distribution_100_hermes_sample}. 
+Each delay distribution was fitted with a Normal distribution that allowed to infer a realistic estimation of the delay injected in the simulated light curves and of the dispersion of the delay measurements with respect to the expected value, i.e. a realistic estimation of the cross correlation error E$_{cc}$ defined in \autoref{eq:sigma_pos}.
+This analysis has been repeated for the whole set of areas we simulated and for both the long and short GRBs. In addition, we also compared the mean cross correlation error $<\sigma>$ obtained from the analysis of the delay distributions with the mean value $<\epsilon>$ of the error associated to the centroid obtained from the fit of the cross correlation peak region. We report the results of this analysis in \autoref{tab:tabella_Long} and \autoref{tab:tabella_Short} for the long and short data sets of GRBs.
+From these results it is evident how adopting the $\epsilon$ error underestimates the error on the delay measurement via the cross correlation profile, hence resulting in an overestimation of the accuracy in the position of the GRB. In particular, the ratio $<\sigma>/<\epsilon>$ decreases with decreasing the area of the detector as a consequence of the decrement of the statistics of the data collected by smaller areas. For the same reason it is evident how the mean value of $\sigma$ increases with decreasing the detector area.\\
+
+More precisely, it is interesting to notice the trend followed by the $\sigma$ inferred by the fit of the cross correlation profile as a function of the fluence of the GRBs for each simulated area. In \autoref{fig:sigma_vs_Fluence_Long} and \autoref{fig:sigma_vs_Fluence_Short} we report these trends for the long and short GRBs considered in our work, respectively.
+From a quick comparison between the plots in the two figures it can be evinced that the high statistics that can be achieved by the long GRBs, in addition to that characterizing the higher simulated areas for the short GRBs, allows to obtain a more defined profile for the trends, due to the better constraints obtained for the delay measurement in the cross correlation profile. On the contrary, the lower areas, especially for the short GRBs, implied a scattered distribution of the data. However, in both the cases it can be inferred that the error $\sigma$ on the delay measurement decreases with increasing the fluence of the considered GRB, as a consequence of the increase in the statistics of the data. \\
+We modelled these trends using a functional form as $y(x)=a+bx^k$, where $k$ is a power included between -1 and -0.001. We performed a fit for each $k$ at steps of $\delta k =1\times 10^{-4}$ for a total of 9990 fits for each simulated area and GRB typology (long or short); we chose as best-fit function the one having a $k$ for which, together with the $a$ and $b$ parameters, we obtain a minimum of the $\chi^2$. 
+On average, we obtained a minimum of the $\chi^2$ for $k=-0.32$ for all the areas and both for the long and short GRBs, not considering the values of $k$ obtained for the areas 0.0125 \mq and 0.0056 \mq simulated for the short GRBs, for which we obtain a considerably flat power of -0.16 and -0.01, respectively, due to the scattered profiles in these two cases. We report the obtained fit parameters in \autoref{tab:fit_sigma_Long} and \autoref{tab:fit_sigma_Short}.
+
+
+\begin{table}
+
+\footnotesize
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\multicolumn{1}{|c|}{    } & \multicolumn{4}{c|}{\textbf{Long GRBs}}  \\
+\hline
+Area & $k$ & a & b & $\chi^2 (d.o.f)$  \\
+($m^2$) &  &  &  &   \\
+
+\hline
+100    & -0.2 & -56(10)$\times10^{-7}$ & 20(2)$\times10^{-6}$ & 5.4$\times10^{-10}$(98) \\
+50     & -0.322 & -38(6)$\times10^{-7}$ & 29(2)$\times10^{-6}$ & 6$\times10^{-10}$(98) \\
+10     & -0.216 & -134(8)$\times10^{-7}$ & 49(2)$\times10^{-6}$ & 4.5$\times10^{-10}$(98) \\
+1      & -0.256 & -27(2)$\times10^{-6}$ & 133(5)$\times10^{-6}$ & 4.3$\times10^{-9}$(98) \\
+0.0125 & -0.313 & -44(4)$\times10^{-5}$ & 279(10)$\times10^{-5}$ & 2$\times10^{-6}$(98) \\
+0.0056 & -0.608 & -18(7)$\times10^{-5}$ & 102(4)$\times10^{-4}$ & 3$\times10^{-5}$(98) \\
+\hline
+\end{tabular}
+\label{tab:fit_sigma_Long}
+\caption{Best-fit models obtained by fitting the long GRBs $\sigma$ vs. fluence profiles with the functional form $y(x)=a+bx^k$. The errors associated to the parameters were evaluated at a confidence level of the 68\%.}
+\end{table}
+
+
+
+
+
+\begin{table}
+
+\footnotesize
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\multicolumn{1}{|c|}{    } & \multicolumn{4}{c|}{\textbf{Short GRBs}}  \\
+\hline
+Area & $k$ & a & b & $\chi^2 (d.o.f)$  \\
+($m^2$) &  &  &  &   \\
+
+\hline
+100 & -0.304 & -57(11)$\times10^{-7}$ & 159(14)$\times10^{-7}$ & 8.4$\times10^{-10}$(98) \\
+50 & -0.303 & -8(2)$\times10^{-6}$ & 23(2)$\times10^{-6}$ & 2$\times10^{-9}$(98) \\
+10 & -0.325 & -17(3)$\times10^{-6}$ & 49(4)$\times10^{-6}$ & 8$\times10^{-9}$(98) \\
+1 & -0.327 & -56(11)$\times10^{-6}$ & 160(14)$\times10^{-6}$ & 1$\times10^{-7}$(98) \\
+0.0125 & -0.164 & -0.011(3) & 0.018(3) & 0.002(98) \\
+0.0056 & -0.010 & -0.50(14) & 0.52(15) & 0.02(98) \\
+\hline
+\end{tabular}
+\label{tab:fit_sigma_Short}
+\caption{Best-fit models obtained by fitting the short GRBs $\sigma$ vs. fluence profiles with the functional form $y(x)=a+bx^k$. The errors associated to the parameters were evaluated at a confidence level of the 68\%.}
+\end{table}
+
+
+
+
+
+
+
+
+
+
+\begin{figure*}[h!]
+\centering
+\includegraphics[scale=0.5,angle=0]{fig/distribution_long_100.eps}
+\includegraphics[scale=0.5,angle=0]{fig/distribution_short_100.eps}\\
+\includegraphics[scale=0.5,angle=0]{fig/distribution_long_56.eps}
+\includegraphics[scale=0.5,angle=0]{fig/distribution_short_56.eps}
+
+\caption{Distributions of the delays obtained for the long GRB 130502327 (left column) and the short GRB 120323507 (right column). For each burst we show a comparison between the results obtained for a simulated area of 100 m$^2$ (on the top) and of 0.0056 m$^2$ (on the bottom).}
+\label{fig:centroid_distribution_100_hermes_sample}
+\end{figure*}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\begin{table*}
+
+\footnotesize
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+ \multicolumn{1}{|c|}{    } & \multicolumn{4}{c|}{\textbf{Short GRBs}}  \\
+\hline
+Area & $\sigma_{min}$ & $\sigma_{max}$ & $<\sigma>$ & $<\sigma>$/$<\epsilon>$  \\
+($m^2$) &  &  &  &   \\
+
+\hline
+100 & 5.974907063724057e-08 & 1.8347673286588637e-05 & 6.534330112671629e-06 & 7.3457365782627235 \\
+50 & 8.327817977413326e-08 & 2.8146661479250482e-05 & 9.21619292355443e-06 & 6.200167445616318 \\
+10 & 1.867258872028386e-07 & 6.102888687738298e-05 & 2.0331103734181935e-05 & 6.701879256463874 \\
+1 & 5.771539436685253e-07 & 0.00021081777428695462 & 6.453042063262608e-05 & 5.039805652851995 \\
+0.0125 & 9.560084714842066e-06 & 0.025972208446171898 & 0.004584209602272932 & 4.294325462320192 \\
+0.0056 & 1.9398674274012946e-05 & 0.0787462424572527 & 0.01360441039839945 & 4.811604623009573 \\
+\hline
+\end{tabular}
+\label{tab:tabella_Short}
+\caption{Resume of the results obtained from the simulation of a sample of 100 Short GRBs from the Fermi/GBM archive as a function of the simulated collecting area.}
+\end{table*}
+
+
+
+
+\begin{table*}
+
+\footnotesize
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+ \multicolumn{1}{|c|}{    } & \multicolumn{4}{c|}{\textbf{Long GRBs}}\\
+\hline
+Area & $\sigma_{min}$ & $\sigma_{max}$ & $<\sigma>$ & $<\sigma>$/$<\epsilon>$\\
+($m^2$) &  &  &  &   \\
+
+\hline
+100 & 1.2288202791919088e-07 & 1.3893084036386532e-05 & 4.421738574898745e-06 & 5.163571094402115 \\
+50 & 1.7357168814420108e-07 & 2.0104233385850118e-05 & 5.669313287935561e-06 & 3.2135421748743354  \\
+10 & 3.987123355230972e-07 & 2.5728427221454894e-05 & 9.320900692181446e-06 & 3.2093913438856703 \\
+1 & 1.3132966330242298e-06 & 7.713557028223853e-05 & 2.6879835390663862e-05 & 2.8811619807648956 \\
+0.0125 & 1.798680374494856e-05 & 0.001739569989617569 & 0.0004975834853598062 & 1.3351867706734453 \\
+0.0056 & 3.4300685103588634e-05 & 0.0063206606110297586 & 0.001209711899944309 & 1.252797733846769 \\
+\hline
+\end{tabular}
+\label{tab:tabella_Long}
+\caption{Resume of the results obtained from the simulation of a sample of 100 Long GRBs from the Fermi/GBM archive as a function of the simulated collecting area.}
+\end{table*}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%    Serie di Plot   %%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\begin{landscape}
+\begin{figure*}[h!]
+\centering
+\includegraphics[scale=0.5,angle=0]{fig/LONG/sigma_vs_fluence_100.eps}
+\includegraphics[scale=0.5,angle=0]{fig/LONG/sigma_vs_fluence_50.eps}\\
+\includegraphics[scale=0.5,angle=0]{fig/LONG/sigma_vs_fluence_10.eps}
+\includegraphics[scale=0.5,angle=0]{fig/LONG/sigma_vs_fluence_1.eps}\\
+\includegraphics[scale=0.5,angle=0]{fig/LONG/sigma_vs_fluence_0.0125.eps}
+\includegraphics[scale=0.5,angle=0]{fig/LONG/sigma_vs_fluence_0.0056.eps}\\
+
+\caption{$\sigma$ of the centroids distribution obtained from the cross correlation curves of the long GRBs, as a function of the GRB fluence for each simulated area. The red solid lines represent the best-fit functions $y(x)=a+bx^{k}$, where $k$ is the power that minimizes the $\chi^2$, together with the parameters $a$ and $b$  (see \autoref{tab:fit_sigma_Long} and \autoref{tab:fit_sigma_Short} for the parameters obtained for the long and short GRBs, respectively).}
+\label{fig:sigma_vs_Fluence_Long}
+\end{figure*}
+%\end{landscape}
+
+
+
+
+%\begin{landscape}
+\begin{figure*}[h!]
+\centering
+\includegraphics[scale=0.5,angle=0]{fig/SHORT/sigma_vs_fluence_100.eps}
+\includegraphics[scale=0.5,angle=0]{fig/SHORT/sigma_vs_fluence_50.eps}\\
+\includegraphics[scale=0.5,angle=0]{fig/SHORT/sigma_vs_fluence_10.eps}
+\includegraphics[scale=0.5,angle=0]{fig/SHORT/sigma_vs_fluence_1.eps}\\
+\includegraphics[scale=0.5,angle=0]{fig/SHORT/sigma_vs_fluence_0.0125.eps}
+\includegraphics[scale=0.5,angle=0]{fig/SHORT/sigma_vs_fluence_0.0056.eps}\\
+
+\caption{$\sigma$ of the centroids distribution obtained from the cross correlation curves of the short GRBs, as a function of the GRB fluence for each simulated area. The red solid lines represent the best-fit functions $y(x)=a+bx^{k}$, where $k$ is the power that minimizes the $\chi^2$, together with the parameters $a$ and $b$  (see \autoref{tab:fit_sigma_Long} and \autoref{tab:fit_sigma_Short} for the parameters obtained for the long and short GRBs, respectively).}
+\label{fig:sigma_vs_Fluence_Short}
+\end{figure*}
+%\end{landscape}
+
+
+
+
+
+
+
+%\begin{landscape}
+\begin{figure*}[h!]
+\centering
+\includegraphics[scale=0.5,angle=0]{fig/SHORT/ratio_distrib_100.eps}
+\includegraphics[scale=0.5,angle=0]{fig/SHORT/ratio_distrib_50.eps}\\
+\includegraphics[scale=0.5,angle=0]{fig/SHORT/ratio_distrib_10.eps}
+\includegraphics[scale=0.5,angle=0]{fig/SHORT/ratio_distrib_1.eps}\\
+\includegraphics[scale=0.5,angle=0]{fig/SHORT/ratio_distrib_0.0125.eps}
+\includegraphics[scale=0.5,angle=0]{fig/SHORT/ratio_distrib_0.0056.eps}\\
+
+\caption{...}
+\label{fig:ratio_distribution_Short}
+\end{figure*}
+%\end{landscape}
+
+
+
+%\begin{landscape}
+\begin{figure*}[h!]
+\centering
+\includegraphics[scale=0.5,angle=0]{fig/LONG/ratio_distrib_100.eps}
+\includegraphics[scale=0.5,angle=0]{fig/LONG/ratio_distrib_50.eps}\\
+\includegraphics[scale=0.5,angle=0]{fig/LONG/ratio_distrib_10.eps}
+\includegraphics[scale=0.5,angle=0]{fig/LONG/ratio_distrib_1.eps}\\
+\includegraphics[scale=0.5,angle=0]{fig/LONG/ratio_distrib_0.0125.eps}
+\includegraphics[scale=0.5,angle=0]{fig/LONG/ratio_distrib_0.0056.eps}\\
+
+\caption{...}
+\label{fig:ratio_distribution_Long}
+\end{figure*}
+%\end{landscape}
+
+
+
+\begin{figure*}[h!]
+\centering
+\includegraphics[scale=0.5,angle=0]{fig/sigma_vs_area_Long.pdf}
+\includegraphics[scale=0.5,angle=0]{fig/sigma_vs_area_Short.pdf}
+
+
+\caption{Trend of the mean value of the $\sigma$ obtained for each simulated area as a function of the area of the detector. We also report the best-fit linear function (red solid line) superimposed in each plot.}
+\label{fig:sigmed_vs_area}
+\end{figure*}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\begin{comment}
+
+
+\section{FORMATTING OF MANUSCRIPT COMPONENTS}
+
+This section describes the normal structure of a manuscript and how each part should be handled.  The appropriate vertical spacing between various parts of this document is achieved in LaTeX through the proper use of defined constructs, such as \verb|\section{}|.  In LaTeX, paragraphs are separated by blank lines in the source file. 
+
+At times it may be desired, for formatting reasons, to break a line without starting a new paragraph.  This situation may occur, for example, when formatting the article title, author information, or section headings.  Line breaks are inserted in LaTeX by entering \verb|\\| or \verb|\linebreak| in the LaTeX source file at the desired location.  
+
+
+\subsection{Title and Author Information}
+\label{sec:title}
+
+The article title appears centered at the top of the first page.  The title font is 16 point, bold.  The rules for capitalizing the title are the same as for sentences; only the first word, proper nouns, and acronyms should be capitalized.  Avoid using acronyms in the title.  Keep in mind that people outside your area of expertise might read your article. At the first occurrence of an acronym, spell it out, followed by the acronym in parentheses, e.g., noise power spectrum (NPS). 
+
+The author list is in 12-pt. regular, centered. Omit titles and degrees such as Dr., Prof., Ph.D., etc. The list of affiliations follows the author list. Each author's affiliation should be clearly noted. Superscripts may be used to identify the correspondence between the authors and their respective affiliations.  Further author information, such as e-mail address, complete postal address, and web-site location, may be provided in a footnote by using \verb|\authorinfo{}|, as demonstrated above.
+
+\subsection{Abstract and Keywords}
+The title and author information is immediately followed by the Abstract. The Abstract should concisely summarize the key findings of the paper.  It should consist of a single paragraph containing no more than 250 words.  The Abstract does not have a section number.  A list of up to eight keywords should immediately follow the Abstract after a blank line.  These keywords will be included in a searchable database at SPIE.
+
+\subsection{Body of Paper}
+The body of the paper consists of numbered sections that present the main findings.  These sections should be organized to best present the material.  See Sec.~\ref{sec:sections} for formatting instructions.
+
+\subsection{Appendices}
+Auxiliary material that is best left out of the main body of the paper, for example, derivations of equations, proofs of theorems, and details of algorithms, may be included in appendices.  Appendices are enumerated with uppercase Latin letters in alphabetic order, and appear just before the Acknowledgments and References. Appendix~\ref{sec:misc} contains more about formatting equations and theorems.
+
+\subsection{Acknowledgments}
+In the Acknowledgments section, appearing just before the References, the authors may credit others for their guidance or help.  Also, funding sources may be stated.  The Acknowledgments section does not have a section number.
+
+\subsection{References}
+SPIE is able to display the references section of your paper in the SPIE Digital Library, complete with links to referenced journal articles, proceedings papers, and books, when available. This added feature will bring more readers to your paper and improve the usefulness of the SPIE Digital Library for all researchers. The References section does not have a section number.  The references are numbered in the order in which they are cited.  Examples of the format to be followed are given at the end of this document.  
+
+The reference list at the end of this document is created using BibTeX, which looks through the file {\ttfamily report.bib} for the entries cited in the LaTeX source file.  The format of the reference list is determined by the bibliography style file {\ttfamily spiebib.bst}, as specified in the \verb|\bibliographystyle{spiebib}| command.  Alternatively, the references may be directly formatted in the LaTeX source file.
+
+For books\cite{Lamport94,Alred03,Goossens97}, the listing includes the list of authors, book title, publisher, city, page or chapter numbers, and year of publication.  A reference to a journal article\cite{Metropolis53} includes the author list, title of the article (in quotes), journal name (in italics, properly abbreviated), volume number (in bold), inclusive page numbers, and year.  By convention\cite{Lamport94}, article titles are capitalized as described in Sec.~\ref{sec:title}.  A reference to a proceedings paper or a chapter in an edited book\cite{Gull89a} includes the author list, title of the article (in quotes), volume or series title (in italics), volume number (in bold), if applicable, inclusive page numbers, publisher, city, and year.  References to an article in the SPIE Proceedings may include the conference name (in italics), as shown in Ref.~\citenum{Hanson93c}. For websites\cite{Lees-Miller-LaTeX-course-1} the listing includes the list of authors, title of the article (in quotes), website name, article date, website address either enclosed in chevron symbols ('\(<\)' and '\(>\)'),  underlined or linked, and the date the website was accessed. 
+
+If you use this formatting, your references will link your manuscript to other research papers that are in the CrossRef system. Exact punctuation is required for the automated linking to be successful. 
+
+Citations to the references are made using superscript numerals, as demonstrated in the above paragraph.  One may also directly refer to a reference within the text, e.g., ``as shown in Ref.~\citenum{Metropolis53} ...''
+
+\subsection{Footnotes}
+Footnotes\footnote{Footnotes are indicated as superscript symbols to avoid confusion with citations.} may be used to provide auxiliary information that doesn't need to appear in the text, e.g., to explain measurement units.  They should be used sparingly, however.  
+
+Only nine footnote symbols are available in LaTeX. If you have more than nine footnotes, you will need to restart the sequence using the command  \verb|\footnote[1]{Your footnote text goes here.}|. If you don't, LaTeX will provide the error message {\ttfamily Counter too large.}, followed by the offending footnote command.
+
+\section{SECTION FORMATTING}
+\label{sec:sections}
+
+Section headings are centered and formatted completely in uppercase 11-point bold font.  Sections should be numbered sequentially, starting with the first section after the Abstract.  The heading starts with the section number, followed by a period.  In LaTeX, a new section is created with the \verb|\section{}| command, which automatically numbers the sections.
+
+Paragraphs that immediately follow a section heading are leading paragraphs and should not be indented, according to standard publishing style\cite{Lamport94}.  The same goes for leading paragraphs of subsections and sub-subsections.  Subsequent paragraphs are standard paragraphs, with 14-pt.\ (5 mm) indentation.  An extra half-line space should be inserted between paragraphs.  In LaTeX, this spacing is specified by the parameter \verb|\parskip|, which is set in {\ttfamily spie.cls}.  Indentation of the first line of a paragraph may be avoided by starting it with \verb|\noindent|.
+ 
+\subsection{Subsection Attributes}
+
+The subsection heading is left justified and set in 11-point, bold font.  Capitalization rules are the same as those for book titles.  The first word of a subsection heading is capitalized.  The remaining words are also capitalized, except for minor words with fewer than four letters, such as articles (a, an, and the), short prepositions (of, at, by, for, in, etc.), and short conjunctions (and, or, as, but, etc.).  Subsection numbers consist of the section number, followed by a period, and the subsection number within that section.  
+
+\subsubsection{Sub-subsection attributes}
+The sub-subsection heading is left justified and its font is 10 point, bold.  Capitalize as for sentences.  The first word of a sub-subsection heading is capitalized.  The rest of the heading is not capitalized, except for acronyms and proper names.  
+
+\section{FIGURES AND TABLES}
+
+Figures are numbered in the order of their first citation.  They should appear in numerical order and on or after the same page as their first reference in the text.  Alternatively, all figures may be placed at the end of the manuscript, that is, after the Reference section.  It is preferable to have figures appear at the top or bottom of the page.  Figures, along with their captions, should be separated from the main text by at least 0.2 in.\ or 5 mm.  
+
+Figure captions are centered below the figure or graph.  Figure captions start with the figure number in 9-point bold font, followed by a period; the text is in 9-point normal font; for example, ``{\footnotesize{Figure 3.}  Original image...}''.  See Fig.~\ref{fig:example} for an example of a figure caption.  When the caption is too long to fit on one line, it should be justified to the right and left margins of the body of the text.  
+
+Tables are handled identically to figures, except that their captions appear above the table. 
+
+% Note: If compiling with LaTeX+dvipdf, please ensure images generated from 
+% other software packages have their bounding boxes set correctly.
+   \begin{figure} [ht]
+   \begin{center}
+   \begin{tabular}{c} %% tabular useful for creating an array of images 
+   \includegraphics[height=5cm]{mcr3b.eps}
+   \end{tabular}
+   \end{center}
+   \caption[example] 
+%>>>> use \label inside caption to get Fig. number with \ref{}
+   { \label{fig:example} 
+Figure captions are used to describe the figure and help the reader understand it's significance.  The caption should be centered underneath the figure and set in 9-point font.  It is preferable for figures and tables to be placed at the top or bottom of the page. LaTeX tends to adhere to this standard.}
+   \end{figure} 
+
+\section{MULTIMEDIA FIGURES - VIDEO AND AUDIO FILES}
+
+Video and audio files can be included for publication. See Tab.~\ref{tab:Multimedia-Specifications} for the specifications for the mulitimedia files. Use a screenshot or another .jpg illustration for placement in the text. Use the file name to begin the caption. The text of the caption must end with the text ``http://dx.doi.org/doi.number.goes.here'' which tells the SPIE editor where to insert the hyperlink in the digital version of the manuscript. 
+
+Here is a sample illustration and caption for a multimedia file:
+
+   \begin{figure} [ht]
+   \begin{center}
+   \begin{tabular}{c} 
+   \includegraphics[height=5cm]{MultimediaFigure.jpg}
+	\end{tabular}
+	\end{center}
+   \caption[example] 
+   { \label{fig:video-example} 
+A label of “Video/Audio 1, 2, …” should appear at the beginning of the caption to indicate to which multimedia file it is linked . Include this text at the end of the caption: \url{http://dx.doi.org/doi.number.goes.here}}
+   \end{figure} 
+   
+   \begin{table}[ht]
+\caption{Information on video and audio files that must accompany a manuscript submission.} 
+\label{tab:Multimedia-Specifications}
+\begin{center}       
+\begin{tabular}{|l|l|l|}
+\hline
+\rule[-1ex]{0pt}{3.5ex}  Item & Video & Audio  \\
+\hline
+\rule[-1ex]{0pt}{3.5ex}  File name & Video1, video2... & Audio1, audio2...   \\
+\hline
+\rule[-1ex]{0pt}{3.5ex}  Number of files & 0-10 & 0-10  \\
+\hline
+\rule[-1ex]{0pt}{3.5ex}  Size of each file & 5 MB & 5 MB  \\
+\hline
+\rule[-1ex]{0pt}{3.5ex}  File types accepted & .mpeg, .mov (Quicktime), .wmv (Windows Media Player) & .wav, .mp3  \\
+\hline 
+\end{tabular}
+\end{center}
+\end{table}
+
+\appendix    %>>>> this command starts appendixes
+
+\section{MISCELLANEOUS FORMATTING DETAILS}
+\label{sec:misc}
+
+It is often useful to refer back (or forward) to other sections in the article.  Such references are made by section number.  When a section reference starts a sentence, Section is spelled out; otherwise use its abbreviation, for example, ``In Sec.~2 we showed...'' or ``Section~2.1 contained a description...''.  References to figures, tables, and theorems are handled the same way.
+
+\subsection{Formatting Equations}
+Equations may appear in line with the text, if they are simple, short, and not of major importance; e.g., $\beta = b/r$.  Important equations appear on their own line.  Such equations are centered.  For example, ``The expression for the field of view is
+\begin{equation}
+\label{eq:fov}
+2 a = \frac{(b + 1)}{3c} \, ,
+\end{equation}
+where $a$ is the ...'' Principal equations are numbered, with the equation number placed within parentheses and right justified.  
+
+Equations are considered to be part of a sentence and should be punctuated accordingly. In the above example, a comma follows the equation because the next line is a subordinate clause.  If the equation ends the sentence, a period should follow the equation.  The line following an equation should not be indented unless it is meant to start a new paragraph.  Indentation after an equation is avoided in LaTeX by not leaving a blank line between the equation and the subsequent text.
+
+References to equations include the equation number in parentheses, for example, ``Equation~(\ref{eq:fov}) shows ...'' or ``Combining Eqs.~(2) and (3), we obtain...''  Using a tilde in the LaTeX source file between two characters avoids unwanted line breaks.
+
+\subsection{Formatting Theorems}
+
+To include theorems in a formal way, the theorem identification should appear in a 10-point, bold font, left justified and followed by a period.  The text of the theorem continues on the same line in normal, 10-point font.  For example, 
+
+\noindent\textbf{Theorem 1.} For any unbiased estimator...
+
+Formal statements of lemmas and algorithms receive a similar treatment.
+
+\end{comment}
+
+
+\acknowledgments % equivalent to \section*{ACKNOWLEDGMENTS}       
+ 
+This unnumbered section is used to identify those who have aided the authors in understanding or accomplishing the work presented and to acknowledge sources of funding.  
+
+% References
+\bibliography{report} % bibliography data in report.bib
+\bibliographystyle{spiebib} % makes bibtex use spiebib.bst
+
+\end{document} 
