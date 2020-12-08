@@ -1,7 +1,39 @@
 \begin{thebibliography}{1}
 
-\bibitem{Lamport94}
-Lamport, L.,  [{\em LaTeX: A Document Preparation
-  System}{\nolinebreak\hspace{0.1em}]}, Addison-Wesley, Reading, Mass. (1994).
+\bibitem{GW170817_GW}
+{Abbott}, B.~P., {Abbott}, R., {Abbott}, T.~D., {Acernese}, F., {Ackley}, K.,
+  and {Adams}, C., e.~a., ``{Gravitational Waves and Gamma-Rays from a Binary
+  Neutron Star Merger: GW170817 and GRB 170817A},'' {\em Astrophysical Journal,
+  Letters}~{\bf 848},  L13 (Oct. 2017).
+
+\bibitem{Troja17}
+{Troja}, E., {Piro}, L., {van Eerten}, H., {Wollaeger}, R.~T., {Im}, M., {Fox},
+  O.~D., {Butler}, N.~R., {Cenko}, S.~B., {Sakamoto}, T., {Fryer}, C.~L.,
+  {Ricci}, R., {Lien}, A., {Ryan}, R.~E., {Korobkin}, O., {Lee}, S.~K.,
+  {Burgess}, J.~M., {Lee}, W.~H., {Watson}, A.~M., {Choi}, C., {Covino}, S.,
+  {D'Avanzo}, P., {Fontes}, C.~J., {Gonz{\'a}lez}, J.~B., {Khandrika}, H.~G.,
+  {Kim}, J., {Kim}, S.~L., {Lee}, C.~U., {Lee}, H.~M., {Kutyrev}, A., {Lim},
+  G., {S{\'a}nchez-Ram{\'\i}rez}, R., {Veilleux}, S., {Wieringa}, M.~H., and
+  {Yoon}, Y., ``{The X-ray counterpart to the gravitational-wave event
+  GW170817},'' {\em Nature}~{\bf 551},  71--74 (Nov. 2017).
+
+\bibitem{Schilling02}
+{Schilling}, G.,  [{\em {Flash! The Hunt for the Biggest Explosions in the
+  Universe}}{\nolinebreak\hspace{0.1em}]} (2002).
+
+\bibitem{Fuschino20}
+Fuschino, F. e.~a., ``An innovative architecture for a wide band transient
+  monitor on board the hermes nano-satellite constellation,'' {\em Society of
+  Photo-Optical Instrumentation Engineers (SPIE) Conference Series} (2020).
+
+\bibitem{Evangelista20}
+evangelista, Y. e.~a., ``The scientific payload on-board the hermes-tp and
+  hermes-sp cubesat missions,'' {\em Society of Photo-Optical Instrumentation
+  Engineers (SPIE) Conference Series} (2020).
+
+\bibitem{Fiore20}
+Fiore, F. e.~a., ``The hermes-technologic and scientific pathfinder,'' {\em
+  Society of Photo-Optical Instrumentation Engineers (SPIE) Conference Series}
+  (2020).
 
 \end{thebibliography}

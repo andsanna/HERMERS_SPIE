@@ -79,7 +79,7 @@ The HERMES Full Constellation (HFC) has been conceived to tackle three main scie
 \item Test quantum space-time scenarios by measuring the delay time between GRB photons of different energy.
 \end{itemize}
 
-The determination of the position in the sky of an astrophysical transient source is crucial to investigate its origin. A clear example of that is the case of Gamma Ray Bursts (GRBs, hereinafter). Indeed, for almost thirty years after their discovery, GRBs remained poorly understood due to the lack of precise localization. Only in the late 90s, with the launch of the Italian-Dutch X-ray satellite BeppoSAX (ref), the detection of the GRB X-ray afterglow (van Paradijs, J., et al., 1997 Nature, 386, 686) and the subsequent identification of the optical and radio transient by ground-based telescopes, allowed the identification of the host galaxy and hence its extragalactic origin (see e.g. \citenum{Schilling02}], for a review). This paramount discovery allowed to gauge the energy output of the GRBs, establishing their cosmological nature. GRBs proved to be, eventually, the most powerful electromagnetic explosions in the Universe, one of the best tools to investigate the Universe during its infancy. Similarly, the recent confirmation of short GRBs being the electromagnetic counterparts of a Gravitational Wave Events (see e.g. the Ns-Ns event GW170817 and the corresponding GRB event GRB170817A, Abbott, B.P., et al 2017, Physical Review Letters, 119, 161101) made the improvement of localisation capabilities of the astronomical observatories a short term technological priority. Indeed, the key to exploiting the “Multi-messenger Astronomy” is the fast and accurate identification of the electromagnetic counterparts of GWEs, that is crucial to promptly characterised the properties of these events. 
+The determination of the position in the sky of an astrophysical transient source is crucial to investigate its origin. A clear example of that is the case of Gamma Ray Bursts (GRBs, hereinafter). Indeed, for almost thirty years after their discovery, GRBs remained poorly understood due to the lack of precise localization. Only in the late 90s, with the launch of the Italian-Dutch X-ray satellite BeppoSAX (ref), the detection of the GRB X-ray afterglow (van Paradijs, J., et al., 1997 Nature, 386, 686) and the subsequent identification of the optical and radio transient by ground-based telescopes, allowed the identification of the host galaxy and hence its extragalactic origin (see e.g. [\citenum{Schilling02}], for a review). This paramount discovery allowed to gauge the energy output of the GRBs, establishing their cosmological nature. GRBs proved to be, eventually, the most powerful electromagnetic explosions in the Universe, one of the best tools to investigate the Universe during its infancy. Similarly, the recent confirmation of short GRBs being the electromagnetic counterparts of a Gravitational Wave Events (see e.g. [\citenum{GW170817_GW,Troja17}]) made the improvement of localisation capabilities of the astronomical observatories a short term technological priority. Indeed, the key to exploiting the “Multi-messenger Astronomy” is the fast and accurate identification of the electromagnetic counterparts of GWEs, that is crucial to promptly characterised the properties of these events. 
 
 The improved sensibilities of the next generation interferometers, will allow the detection of fainter and further away events, making more challenging the identification of their electromagnetic counterparts given the larger portions of space to be searched. Taking as a reference the famous GW170817 event, the horizon for NS-NS merging events detected with a similar signal to noise will reach up to 200 Mpc for LIGO and 100-130 Mpc for Virgo in a few years from now. This implies an increase of the discovery volume a factor $\sim$100 with respect to the GW170817 case. In this scenario, the operation of an efficient X/gamma-ray all-sky-monitor with good localization capability will have a pivotal role in quickly discovering the high-energy counterparts of GWEs and triggering coordinate multi-wavelength observing campaigns.
 
@@ -102,11 +102,21 @@ The HTP/HSP mini-constellation of six 3U units should provide enough GRB detecti
 Finally, ASI recently approved and funded the participation to the project SpIRIT (Space Industry Responsive Intelligent Thermal), founded by the Australian Space Agency, and led by University of Melbourne. SpIRIT will host an HERMES-like detector and S-band transmission systems. The HERMES-TP/SP mini-constellation of six satellites plus SpIRIT should be tested in orbit during 2022. More details on the overall HERMES mission description can be find in [\citenum{Fiore20}].
 
 
+\begin{figure}
+\begin{center}
+\begin{tabular}{c}
+\includegraphics[height=8cm]{triangulation} 
+\end{tabular}
+\end{center}
+\caption[example] 
+%>>>> use \label inside caption to get Fig. number with \ref{}
+{ \label{fig:triangulation} 
+Schematic representation of the \emph{Temporal Triangulation} principle applied to a constellation of CubeSats distributed in low Earth orbits. Red arrows represent the emitted GRB photons, while the red dashed lines describe the travelling GRB front wave at different times. The green segment represents the difference in travelled distances of the GRB photons detected by two CubeSats placed at a generic baseline (white dashed line).}
+\end{figure} 
 
 
 
-
-
+\begin{comment}
 \subsection{Intro Angelo}
 \label{sec:intro}  % \label{} allows reference to this section
 
@@ -114,16 +124,41 @@ Finally, ASI recently approved and funded the participation to the project SpIRI
 The Gamma Ray bursts are transient celestial events that are thought to be produced by the collapse of massive stars or by the coalescence of two compact objects. Their main observational characteristics are the huge luminosity and fast variability, often as short as one millisecond, with a spectral emission localized between the hard X-rays and soft Gamma rays. This phenomena have duration that can vary in each case, starting from few decimals of seconds up to hundreds of seconds. For this reason the GRBs population is catalogued according to the time scale during which the 90\% of the flux is emitted by the source (F$_{90}$). The population of Short GRBs includes bursts with T$_{90}$ $\lesssim$2 s, whilst GRBs with larger values of T$_{90}$ are catalogues as Long GRBs.
 Assuming isotropic emission the energy released can attain 10$^{54}$ erg, i. e. the rest mass energy of the Sun (see e.g. Bloom et al. 2009, ApJ, 691, 723), in about 100s duration. However it is now believed that strong beaming reduces the energetic budget up to three orders of magnitude (Abdo et al. 2009, Science, 323, 1688).\\
 The coalescence of compact objects, neutron stars (NS) and black holes (BH), and the sudden collapse to form a BH, are fundamental to investigate both the physics of matter under extreme conditions, and the ultimate structure of space-time. For this reason, a fast and accurate localization of the prompt emission of the GRBs is fundamental, especially for the syncronous observation of the GRB phenomenology with different observatories. 
-In this work we investigate on the position accuracy that can be reached using a couple of mini-satellites of the \her{} swarm.
-The spatial localization of the events can be estimated taking advantage from the direct measurement of the photon arrival times in each detector and then by an estimation of the photons arrival times that can be obtained by a cross-correlation analysis. 
-In the hypothesis of GRB whose emitted photons arrive to a series of N detectors uniformly distibuted in an orbit, the positional accuracy that can be obtained is given by:
+
+
+\end{comment}
+
+\section{Triangulation technique}
+The aim of this work is to investigate the localisation capabilities of the HTP/HSP mini-constellation composed of six 3U units. The main targets that will be discussed in the following are the highly energetic high-energy transients GRBs. 
+
+The simple and robust idea that will be applied for accurately localise the transient astrophysical sources is the so-called \emph{Temporal Triangulation}.  
+
+To describe the principle behind the method, let us represent the transient event as a narrow wavefront (pulse) travelling in a given direction and let us displace a network of detectors in space. The narrow wavefront will hit the detectors of the network at different times that depend on the spatial position of each detector and the direction of the wavefront. As represented in Figure~\ref{fig:triangulation}, the transient event will be registered by two detectors of the network with a delay $dt$ proportional to their projected distance with respect to the source direction (green segment). The combination of the delays measured by different pairs of detectors observing the same event will allow to reconstruct its position in the sky. For the sake of description, let us consider a subset of 3 detectors distributed in the equatorial plane (panel a of Figure~\ref{fig:triangulation2}) observing simultaneously a generic event $S$ in certain position in the sky (with direction with respect to the Earth barycenter represented by the yellow dashed line). As shown in panel b of Figure~\ref{fig:triangulation2}, the delay measured $\Delta t_{BC}$ by combining the observations of the detectors B and C allows us to identify a set of infinite possible directions of the transient source belonging to a circulare base of a cone. Each of these source directions $\vec{d}_i$ satisfies the relation $\Delta t_{BC}=\vec{\rho}_{BA}\cdot \vec{d}_i$, where $\vec{\rho}_{BA}$ is the vector describing the distance between the two detectors. A similar result can be obtained by combining the measurements of the detectors B and C'. Interestingly, the superposition of these two results reduces the degeneracy in the source direction, allowing us to determine two possible positions of the source defined as the intersections of the two cones (Figure~\ref{fig:triangulation2} panel c), one of which corresponds (as expected) with the real one. Increasing the number of independent delay measurements, it is then possible to univocally localise the transient event in the sky. It is then clear that in order to achieve localisation capabilities, a generic fleet of the detectors distributed in space should guarantee the simultaneous observation of an event with at least three of its elements.    
+
+\begin{figure}
+\begin{center}
+\begin{tabular}{ccc}
+a) & b) & c)\\
+\includegraphics[height=5cm]{trinag_fig1} &
+\includegraphics[height=6cm]{triang_fig2} &
+\includegraphics[height=6cm]{triang_fig3} \\
+\end{tabular}
+\end{center}
+\caption[example] 
+%>>>> use \label inside caption to get Fig. number with \ref{}
+{ \label{fig:triangulation2} 
+\emph{Panel a)} Schematic representation of a triplet of CubeSats distributed in an equatorial plane that observed simultaneously a transient event located at the position $S$. \emph{Panel b)} Graphic representation of the infinity source directions identified using the delay measured by combining the observations of the event obtained with the detectors B and C. \emph{Panel C)} Superposition of the source directions obtained combining the delays obtained with the detector paris B-C and B-C'. The intersection of the two cones identifies two possibile locations of the event in the sky.}
+\end{figure}
+
+The description of the method reported so far does not take into account of any possible source of the uncertainty associated with the system. More in detail, the localisation capabilities of the system, hence the accuracy associated with the source position, will depend on several aspects such as the capability of reconstruct the position of the detectors during the observation of the event, the ability to recover the delay between signals observed by different detectors and the capability of the detector to precisely time tag the photons associated with the transient event. 
+A first proxy on the accuracy in determining the source position $\simga_{PA}$ can be determine in the hypothesis of an event (e.g. a GRB) whose emitted photons arrive to a series of N detectors uniformly distributed in an orbit, and it is given by the expression:
 
 \begin{equation}
 \label{eq:sigma_pos}
-\sigma_{pos} = \dfrac{(E_{cc}+E_{pos}+E_{time})^2}{<Baseline>\sqrt{(N-1-2)}}
+\sigma_{PA} = \dfrac{(\sigma_{delay}+\sigma_{tpos}+\sigma_{time})^2}{<Baseline>\sqrt{(N-1-2)}}
 \end{equation}
 
-where E$_{cc}$ is the error on the delay time given by the cross-correlation between the light-curves recorded by two detectors, E$_{POS}$ is the error induced by the uncertainty in the space localisation of the detectors,  E$_{time}$ is the error on the absolute time reconstruction, $<Baseline>$ is the average distance between the detectors ad N$_{ind} = N-1$ is the number of statistically independent couples of satellites. \\
+where $\sigma_{delay}$ is the error on the delay measurement obtained combining the light-curves recorded by two detectors, $\sigma_{tpos}=\sigma_{pos}/c$ is the error induced by the uncertainties on the space localisation of the detectors, $\sigma_{time}$ is the uncertainty on the absolute time reconstruction, $<Baseline>$ is the average distance between the detectors ad N$_{ind} = N-1$ is the number of statistically independent pairs of satellites used to determine the delay measurements.\\
 This relation highlights how the positional accuracy, in addition to the number of satellites making up the swarm, is strongly dependent from the uncertainty on the cross-correlation delay measurement E$_{cc}$. In order to obtain a realistic estimation of this uncertainty as a function of the GRB duration, flux and of its intrinsic variability, we have to take advantage of the current repositories of both short and long GRB data, in order to simulate as much as possible the wide phenomenological properties characterizing these transient events, as seen by the future \her mission. 
 
 

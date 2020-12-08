@@ -3,44 +3,52 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
 The style file: spiebib.bst
 Database file #1: report.bib
-You've used 1 entry,
+Warning--empty publisher in Schilling02
+Warning--empty booktitle or editor in Fuschino20
+Warning--empty publisher in Fuschino20
+Warning--empty booktitle or editor in Evangelista20
+Warning--empty publisher in Evangelista20
+Warning--empty booktitle or editor in Fiore20
+Warning--empty publisher in Fiore20
+You've used 6 entries,
             1993 wiz_defined-function locations,
-            509 strings with 3806 characters,
-and the built_in function-call counts, 155 in all, are:
-= -- 9
-> -- 4
+            537 strings with 5246 characters,
+and the built_in function-call counts, 1570 in all, are:
+= -- 86
+> -- 140
 < -- 0
-+ -- 2
-- -- 1
-* -- 12
-:= -- 29
-add.period$ -- 1
-call.type$ -- 1
-change.case$ -- 0
++ -- 50
+- -- 44
+* -- 175
+:= -- 266
+add.period$ -- 6
+call.type$ -- 6
+change.case$ -- 5
 chr.to.int$ -- 0
-cite$ -- 1
-duplicate$ -- 8
-empty$ -- 20
-format.name$ -- 1
-if$ -- 33
+cite$ -- 13
+duplicate$ -- 61
+empty$ -- 129
+format.name$ -- 44
+if$ -- 331
 int.to.chr$ -- 0
-int.to.str$ -- 1
-missing$ -- 2
-newline$ -- 6
-num.names$ -- 1
-pop$ -- 6
+int.to.str$ -- 6
+missing$ -- 7
+newline$ -- 21
+num.names$ -- 6
+pop$ -- 25
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1
+skip$ -- 27
 stack$ -- 0
-substring$ -- 0
-swap$ -- 2
+substring$ -- 26
+swap$ -- 21
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 1
-width$ -- 2
-write$ -- 10
+warning$ -- 7
+while$ -- 9
+width$ -- 7
+write$ -- 51
+(There were 7 warnings)
