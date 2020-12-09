@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.23)  9 DEC 2020 15:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.23)  9 DEC 2020 18:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -598,17 +598,27 @@ Package pdftex.def Info: fig/Template_comparison_Short.pdf used on input line 2
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 234--236
-
- []
-
-[306] <fig/CrossCorrelation_fit_LONG.pdf, id=113, 462.52798pt x 346.89601pt>
+[306]
+Missing character: There is no Ï in font txr!
+Missing character: There is no ƒ in font txr!
+Missing character: There is no â in font txr!
+Missing character: There is no ˆ in font txr!
+Missing character: There is no ¼ in font txr!
+Missing character: There is no Ã in font txr!
+Missing character: There is no — in font txr!
+Missing character: There is no Ï in font txr!
+Missing character: There is no ƒ in font txr!
+Missing character: There is no â in font txr!
+Missing character: There is no ˆ in font txr!
+Missing character: There is no ¼ in font txr!
+Missing character: There is no Ã in font txr!
+Missing character: There is no — in font txr!
+ <fig/CrossCorrelation_fit_LONG.pdf, id=113, 462.52798pt x 346.89601pt>
 File: fig/CrossCorrelation_fit_LONG.pdf Graphic file (type pdf)
 
 <use fig/CrossCorrelation_fit_LONG.pdf>
 Package pdftex.def Info: fig/CrossCorrelation_fit_LONG.pdf used on input line 2
-40.
+42.
 (pdftex.def)             Requested size: 240.51593pt x 180.38696pt.
 
 <fig/CrossCorrelation_fit_Short.pdf, id=114, 462.52798pt x 346.89601pt>
@@ -616,7 +626,7 @@ File: fig/CrossCorrelation_fit_Short.pdf Graphic file (type pdf)
 
 <use fig/CrossCorrelation_fit_Short.pdf>
 Package pdftex.def Info: fig/CrossCorrelation_fit_Short.pdf used on input line 
-241.
+243.
 (pdftex.def)             Requested size: 240.51593pt x 180.38696pt.
 
 
@@ -628,12 +638,7 @@ pdfTeX warning: pdflatex (file ./fig/Template_comparison_Short.pdf): PDF inclus
 ion: multiple pdfs with page group included in a single page
 >]
 
-LaTeX Warning: Reference `fig:gbm' on page 308 undefined on input line 289.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 298--303
-
- []
+LaTeX Warning: Reference `fig:gbm' on page 308 undefined on input line 295.
 
 [308 <./fig/CrossCorrelation_fit_LONG.pdf> <./fig/CrossCorrelation_fit_Short.pd
 f
@@ -641,6 +646,10 @@ f
 pdfTeX warning: pdflatex (file ./fig/CrossCorrelation_fit_Short.pdf): PDF inclu
 sion: multiple pdfs with page group included in a single page
 >]
+Underfull \hbox (badness 10000) in paragraph at lines 304--309
+
+ []
+
 Package epstopdf Info: Source file: <fig/distribution_long_100.eps>
 (epstopdf)                    date: 2020-12-07 23:31:18
 (epstopdf)                    size: 48323 bytes
@@ -650,7 +659,7 @@ Package epstopdf Info: Source file: <fig/distribution_long_100.eps>
 (epstopdf)                    size: 25477 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig/distribution_long_100-
 eps-converted-to.pdf fig/distribution_long_100.eps>
-(epstopdf)             \includegraphics on input line 373.
+(epstopdf)             \includegraphics on input line 379.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig/distribution_long_100-eps-converted-to.pdf, id=298, 462.52798pt x 346.8960
@@ -658,7 +667,7 @@ Package epstopdf Info: Output file is already uptodate.
 File: fig/distribution_long_100-eps-converted-to.pdf Graphic file (type pdf)
  <use fig/distribution_long_100-eps-converted-to.pdf>
 Package pdftex.def Info: fig/distribution_long_100-eps-converted-to.pdf used on
- input line 373.
+ input line 379.
 (pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
 Package epstopdf Info: Source file: <fig/distribution_short_100.eps>
 (epstopdf)                    date: 2020-12-07 23:31:18
@@ -669,7 +678,7 @@ o.pdf>
 (epstopdf)                    size: 25544 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig/distribution_short_100
 -eps-converted-to.pdf fig/distribution_short_100.eps>
-(epstopdf)             \includegraphics on input line 374.
+(epstopdf)             \includegraphics on input line 380.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig/distribution_short_100-eps-converted-to.pdf, id=299, 462.52798pt x 346.896
@@ -677,7 +686,7 @@ Package epstopdf Info: Output file is already uptodate.
 File: fig/distribution_short_100-eps-converted-to.pdf Graphic file (type pdf)
  <use fig/distribution_short_100-eps-converted-to.pdf>
 Package pdftex.def Info: fig/distribution_short_100-eps-converted-to.pdf used o
-n input line 374.
+n input line 380.
 (pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
 Package epstopdf Info: Source file: <fig/distribution_long_56.eps>
 (epstopdf)                    date: 2020-12-07 23:31:18
@@ -688,7 +697,7 @@ pdf>
 (epstopdf)                    size: 24241 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig/distribution_long_56-e
 ps-converted-to.pdf fig/distribution_long_56.eps>
-(epstopdf)             \includegraphics on input line 375.
+(epstopdf)             \includegraphics on input line 381.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig/distribution_long_56-eps-converted-to.pdf, id=300, 462.52798pt x 346.89601
@@ -696,7 +705,7 @@ pt>
 File: fig/distribution_long_56-eps-converted-to.pdf Graphic file (type pdf)
  <use fig/distribution_long_56-eps-converted-to.pdf>
 Package pdftex.def Info: fig/distribution_long_56-eps-converted-to.pdf used on 
-input line 375.
+input line 381.
 (pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
 Package epstopdf Info: Source file: <fig/distribution_short_56.eps>
 (epstopdf)                    date: 2020-12-07 23:31:18
@@ -707,7 +716,7 @@ Package epstopdf Info: Source file: <fig/distribution_short_56.eps>
 (epstopdf)                    size: 25587 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig/distribution_short_56-
 eps-converted-to.pdf fig/distribution_short_56.eps>
-(epstopdf)             \includegraphics on input line 376.
+(epstopdf)             \includegraphics on input line 382.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig/distribution_short_56-eps-converted-to.pdf, id=301, 462.52798pt x 346.8960
@@ -715,7 +724,7 @@ Package epstopdf Info: Output file is already uptodate.
 File: fig/distribution_short_56-eps-converted-to.pdf Graphic file (type pdf)
  <use fig/distribution_short_56-eps-converted-to.pdf>
 Package pdftex.def Info: fig/distribution_short_56-eps-converted-to.pdf used on
- input line 376.
+ input line 382.
 (pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
 
 
@@ -730,7 +739,7 @@ d-to.pdf>
 (epstopdf)                    size: 32860 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig/LONG/sigma_vs_fluence_
 100-eps-converted-to.pdf fig/LONG/sigma_vs_fluence_100.eps>
-(epstopdf)             \includegraphics on input line 453.
+(epstopdf)             \includegraphics on input line 459.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig/LONG/sigma_vs_fluence_100-eps-converted-to.pdf, id=302, 462.52798pt x 346.
@@ -739,7 +748,7 @@ File: fig/LONG/sigma_vs_fluence_100-eps-converted-to.pdf Graphic file (type pdf
 )
  <use fig/LONG/sigma_vs_fluence_100-eps-converted-to.pdf>
 Package pdftex.def Info: fig/LONG/sigma_vs_fluence_100-eps-converted-to.pdf use
-d on input line 453.
+d on input line 459.
 (pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
 Package epstopdf Info: Source file: <fig/LONG/sigma_vs_fluence_50.eps>
 (epstopdf)                    date: 2020-12-07 23:31:18
@@ -750,7 +759,7 @@ Package epstopdf Info: Source file: <fig/LONG/sigma_vs_fluence_50.eps>
 (epstopdf)                    size: 32838 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig/LONG/sigma_vs_fluence_
 50-eps-converted-to.pdf fig/LONG/sigma_vs_fluence_50.eps>
-(epstopdf)             \includegraphics on input line 454.
+(epstopdf)             \includegraphics on input line 460.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig/LONG/sigma_vs_fluence_50-eps-converted-to.pdf, id=303, 462.52798pt x 346.8
@@ -759,7 +768,7 @@ File: fig/LONG/sigma_vs_fluence_50-eps-converted-to.pdf Graphic file (type pdf)
 
  <use fig/LONG/sigma_vs_fluence_50-eps-converted-to.pdf>
 Package pdftex.def Info: fig/LONG/sigma_vs_fluence_50-eps-converted-to.pdf used
- on input line 454.
+ on input line 460.
 (pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
 Package epstopdf Info: Source file: <fig/LONG/sigma_vs_fluence_10.eps>
 (epstopdf)                    date: 2020-12-07 23:31:18
@@ -770,7 +779,7 @@ Package epstopdf Info: Source file: <fig/LONG/sigma_vs_fluence_10.eps>
 (epstopdf)                    size: 32913 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig/LONG/sigma_vs_fluence_
 10-eps-converted-to.pdf fig/LONG/sigma_vs_fluence_10.eps>
-(epstopdf)             \includegraphics on input line 455.
+(epstopdf)             \includegraphics on input line 461.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig/LONG/sigma_vs_fluence_10-eps-converted-to.pdf, id=304, 462.52798pt x 346.8
@@ -779,7 +788,7 @@ File: fig/LONG/sigma_vs_fluence_10-eps-converted-to.pdf Graphic file (type pdf)
 
  <use fig/LONG/sigma_vs_fluence_10-eps-converted-to.pdf>
 Package pdftex.def Info: fig/LONG/sigma_vs_fluence_10-eps-converted-to.pdf used
- on input line 455.
+ on input line 461.
 (pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
 Package epstopdf Info: Source file: <fig/LONG/sigma_vs_fluence_1.eps>
 (epstopdf)                    date: 2020-12-07 23:31:18
@@ -790,7 +799,7 @@ to.pdf>
 (epstopdf)                    size: 32951 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig/LONG/sigma_vs_fluence_
 1-eps-converted-to.pdf fig/LONG/sigma_vs_fluence_1.eps>
-(epstopdf)             \includegraphics on input line 456.
+(epstopdf)             \includegraphics on input line 462.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig/LONG/sigma_vs_fluence_1-eps-converted-to.pdf, id=305, 462.52798pt x 346.89
@@ -798,29 +807,29 @@ Package epstopdf Info: Output file is already uptodate.
 File: fig/LONG/sigma_vs_fluence_1-eps-converted-to.pdf Graphic file (type pdf)
  <use fig/LONG/sigma_vs_fluence_1-eps-converted-to.pdf>
 Package pdftex.def Info: fig/LONG/sigma_vs_fluence_1-eps-converted-to.pdf used 
-on input line 456.
+on input line 462.
 (pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
 
 
-./main.tex:457: LaTeX Error: Unknown graphics extension: .0125.eps.
+./main.tex:463: LaTeX Error: Unknown graphics extension: .0125.eps.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.457 ...=0]{fig/LONG/sigma_vs_fluence_0.0125.eps}
+l.463 ...=0]{fig/LONG/sigma_vs_fluence_0.0125.eps}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./main.tex:458: LaTeX Error: Unknown graphics extension: .0056.eps.
+./main.tex:464: LaTeX Error: Unknown graphics extension: .0056.eps.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.458 ...=0]{fig/LONG/sigma_vs_fluence_0.0056.eps}
+l.464 ...=0]{fig/LONG/sigma_vs_fluence_0.0056.eps}
                                                   \\
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -837,7 +846,7 @@ ed-to.pdf>
 (epstopdf)                    size: 32157 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig/SHORT/sigma_vs_fluence
 _100-eps-converted-to.pdf fig/SHORT/sigma_vs_fluence_100.eps>
-(epstopdf)             \includegraphics on input line 471.
+(epstopdf)             \includegraphics on input line 477.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig/SHORT/sigma_vs_fluence_100-eps-converted-to.pdf, id=310, 462.52798pt x 346
@@ -846,7 +855,7 @@ File: fig/SHORT/sigma_vs_fluence_100-eps-converted-to.pdf Graphic file (type pd
 f)
  <use fig/SHORT/sigma_vs_fluence_100-eps-converted-to.pdf>
 Package pdftex.def Info: fig/SHORT/sigma_vs_fluence_100-eps-converted-to.pdf us
-ed on input line 471.
+ed on input line 477.
 (pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
 Package epstopdf Info: Source file: <fig/SHORT/sigma_vs_fluence_50.eps>
 (epstopdf)                    date: 2020-12-07 23:31:18
@@ -857,7 +866,7 @@ d-to.pdf>
 (epstopdf)                    size: 32210 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig/SHORT/sigma_vs_fluence
 _50-eps-converted-to.pdf fig/SHORT/sigma_vs_fluence_50.eps>
-(epstopdf)             \includegraphics on input line 472.
+(epstopdf)             \includegraphics on input line 478.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig/SHORT/sigma_vs_fluence_50-eps-converted-to.pdf, id=311, 462.52798pt x 346.
@@ -866,7 +875,7 @@ File: fig/SHORT/sigma_vs_fluence_50-eps-converted-to.pdf Graphic file (type pdf
 )
  <use fig/SHORT/sigma_vs_fluence_50-eps-converted-to.pdf>
 Package pdftex.def Info: fig/SHORT/sigma_vs_fluence_50-eps-converted-to.pdf use
-d on input line 472.
+d on input line 478.
 (pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
 Package epstopdf Info: Source file: <fig/SHORT/sigma_vs_fluence_10.eps>
 (epstopdf)                    date: 2020-12-07 23:31:18
@@ -877,7 +886,7 @@ d-to.pdf>
 (epstopdf)                    size: 32158 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig/SHORT/sigma_vs_fluence
 _10-eps-converted-to.pdf fig/SHORT/sigma_vs_fluence_10.eps>
-(epstopdf)             \includegraphics on input line 473.
+(epstopdf)             \includegraphics on input line 479.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig/SHORT/sigma_vs_fluence_10-eps-converted-to.pdf, id=312, 462.52798pt x 346.
@@ -886,7 +895,7 @@ File: fig/SHORT/sigma_vs_fluence_10-eps-converted-to.pdf Graphic file (type pdf
 )
  <use fig/SHORT/sigma_vs_fluence_10-eps-converted-to.pdf>
 Package pdftex.def Info: fig/SHORT/sigma_vs_fluence_10-eps-converted-to.pdf use
-d on input line 473.
+d on input line 479.
 (pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
 Package epstopdf Info: Source file: <fig/SHORT/sigma_vs_fluence_1.eps>
 (epstopdf)                    date: 2020-12-07 23:31:18
@@ -897,7 +906,7 @@ Package epstopdf Info: Source file: <fig/SHORT/sigma_vs_fluence_1.eps>
 (epstopdf)                    size: 32719 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig/SHORT/sigma_vs_fluence
 _1-eps-converted-to.pdf fig/SHORT/sigma_vs_fluence_1.eps>
-(epstopdf)             \includegraphics on input line 474.
+(epstopdf)             \includegraphics on input line 480.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig/SHORT/sigma_vs_fluence_1-eps-converted-to.pdf, id=313, 462.52798pt x 346.8
@@ -906,29 +915,29 @@ File: fig/SHORT/sigma_vs_fluence_1-eps-converted-to.pdf Graphic file (type pdf)
 
  <use fig/SHORT/sigma_vs_fluence_1-eps-converted-to.pdf>
 Package pdftex.def Info: fig/SHORT/sigma_vs_fluence_1-eps-converted-to.pdf used
- on input line 474.
+ on input line 480.
 (pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
 
 
-./main.tex:475: LaTeX Error: Unknown graphics extension: .0125.eps.
+./main.tex:481: LaTeX Error: Unknown graphics extension: .0125.eps.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.475 ...0]{fig/SHORT/sigma_vs_fluence_0.0125.eps}
+l.481 ...0]{fig/SHORT/sigma_vs_fluence_0.0125.eps}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./main.tex:476: LaTeX Error: Unknown graphics extension: .0056.eps.
+./main.tex:482: LaTeX Error: Unknown graphics extension: .0056.eps.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.476 ...0]{fig/SHORT/sigma_vs_fluence_0.0056.eps}
+l.482 ...0]{fig/SHORT/sigma_vs_fluence_0.0056.eps}
                                                   \\
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -945,14 +954,14 @@ to.pdf>
 (epstopdf)                    size: 19538 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig/SHORT/ratio_distrib_10
 0-eps-converted-to.pdf fig/SHORT/ratio_distrib_100.eps>
-(epstopdf)             \includegraphics on input line 492.
+(epstopdf)             \includegraphics on input line 498.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig/SHORT/ratio_distrib_100-eps-converted-to.pdf, id=318, 433.62pt x 289.08pt>
 File: fig/SHORT/ratio_distrib_100-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/SHORT/ratio_distrib_100-eps-converted-to.pdf>
 Package pdftex.def Info: fig/SHORT/ratio_distrib_100-eps-converted-to.pdf used 
-on input line 492.
+on input line 498.
 (pdftex.def)             Requested size: 216.80946pt x 144.53964pt.
 Package epstopdf Info: Source file: <fig/SHORT/ratio_distrib_50.eps>
 (epstopdf)                    date: 2020-12-07 23:31:18
@@ -963,7 +972,7 @@ o.pdf>
 (epstopdf)                    size: 19469 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig/SHORT/ratio_distrib_50
 -eps-converted-to.pdf fig/SHORT/ratio_distrib_50.eps>
-(epstopdf)             \includegraphics on input line 493.
+(epstopdf)             \includegraphics on input line 499.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig/SHORT/ratio_distrib_50-eps-converted-to.pdf, id=319, 433.62pt x 289.08pt>
@@ -971,7 +980,7 @@ File: fig/SHORT/ratio_distrib_50-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/SHORT/ratio_distrib_50-eps-converted-to.pdf>
 Package pdftex.def Info: fig/SHORT/ratio_distrib_50-eps-converted-to.pdf used o
-n input line 493.
+n input line 499.
 (pdftex.def)             Requested size: 216.80946pt x 144.53964pt.
 Package epstopdf Info: Source file: <fig/SHORT/ratio_distrib_10.eps>
 (epstopdf)                    date: 2020-12-07 23:31:18
@@ -982,7 +991,7 @@ o.pdf>
 (epstopdf)                    size: 18763 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig/SHORT/ratio_distrib_10
 -eps-converted-to.pdf fig/SHORT/ratio_distrib_10.eps>
-(epstopdf)             \includegraphics on input line 494.
+(epstopdf)             \includegraphics on input line 500.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig/SHORT/ratio_distrib_10-eps-converted-to.pdf, id=320, 433.62pt x 289.08pt>
@@ -990,7 +999,7 @@ File: fig/SHORT/ratio_distrib_10-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/SHORT/ratio_distrib_10-eps-converted-to.pdf>
 Package pdftex.def Info: fig/SHORT/ratio_distrib_10-eps-converted-to.pdf used o
-n input line 494.
+n input line 500.
 (pdftex.def)             Requested size: 216.80946pt x 144.53964pt.
 Package epstopdf Info: Source file: <fig/SHORT/ratio_distrib_1.eps>
 (epstopdf)                    date: 2020-12-07 23:31:18
@@ -1001,7 +1010,7 @@ Package epstopdf Info: Source file: <fig/SHORT/ratio_distrib_1.eps>
 (epstopdf)                    size: 19184 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig/SHORT/ratio_distrib_1-
 eps-converted-to.pdf fig/SHORT/ratio_distrib_1.eps>
-(epstopdf)             \includegraphics on input line 495.
+(epstopdf)             \includegraphics on input line 501.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig/SHORT/ratio_distrib_1-eps-converted-to.pdf, id=321, 433.62pt x 289.08pt>
@@ -1009,29 +1018,29 @@ File: fig/SHORT/ratio_distrib_1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/SHORT/ratio_distrib_1-eps-converted-to.pdf>
 Package pdftex.def Info: fig/SHORT/ratio_distrib_1-eps-converted-to.pdf used on
- input line 495.
+ input line 501.
 (pdftex.def)             Requested size: 216.80946pt x 144.53964pt.
 
 
-./main.tex:496: LaTeX Error: Unknown graphics extension: .0125.eps.
+./main.tex:502: LaTeX Error: Unknown graphics extension: .0125.eps.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.496 ...le=0]{fig/SHORT/ratio_distrib_0.0125.eps}
+l.502 ...le=0]{fig/SHORT/ratio_distrib_0.0125.eps}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./main.tex:497: LaTeX Error: Unknown graphics extension: .0056.eps.
+./main.tex:503: LaTeX Error: Unknown graphics extension: .0056.eps.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.497 ...le=0]{fig/SHORT/ratio_distrib_0.0056.eps}
+l.503 ...le=0]{fig/SHORT/ratio_distrib_0.0056.eps}
                                                   \\
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1048,7 +1057,7 @@ o.pdf>
 (epstopdf)                    size: 19511 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig/LONG/ratio_distrib_100
 -eps-converted-to.pdf fig/LONG/ratio_distrib_100.eps>
-(epstopdf)             \includegraphics on input line 509.
+(epstopdf)             \includegraphics on input line 515.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig/LONG/ratio_distrib_100-eps-converted-to.pdf, id=322, 433.62pt x 289.08pt>
@@ -1056,7 +1065,7 @@ File: fig/LONG/ratio_distrib_100-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/LONG/ratio_distrib_100-eps-converted-to.pdf>
 Package pdftex.def Info: fig/LONG/ratio_distrib_100-eps-converted-to.pdf used o
-n input line 509.
+n input line 515.
 (pdftex.def)             Requested size: 216.80946pt x 144.53964pt.
 Package epstopdf Info: Source file: <fig/LONG/ratio_distrib_50.eps>
 (epstopdf)                    date: 2020-12-07 23:31:18
@@ -1067,7 +1076,7 @@ Package epstopdf Info: Source file: <fig/LONG/ratio_distrib_50.eps>
 (epstopdf)                    size: 19904 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig/LONG/ratio_distrib_50-
 eps-converted-to.pdf fig/LONG/ratio_distrib_50.eps>
-(epstopdf)             \includegraphics on input line 510.
+(epstopdf)             \includegraphics on input line 516.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig/LONG/ratio_distrib_50-eps-converted-to.pdf, id=323, 433.62pt x 289.08pt>
@@ -1075,7 +1084,7 @@ File: fig/LONG/ratio_distrib_50-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/LONG/ratio_distrib_50-eps-converted-to.pdf>
 Package pdftex.def Info: fig/LONG/ratio_distrib_50-eps-converted-to.pdf used on
- input line 510.
+ input line 516.
 (pdftex.def)             Requested size: 216.80946pt x 144.53964pt.
 Package epstopdf Info: Source file: <fig/LONG/ratio_distrib_10.eps>
 (epstopdf)                    date: 2020-12-07 23:31:18
@@ -1086,7 +1095,7 @@ Package epstopdf Info: Source file: <fig/LONG/ratio_distrib_10.eps>
 (epstopdf)                    size: 19593 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig/LONG/ratio_distrib_10-
 eps-converted-to.pdf fig/LONG/ratio_distrib_10.eps>
-(epstopdf)             \includegraphics on input line 511.
+(epstopdf)             \includegraphics on input line 517.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig/LONG/ratio_distrib_10-eps-converted-to.pdf, id=324, 433.62pt x 289.08pt>
@@ -1094,7 +1103,7 @@ File: fig/LONG/ratio_distrib_10-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/LONG/ratio_distrib_10-eps-converted-to.pdf>
 Package pdftex.def Info: fig/LONG/ratio_distrib_10-eps-converted-to.pdf used on
- input line 511.
+ input line 517.
 (pdftex.def)             Requested size: 216.80946pt x 144.53964pt.
 Package epstopdf Info: Source file: <fig/LONG/ratio_distrib_1.eps>
 (epstopdf)                    date: 2020-12-07 23:31:18
@@ -1105,7 +1114,7 @@ pdf>
 (epstopdf)                    size: 18675 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig/LONG/ratio_distrib_1-e
 ps-converted-to.pdf fig/LONG/ratio_distrib_1.eps>
-(epstopdf)             \includegraphics on input line 512.
+(epstopdf)             \includegraphics on input line 518.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig/LONG/ratio_distrib_1-eps-converted-to.pdf, id=325, 433.62pt x 289.08pt>
@@ -1113,29 +1122,29 @@ File: fig/LONG/ratio_distrib_1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/LONG/ratio_distrib_1-eps-converted-to.pdf>
 Package pdftex.def Info: fig/LONG/ratio_distrib_1-eps-converted-to.pdf used on 
-input line 512.
+input line 518.
 (pdftex.def)             Requested size: 216.80946pt x 144.53964pt.
 
 
-./main.tex:513: LaTeX Error: Unknown graphics extension: .0125.eps.
+./main.tex:519: LaTeX Error: Unknown graphics extension: .0125.eps.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.513 ...gle=0]{fig/LONG/ratio_distrib_0.0125.eps}
+l.519 ...gle=0]{fig/LONG/ratio_distrib_0.0125.eps}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./main.tex:514: LaTeX Error: Unknown graphics extension: .0056.eps.
+./main.tex:520: LaTeX Error: Unknown graphics extension: .0056.eps.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.514 ...gle=0]{fig/LONG/ratio_distrib_0.0056.eps}
+l.520 ...gle=0]{fig/LONG/ratio_distrib_0.0056.eps}
                                                   \\
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1147,61 +1156,60 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: fig/sigma_vs_area_Long.pdf Graphic file (type pdf)
 
 <use fig/sigma_vs_area_Long.pdf>
-Package pdftex.def Info: fig/sigma_vs_area_Long.pdf used on input line 525.
+Package pdftex.def Info: fig/sigma_vs_area_Long.pdf used on input line 531.
 (pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
 
 <fig/sigma_vs_area_Short.pdf, id=327, 462.52798pt x 346.89601pt>
 File: fig/sigma_vs_area_Short.pdf Graphic file (type pdf)
 
 <use fig/sigma_vs_area_Short.pdf>
-Package pdftex.def Info: fig/sigma_vs_area_Short.pdf used on input line 526.
+Package pdftex.def Info: fig/sigma_vs_area_Short.pdf used on input line 532.
 (pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Excluding 'comment' comment. Excluding 'comment' comment. (./main.bbl [309]
-[310])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 769.
- [311 <./fig/distribution_long_100-eps-converted-to.pdf> <./fig/distribution_sh
-ort_100-eps-converted-to.pdf> <./fig/distribution_long_56-eps-converted-to.pdf>
- <./fig/distribution_short_56-eps-converted-to.pdf>] [312 <./fig/LONG/sigma_vs_
-fluence_100-eps-converted-to.pdf> <./fig/LONG/sigma_vs_fluence_50-eps-converted
--to.pdf> <./fig/LONG/sigma_vs_fluence_10-eps-converted-to.pdf> <./fig/LONG/sigm
-a_vs_fluence_1-eps-converted-to.pdf>] [313 <./fig/SHORT/sigma_vs_fluence_100-ep
-s-converted-to.pdf> <./fig/SHORT/sigma_vs_fluence_50-eps-converted-to.pdf> <./f
-ig/SHORT/sigma_vs_fluence_10-eps-converted-to.pdf> <./fig/SHORT/sigma_vs_fluenc
-e_1-eps-converted-to.pdf>] [314 <./fig/SHORT/ratio_distrib_100-eps-converted-to
-.pdf> <./fig/SHORT/ratio_distrib_50-eps-converted-to.pdf> <./fig/SHORT/ratio_di
-strib_10-eps-converted-to.pdf> <./fig/SHORT/ratio_distrib_1-eps-converted-to.pd
-f>] [315 <./fig/LONG/ratio_distrib_100-eps-converted-to.pdf> <./fig/LONG/ratio_
-distrib_50-eps-converted-to.pdf> <./fig/LONG/ratio_distrib_10-eps-converted-to.
-pdf> <./fig/LONG/ratio_distrib_1-eps-converted-to.pdf> <./fig/sigma_vs_area_Lon
-g.pdf> <./fig/sigma_vs_area_Short.pdf
+[310] [311 <./fig/distribution_long_100-eps-converted-to.pdf> <./fig/distributi
+on_short_100-eps-converted-to.pdf> <./fig/distribution_long_56-eps-converted-to
+.pdf> <./fig/distribution_short_56-eps-converted-to.pdf>])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 775.
+ [312 <./fig/LONG/sigma_vs_fluence_100-eps-converted-to.pdf> <./fig/LONG/sigma_
+vs_fluence_50-eps-converted-to.pdf> <./fig/LONG/sigma_vs_fluence_10-eps-convert
+ed-to.pdf> <./fig/LONG/sigma_vs_fluence_1-eps-converted-to.pdf>] [313 <./fig/SH
+ORT/sigma_vs_fluence_100-eps-converted-to.pdf> <./fig/SHORT/sigma_vs_fluence_50
+-eps-converted-to.pdf> <./fig/SHORT/sigma_vs_fluence_10-eps-converted-to.pdf> <
+./fig/SHORT/sigma_vs_fluence_1-eps-converted-to.pdf>] [314 <./fig/SHORT/ratio_d
+istrib_100-eps-converted-to.pdf> <./fig/SHORT/ratio_distrib_50-eps-converted-to
+.pdf> <./fig/SHORT/ratio_distrib_10-eps-converted-to.pdf> <./fig/SHORT/ratio_di
+strib_1-eps-converted-to.pdf>] [315 <./fig/LONG/ratio_distrib_100-eps-converted
+-to.pdf> <./fig/LONG/ratio_distrib_50-eps-converted-to.pdf> <./fig/LONG/ratio_d
+istrib_10-eps-converted-to.pdf> <./fig/LONG/ratio_distrib_1-eps-converted-to.pd
+f> <./fig/sigma_vs_area_Long.pdf> <./fig/sigma_vs_area_Short.pdf
 
 pdfTeX warning: pdflatex (file ./fig/sigma_vs_area_Short.pdf): PDF inclusion: m
 ultiple pdfs with page group included in a single page
 >]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 769.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 775.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 769.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 769.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 775.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 775.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 25CC9652678CC1CD6673F6E295CD8B19;402.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 769.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 775.
  ) 
 Here is how much of TeX's memory you used:
  7596 strings out of 492995
  110310 string characters out of 6132704
- 220089 words of memory out of 5000000
+ 220438 words of memory out of 5000000
  10928 multiletter control sequences out of 15000+600000
  49591 words of font info for 120 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,13n,35p,2707b,436s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,13n,35p,2707b,430s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2017/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/local/texlive
 /2017/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2017/t
@@ -1210,7 +1218,7 @@ st/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2017/texmf-dist/font
 s/type1/urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/ur
 w/times/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/ut
 mri8a.pfb>
-Output written on main.pdf (15 pages, 2112316 bytes).
+Output written on main.pdf (15 pages, 2113013 bytes).
 PDF statistics:
  1476 PDF objects out of 1728 (max. 8388607)
  390 compressed objects within 4 object streams
