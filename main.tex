@@ -138,10 +138,10 @@ To describe the principle behind the method, let us represent the transient even
 \begin{figure}
 \begin{center}
 \begin{tabular}{ccc}
-a) & b) & c)\\
 \includegraphics[height=5cm]{trinag_fig1} &
 \includegraphics[height=6cm]{triang_fig2} &
 \includegraphics[height=6cm]{triang_fig3} \\
+a) & b) & c)\\
 \end{tabular}
 \end{center}
 \caption[example] 
@@ -159,77 +159,57 @@ A first proxy on the accuracy in determining the source position $\simga_{PA}$ c
 \end{equation}
 
 where $\sigma_{delay}$ is the error on the delay measurement obtained combining the light-curves recorded by two detectors, $\sigma_{tpos}=\sigma_{pos}/c$ is the error induced by the uncertainties on the space localisation of the detectors, $\sigma_{time}$ is the uncertainty on the absolute time reconstruction, $<Baseline>$ is the average distance between the detectors ad N$_{ind} = N-1$ is the number of statistically independent pairs of satellites used to determine the delay measurements.\\
-This relation highlights how the positional accuracy, in addition to the number of satellites making up the swarm, is strongly dependent from the uncertainty on the cross-correlation delay measurement E$_{cc}$. In order to obtain a realistic estimation of this uncertainty as a function of the GRB duration, flux and of its intrinsic variability, we have to take advantage of the current repositories of both short and long GRB data, in order to simulate as much as possible the wide phenomenological properties characterizing these transient events, as seen by the future \her mission. 
+
+	
+%%This relation highlights how the positional accuracy, in addition to the number of satellites making up the swarm, is strongly dependent from the uncertainty on the cross-correlation delay measurement E$_{cc}$. In order to obtain a realistic estimation of this uncertainty as a function of the GRB duration, flux and of its intrinsic variability, we have to take advantage of the current repositories of both short and long GRB data, in order to simulate as much as possible the wide phenomenological properties characterizing these transient events, as seen by the future \her mission. 
+
+
+For a more accurate approach on determine the position and relative uncertainties of a generic GRB in the sky by means of time delay measurements, let us consider a swarm of $n$ satellites, each one identified by a position vector $\vec{r}_i$ (with $i=0,\dots, n-1$) with respect to a suitable reference frame, e.g. the Earth barycenter in equatorial coordinates.
+To determine the GRB direction $\hat{d}$, it is possible to measure the time delays of the GRB signal as seen from each pair of  satellites. 
+Defining $t_0$ the time at which the GRB signal arrives at the origin of the chosen reference frame, each $i$-th satellite will receive the GRB at a time $t_i$
+\begin{equation}
+  t_i = t_0 - \frac{\vec{r}_i \cdot \hat{d}}{c}.
+\end{equation}
+The expected time delays between two satellites will be
+\begin{equation}
+    \Delta t_{ij}(\hat{d}) \equiv t_j - t_i = \frac{(\vec{r}_j - \vec{r}_i) \cdot \hat{d}}{c} =  \frac{\vec{\rho}_{ij} \cdot \hat{d}}{c},
+\label{eq:delayexp}
+\end{equation}
+where $\vec{\rho}_{ij} \equiv \vec{r}_j - \vec{r}_i$.
+The real (measured) time delay between the signal recorded by two satellites $\Delta \tau_{ij}$ is inferred e.g. by applying cross-correlation techniques to the light-curves.
+The direction of the GRB, e.g. its equatorial coordinates, can be estimated comparing the computed and measured delays between satellites using e.g. the non linear least squared method.
+We define the $\chi^2(\hat{d})$ function as the sum the squares of the difference between the expected and observed time delay divided by its statistical error
+  \begin{equation}
+    \chi^2(\hat{d}) = \sum_{i = 0}^{n - 2}\sum_{j = i + 1}^{n - 1} \frac{(\Delta \tau_{ij} - \Delta t_{ij}(\hat{d}))^2}{\Theta_{ij}^2},
+    \label{eq:chisq}
+  \end{equation}
+where $\Theta_{ij}^2$ includes the positional error on the satellites expressed in light-seconds, the accuracy in the absolute timing of the detectors, the uncertainty on constraining the time delay between the signals and any hypothetical systematic uncertainty related to the set-up or method applied.
+  
+The unitary vector $\hat{d}$ identifying the GRB direction can be written in terms of Right Ascension $\alpha$ and Declination $\delta$, that is
+  
+  \begin{equation}
+    \hat{d} = \{\cos{\alpha} \cos{\delta}, \sin{\alpha} \cos{\delta}, \sin{\delta}\}.
+  \end{equation}
+
+Minimising Eq. \ref{eq:chisq} with respect to $\alpha$ and $\delta$ gives us an estimate of the direction of the GRB.
+Moreover, if Eq. \ref{eq:chisq} satisfies all the hypotheses in [Y.  Anvi, 1976, ApJ, 210, 612], we can also calculate the confidence region for the GRB equatorial coordinates on the plane of the sky.
 
 
 
-\begin{comment}
-\begin{table}[ht]
-\caption{Fonts sizes to be used for various parts of the manuscript.  Table captions should be centered above the table.  When the caption is too long to fit on one line, it should be justified to the right and left margins of the body of the text.} 
-\label{tab:fonts}
-\begin{center}       
-\begin{tabular}{|l|l|} %% this creates two columns
-%% |l|l| to left justify each column entry
-%% |c|c| to center each column entry
-%% use of \rule[]{}{} below opens up each row
-\hline
-\rule[-1ex]{0pt}{3.5ex}  Article title & 16 pt., bold, centered  \\
-\hline
-\rule[-1ex]{0pt}{3.5ex}  Author names and affiliations & 12 pt., normal, centered   \\
-\hline
-\rule[-1ex]{0pt}{3.5ex}  Keywords & 10 pt., normal, left justified   \\
-\hline
-\rule[-1ex]{0pt}{3.5ex}  Abstract Title & 11 pt., bold, centered   \\
-\hline
-\rule[-1ex]{0pt}{3.5ex}  Abstract body text & 10 pt., normal, justified   \\
-\hline
-\rule[-1ex]{0pt}{3.5ex}  Section heading & 11 pt., bold, centered (all caps)  \\
-\hline
-\rule[-1ex]{0pt}{3.5ex}  Subsection heading & 11 pt., bold, left justified  \\
-\hline
-\rule[-1ex]{0pt}{3.5ex}  Sub-subsection heading & 10 pt., bold, left justified  \\
-\hline
-\rule[-1ex]{0pt}{3.5ex}  Normal text & 10 pt., normal, justified  \\
-\hline
-\rule[-1ex]{0pt}{3.5ex}  Figure and table captions & \, 9 pt., normal \\
-\hline
-\rule[-1ex]{0pt}{3.5ex}  Footnote & \, 9 pt., normal \\
-\hline 
-\rule[-1ex]{0pt}{3.5ex}  Reference Heading & 11 pt., bold, centered   \\
-\hline
-\rule[-1ex]{0pt}{3.5ex}  Reference Listing & 10 pt., normal, justified   \\
-\hline
-\end{tabular}
-\end{center}
-\end{table} 
 
-\begin{table}[ht]
-\caption{Margins and print area specifications.} 
-\label{tab:Paper Margins}
-\begin{center}       
-\begin{tabular}{|l|l|l|} 
-\hline
-\rule[-1ex]{0pt}{3.5ex}  Margin & A4 & Letter  \\
-\hline
-\rule[-1ex]{0pt}{3.5ex}  Top margin & 2.54 cm & 1.0 in.   \\
-\hline
-\rule[-1ex]{0pt}{3.5ex}  Bottom margin & 4.94 cm & 1.25 in.  \\
-\hline
-\rule[-1ex]{0pt}{3.5ex}  Left, right margin & 1.925 cm & .875 in.  \\
-\hline
-\rule[-1ex]{0pt}{3.5ex}  Printable area & 17.15 x 22.23 cm & 6.75 x 8.75 in.  \\
-\hline 
-\end{tabular}
-\end{center}
-\end{table}
 
-LaTeX margins are related to the document's paper size. The paper size is by default set to USA letter paper. To format a document for A4 paper, the first line of this LaTeX source file should be changed to \verb|\documentclass[a4paper]{spie}|.   
 
-Authors are encouraged to follow the principles of sound technical writing, as described in Refs.~\citenum{Alred03} and \citenum{Perelman97}, for example.  Many aspects of technical writing are addressed in the {\em AIP Style Manual}, published by the American Institute of Physics.  It is available on line at \url{https://publishing.aip.org/authors}. A spelling checker is helpful for finding misspelled words. 
+\section{EXPLOITING THE HERMES PATHFINDER LOCALISATION CAPABILITIES }
 
-An author may use this LaTeX source file as a template by substituting his/her own text in each field.  This document is not meant to be a complete guide on how to use LaTeX.  For that, please see the list of references at \url{http://latex-project.org/guides/} and for an online introduction to LaTeX please see \citenum{Lees-Miller-LaTeX-course-1}. 
-\end{comment}
+In the following, we describe in details the analysis performed, as well as the related assumptions and caveats, to investigate the capabilities of the HERMES-TP/SP mini-constellation (6 3U CubeSats) on localizing GRBs in the sky.
 
+The key to accurately locate an event by means of the temporal triangulation method described above is to decrease as much as possible the uncertainties summarised by the term $\Theta^2$ of Eq.\ref{eq:chisq}. Starting from the HTP/SP technical properties, we can investigate the positional uncertainty budget to be able to identify the most crucial limiting factors. The final design of the spacecraft including GPS receivers and accelerometers, guarantees the possibility to reconstruct the position of the CubeSats with an accuracy smaller than 30 meters, that translates into an temporal accuracy lower than 30 ns (see SPIE PoliMi). Moreover, the absolute timing accuracy achievable from the detector is going to be lower than 0.4 $\mu$s for both the X and S modes [see SPIE Evangelista]. As we show in more detail later, considering the HERMES-TP/SP set up, we can conclude that, even for the brightest GRBs, the uncertainty on the GRB position will be dominated by the accuracy on the time delay between the GRB light-curves and possibly by unknown systematics still to be investigated. In the following we will show that on average uncertainties on the time delays obtained applying cross-correlation techniques are of the other of tenths of milliseconds, a few orders of magnitude larger than the uncertainties discussed above.
+
+\subsection{GRB structure and time delay accuracy}
+
+To be able to investigate the achievable accuracy in the measurement of the time delays between the arrival times for photons emitted by a generic GRB and observed by different detectors of the HTP/SP mini-constellation, we built a procedure that includes the creation of GRB templates, the application of cross-correlation techniques as well as Monte Carlo simulations.
+
+As a first step, we searched the available Fermi GBM archive seeking for GRBs characterised by variability on time scales as short as a few milliseconds. The hypothesis being that fast variability should enhance the sensitivity on time delay measurements, especially when the statistics of the available data is relatively limited. We then isolated two candidates, one belonging the so-called short GRBs and the other from the long class. More specifically, the short GRB (id. GRB120323507) has been observed on 2012 March 23, and it is characterised by a $t_{90}$\footnote{Time interval in which the integrated photon counts increase from 5\% to 95\% of the total counts.} duration of $\sim0.4$ seconds with a fluence of $\sim1\times10^{-5}$ erg cm$^{-2}$. On the other hand, the long GRB (id. GRB13052327) has been detected on 2013 May 2, and it is characterised by a $t_{90}$ duration of $\sim24$ seconds with a fluence of $\sim1\times10^{-2}$ erg cm$^{-2}$.
 
 
 
@@ -291,44 +271,6 @@ For each selected burst, and for each considered area we simulated 1000 cross co
 
 
 %% da Grailquest - modifificare il testo
-\subsection{Gamma--ray Burst fast variability}
- 
-GRBs are thought to be produced by the collapse of massive stars
-and/or by the coalescence of two compact objects. Their main
-observational characteristics are the huge luminosity and fast
-variability, often as short as one millisecond, as shown by 
-\citet{Walker00}, both in isolated flares and in lower amplitude
-flickering. These characteristics soon led to the development of the
-{\it fireball model}, i.e. a relativistic bulk flow where shocks
-efficiently accelerate particles. The cooling of the
-ultra-relativistic particles then produces the observed X-ray and
-$\gamma$-ray emission. One possibility to shed light on their inner 
-engines is through GRB fast variability.  Early numerical simulations 
-\citep{Kobayashi97,Ramirez00,Spada00} suggested that the GRB light-curve 
-reproduces the activity of the inner engine. More recently, hydrodynamical simulations of GRB jets showed that, in order to reproduce the 
-observed light-curves, fast variability must be injected at the base of 
-the jet by the inner engine, while slower variations may be due to the 
-interactions of the jets with the surrounding matter \citep{Morsony10}.
- 
-The most systematic searches for the shortest timescales in GRBs so
-far are those of \citet{Walker00}, \citet{MacLachlan13} and
-\citet{Bhat12}. The first two works exploit rather sophisticated
-statistical (wavelet) analyses, while the latter performs a parametric
-burst deconvolution in pulses. \citet{Walker00} conclude that the 
-majority of analysed {\it BATSE} GRBs show rise-times faster than 4msec and 
-30\% of the events have rise-time faster than 1msec (observer frame).  
-\citet{MacLachlan13} use Fermi/GBM data binned at 200$\mu$s (the original 
-bin size of GBM data is 2$\mu$s) and report somewhat longer minimum 
-variability timescales than \citet{Walker00}, but conclude that variability 
-of the order of a few msec is not uncommon (although they are limited by 
-the wider temporal bin size adopted of 200$\mu$s and much worse statistics 
-with respect to the {\it BATSE} sample).  Systematically longer time-scales are reported 
-by \citet{Bhat12}, using data binned at 1msec. This is not surprising, 
-because direct pulse deconvolution needs best statistics, which can hardly 
-be obtained for the shortest pulses. 
-
-
-%% da Grailquest - modifificare il testo
 
 \subsection{Template implementation}
 
@@ -368,46 +310,7 @@ Short GRB described above simulated for a timescale of $10^{-4}$ seconds and ove
 effective area of 100 square meters. 
 
 
-\section{Localisation methods}
 
-\subsection{ToA delays}
-
-Let's consider a swarm of $n$ satellites, each one identified by a position vector $\vec{r}_i$ (with $i=0,\dots, n-1$) with respect to a suitable reference frame, e.g. the Earth barycenter in equatorial coordinates.
-To determine the direction $\hat{d}$ of a GRB, it is possible to measure the time delays of the GRB signal as seen from each pair of  satellites. 
-Defining $t_0$ the time at which the GRB signal arrives at the origin of the chosen reference frame, each $i$-th satellite will receive the GRB at a time $t_i$
-\begin{equation}
-  t_i = t_0 - \frac{\vec{r}_i \cdot \hat{d}}{c}.
-\end{equation}
-The expected time delays between two satellites will be
-\begin{equation}
-    \Delta t_{ij}(\hat{d}) \equiv t_j - t_i = \frac{(\vec{r}_j - \vec{r}_i) \cdot \hat{d}}{c} =  \frac{\vec{\rho}_{ij} \cdot \hat{d}}{c},
-\label{eq:delayexp}
-\end{equation}
-where $\vec{\rho}_{ij} \equiv \vec{r}_j - \vec{r}_i$.
-The real (measured) time delay between the signal of two satellites $\Delta \tau_{ij}$ is measured by fitting the cross-correlation of the two light curves.
-The direction of the GRB, e.g. its equatorial coordinates, can be estimated comparing the computed and measured delays between satellites using e.g. the non linear least squared method.
-We define the $\chi^2(\hat{d})$ function as the sum the squares of the difference between the expected and observed time delay divided by its statistical error
-  \begin{equation}
-    \chi^2(\hat{d}) = \sum_{i = 0}^{n - 2}\sum_{j = i + 1}^{n - 1} \frac{(\Delta \tau_{ij} - \Delta t_{ij}(\hat{d}))^2}{\delta\Delta \tau_{ij}^2 + \delta\Delta t_{ij}^2},
-    \label{eq:chisq}
-  \end{equation}
-where $\delta\Delta t_{ij}$ is the uncertainty on $\Delta t_{ij}$ which depends on the positional error on the satellites expressed in light-seconds.
-We note that $\delta\Delta t_{ij}$, due to the GPS positioning system errors of the order of 10 meters, is of the order of 30 ns.
-Taking into account the HERMES set up, we can conclude that, even for the brightest GRBs, this error is negligible with respect to $\delta\Delta \tau_{ij}$.
-For simplicity, we define $\Theta_{ij}^2 \equiv \delta\Delta \tau_{ij}^2 + \delta\Delta t_{ij}^2$, so Eq. \ref{eq:chisq} can be rewritten
-\begin{equation}
-    \chi^2(\hat{d}) = \sum_{i = 0}^{n - 2}\sum_{j = i + 1}^{n - 1} \frac{(\Delta \tau_{ij} - \Delta t_{ij}(\hat{d}))^2}{\Theta_{ij}^2}.
-    \label{eq:chisq_2}
-  \end{equation}
-  
-The unitary vector $\hat{d}$ identifying the GRB direction can be written in terms of Right Ascension $\alpha$ and Declination $\delta$, that is
-  
-  \begin{equation}
-    \hat{d} = \{\cos{\alpha} \cos{\delta}, \sin{\alpha} \cos{\delta}, \sin{\delta}\}.
-  \end{equation}
-
-Minimising Eq. \ref{eq:chisq_2} with respect to $\alpha$ and $\delta$ gives us an estimate of the direction of the GRB.
-Moreover, if Eq. \ref{eq:chisq_2} satisfies all the hypotheses in [AD10], we can also calculate the confidence region for the GRB equatorial coordinates on the plane of the sky.
 
 \section{Discussion}
 
@@ -649,7 +552,72 @@ Area & $\sigma_{min}$ & $\sigma_{max}$ & $<\sigma>$ & $<\sigma>$/$<\epsilon>$\\
 
 
 
+\begin{comment}
+\begin{table}[ht]
+\caption{Fonts sizes to be used for various parts of the manuscript.  Table captions should be centered above the table.  When the caption is too long to fit on one line, it should be justified to the right and left margins of the body of the text.} 
+\label{tab:fonts}
+\begin{center}       
+\begin{tabular}{|l|l|} %% this creates two columns
+%% |l|l| to left justify each column entry
+%% |c|c| to center each column entry
+%% use of \rule[]{}{} below opens up each row
+\hline
+\rule[-1ex]{0pt}{3.5ex}  Article title & 16 pt., bold, centered  \\
+\hline
+\rule[-1ex]{0pt}{3.5ex}  Author names and affiliations & 12 pt., normal, centered   \\
+\hline
+\rule[-1ex]{0pt}{3.5ex}  Keywords & 10 pt., normal, left justified   \\
+\hline
+\rule[-1ex]{0pt}{3.5ex}  Abstract Title & 11 pt., bold, centered   \\
+\hline
+\rule[-1ex]{0pt}{3.5ex}  Abstract body text & 10 pt., normal, justified   \\
+\hline
+\rule[-1ex]{0pt}{3.5ex}  Section heading & 11 pt., bold, centered (all caps)  \\
+\hline
+\rule[-1ex]{0pt}{3.5ex}  Subsection heading & 11 pt., bold, left justified  \\
+\hline
+\rule[-1ex]{0pt}{3.5ex}  Sub-subsection heading & 10 pt., bold, left justified  \\
+\hline
+\rule[-1ex]{0pt}{3.5ex}  Normal text & 10 pt., normal, justified  \\
+\hline
+\rule[-1ex]{0pt}{3.5ex}  Figure and table captions & \, 9 pt., normal \\
+\hline
+\rule[-1ex]{0pt}{3.5ex}  Footnote & \, 9 pt., normal \\
+\hline 
+\rule[-1ex]{0pt}{3.5ex}  Reference Heading & 11 pt., bold, centered   \\
+\hline
+\rule[-1ex]{0pt}{3.5ex}  Reference Listing & 10 pt., normal, justified   \\
+\hline
+\end{tabular}
+\end{center}
+\end{table} 
 
+\begin{table}[ht]
+\caption{Margins and print area specifications.} 
+\label{tab:Paper Margins}
+\begin{center}       
+\begin{tabular}{|l|l|l|} 
+\hline
+\rule[-1ex]{0pt}{3.5ex}  Margin & A4 & Letter  \\
+\hline
+\rule[-1ex]{0pt}{3.5ex}  Top margin & 2.54 cm & 1.0 in.   \\
+\hline
+\rule[-1ex]{0pt}{3.5ex}  Bottom margin & 4.94 cm & 1.25 in.  \\
+\hline
+\rule[-1ex]{0pt}{3.5ex}  Left, right margin & 1.925 cm & .875 in.  \\
+\hline
+\rule[-1ex]{0pt}{3.5ex}  Printable area & 17.15 x 22.23 cm & 6.75 x 8.75 in.  \\
+\hline 
+\end{tabular}
+\end{center}
+\end{table}
+
+LaTeX margins are related to the document's paper size. The paper size is by default set to USA letter paper. To format a document for A4 paper, the first line of this LaTeX source file should be changed to \verb|\documentclass[a4paper]{spie}|.   
+
+Authors are encouraged to follow the principles of sound technical writing, as described in Refs.~\citenum{Alred03} and \citenum{Perelman97}, for example.  Many aspects of technical writing are addressed in the {\em AIP Style Manual}, published by the American Institute of Physics.  It is available on line at \url{https://publishing.aip.org/authors}. A spelling checker is helpful for finding misspelled words. 
+
+An author may use this LaTeX source file as a template by substituting his/her own text in each field.  This document is not meant to be a complete guide on how to use LaTeX.  For that, please see the list of references at \url{http://latex-project.org/guides/} and for an online introduction to LaTeX please see \citenum{Lees-Miller-LaTeX-course-1}. 
+\end{comment}
 
 
 

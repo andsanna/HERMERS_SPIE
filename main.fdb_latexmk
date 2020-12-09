@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1607433866 "main.aux" "main.bbl" "main" 1607434861
+["bibtex main"] 1607509949 "main.aux" "main.bbl" "main" 1607509953
   "./spiebib.bst" 1607380278 20917 5ac1fce8241b571b46fcef3fee4fa580 ""
-  "main.aux" 1607434858 9414 96f4444811dff7ebd914d68b526e7cd6 ""
+  "main.aux" 1607509950 9328 6c61437678e9b0b3af7aec0fc1bca95c ""
   "report.bib" 1607381021 5636 2b5d9b4a53e3db9882885ff5d996f590 ""
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1607434857 "main.tex" "main.pdf" "main" 1607434861
+["pdflatex"] 1607509949 "main.tex" "main.pdf" "main" 1607509953
   "/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/txfonts/rtxb.tfm" 1480098718 1020 c53143d3e3747b5c1149bd9a5ecd7b55 ""
@@ -131,10 +131,10 @@
   "fig/distribution_short_56.eps" 1607380278 49209 071008d4c8e3799196361654f13772b0 ""
   "fig/sigma_vs_area_Long.pdf" 1607380278 24320 1f6750fe01076df2849934d6ed6f81d8 ""
   "fig/sigma_vs_area_Short.pdf" 1607380278 23541 434d5192da4f0e2f343d33d7847bf9a1 ""
-  "main.aux" 1607434858 9414 96f4444811dff7ebd914d68b526e7cd6 ""
-  "main.bbl" 1607433866 1841 54e45b3cd181e6a2e1b1680b1d3327a7 "bibtex main"
-  "main.out" 1607434858 468 957f790af4a12b3984717fd2f45e981d ""
-  "main.tex" 1607434856 69551 7fcd2e2a66d461cca7013be07c634e44 ""
+  "main.aux" 1607509950 9328 6c61437678e9b0b3af7aec0fc1bca95c ""
+  "main.bbl" 1607509949 1841 54e45b3cd181e6a2e1b1680b1d3327a7 "bibtex main"
+  "main.out" 1607509950 450 f5f95030bb75dfe4f96093a79bf19d6e ""
+  "main.tex" 1607509931 69898 76105b54a6695fc94d5e1557975d8d75 ""
   "spie.cls" 1607380278 12769 00206a99d10bba05851078caee7247c2 ""
   "triang_fig2.png" 1607419355 246093 f8ab51b6685d10d34e53f8211ddaf2f9 ""
   "triang_fig3.png" 1607419395 644990 71e5e580adac6618793d7b3ea2e364c4 ""
