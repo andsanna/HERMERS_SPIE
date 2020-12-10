@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1607602328 "main.aux" "main.bbl" "main" 1607602331
+["bibtex main"] 1607602328 "main.aux" "main.bbl" "main" 1607602466
   "./spiebib.bst" 1607380278 20917 5ac1fce8241b571b46fcef3fee4fa580 ""
   "main.aux" 1607602329 5765 024e4bf82343122c169a026c07af7d71 ""
   "report.bib" 1607588056 6682 ebeaec419b0c1bb3e7fb24ecb6732482 ""
   (generated)
-  "main.blg"
   "main.bbl"
-["pdflatex"] 1607602328 "main.tex" "main.pdf" "main" 1607602331
+  "main.blg"
+["pdflatex"] 1607602328 "main.tex" "main.pdf" "main" 1607602466
   "/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/txfonts/rtxb.tfm" 1480098718 1020 c53143d3e3747b5c1149bd9a5ecd7b55 ""
@@ -121,6 +121,6 @@
   "trinag_fig1.png" 1607419310 82792 6cc2c154f89e5f212ac102e2899554b3 ""
   (generated)
   "main.aux"
-  "main.pdf"
-  "main.out"
   "main.log"
+  "main.out"
+  "main.pdf"
