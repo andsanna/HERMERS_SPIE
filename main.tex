@@ -20,10 +20,15 @@
 \usepackage{comment}
 \usepackage{xspace}
 
-
+\usepackage{bm}
+\usepackage{aas_macros}
 
 \renewcommand{\baselinestretch}{1.0} % Change to 1.65 for double spacing
- 
+
+% vettori e versori più carini
+\renewcommand\vec{\bm}
+\newcommand{\uv}[1]{\vec{\hat{#1}}}
+
 %\newcommand{\degree}{$^{\circ}$\xspace}
 %\newcommand{\Fermi}{\textit{Fermi}\xspace}
 %\newcommand{\gbm}{\textit{GBM}\xspace}
@@ -156,9 +161,9 @@ A first proxy on the accuracy in determining the source position $\sigma_{PA}$ c
 
 \begin{equation}
 \label{eq:sigma_pos}
-\sigma_{PA} = \dfrac{(\sigma_{delay}+\sigma_{tpos}+\sigma_{time})^2}{<Baseline>\sqrt{(N-1-2)}}
+\sigma_{PA} = \dfrac{(\sigma_{delay}+\sigma_{tpos}+\sigma_{time})^2}{<Baseline>\sqrt{(N-1-2)}},
 \end{equation}
-
+%
 where $\sigma_{delay}$ is the error on the delay measurement obtained combining the light-curves recorded by two detectors, $\sigma_{tpos}=\sigma_{pos}/c$ is the error induced by the uncertainties on the space localisation of the detectors, $\sigma_{time}$ is the uncertainty on the absolute time reconstruction, $<Baseline>$ is the average distance between the detectors ad N$_{ind} = N-1$ is the number of statistically independent pairs of satellites used to determine the delay measurements.\\
 
 	
