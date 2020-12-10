@@ -249,7 +249,7 @@ Starting from the GRB templates we generated light-curves by rescaling the detec
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.45,angle=0]{sigma_cc_sim}
-
+\vspace{-1cm}
 \caption{Distribution of delays obtained applying cross-correlation techniques to pairs of simulated light curves of the long (left panel) and short (right panel) GRBs rescaled to match the HTP/HSP effective area. The distributions are the result of 1000 Monte-Carlo simulations (see text for more details). The overlaid red line represents the best-fit normal distribution to the data.} 
 \label{fig:xc_sigma}
 \end{figure}
@@ -278,7 +278,7 @@ For each burst, we simulated 2000 light-curves that allowed us to generate 1000 
 
 
 \subsection{mission scenario}
-The analysis described in this document is based on two specific mission scenarios explored by POLIMI in the “HERMES Preliminary Design Analysis” (see [AD1] for a complete view of the analysis). In the following all the experimental set up will be described in details.
+Testing the localisation capabilities of the HTP/HSP mini-constellation requires the definition of a specific mission scenario. In the following, we will give a brief description of the experimental set up used to the analysis described in this work, that is the outcome of a long mission analysis investigation performed during the first year of the project.
 
 \subsubsection{Low Earth Equatorial Orbit}
 To achieve to scientific goals of the mission, the HTP/HSP orbit has been accurately investigated and finally restricted to a low Earth orbit with altitude between 500 and 600km and inclination <20deg. Within the specific framework of the analysis reported here, the adopted reference orbit have the following properties:
@@ -291,33 +291,83 @@ To achieve to scientific goals of the mission, the HTP/HSP orbit has been accura
 
 
 \subsubsection{Space segment injection strategy}
-The space segments injection strategies explored in [AD1] are the following:
+The space segments injection strategies explored in mission analysis are the following:
 \begin{itemize}
-\item Dedicated multiple injections - one per satellite - into different true anomalies at t0; 
-\item Single injection of each triplet in the HERMES-SP/TP set with imposed relative motion among the spacecraft belonging to the same triplet, imposed by the deployer release spring.
+\item Dedicated multiple injections - one per satellite - into different true anomalies at $t_0$; 
+\item Single injection of each triplet with imposed relative motion among the spacecraft belonging to the same triplet, imposed by the deployer release spring.
 \end{itemize} 
 
-As resulted from the analysis, the first option is highly sensitive to the release conditions, e.g. natural perturbations provoke a relative drift which is emphasized by the launcher and deployer injection uncertainties jeopardizing this injection strategy robustness in terms of scientific outcome. This option requires a dedicated launch for the HERMES mission. 
+As resulted from the analysis, the first option is highly sensitive to the release conditions, e.g. natural perturbations provoke a relative drift which is emphasized by the launcher and deployer injection uncertainties jeopardizing this strategy robustness in terms of scientific outcome. This option requires a dedicated launch for the HERMES Pathfinder mission. 
 On the other hand, the second option is feasible without a dedicated launch, since the triplet elements can be released in a single launch event with no dedicated injection manoeuvre. The relative motion between the satellites is actually imposed by the deployer spring authority which overcomes the natural perturbations effects and the launcher injection uncertainties, making more reliable the expected scientific outcomes foreseen in the design phase. 
 Here, we will consider the second injection strategy to perform the localization test.
-
-\subsubsection{Pointing strategy}
-The selection of the nominal pointing strategy significantly affects the HERMES-TP/SP performances in terms of detection and localization of GRBs. [AD1] reports specific trade-off studies on the topic taking advantage of the quite advance attitude control performances of the HERMES Cube-Sats. In fact, the pointing direction of the payload’s Line Of Sight (LOS) can be controlled and even varied along the mission time-line, according to the short-medium planning for the payload utilization, compliant with the space segment capabilities, to maximize the science mission outcome. 
-Three different pointing strategies have been explored:
-\begin{itemize} 
-\item Zenith pointing for each payload LOS; 
-\item Co-alignment of n ≥ 3 payload LOSs on an Inertial-selected direction; 
-\item Co-alignment of n ≥ 3 payload LOSs on a LVLH-selected direction (i.e. LOSs aligned on the zenith direction of a specific satellite in the fleet).
-\end{itemize} 
-The third pointing strategy, that will be used for the analysis discussed in this document, is preferred to maximize the scientific outcome of the mission. To do that, periodical optimization of the LOS direction of each satellite are foreseen in order to maximize the overlapping FoV and hence the number of GRBs potentially triangulated. More in details, the whole mission is divided in periods (from days to weeks) in which the pointing directions of each satellite is kept fixed in the non-inertial LVLH (Local Vertical-Local Horizontal) reference frame. The pointing direction of each satellite in the LVLH frame is uniquely defined by two angles: the first, in the orbital plane, is the angular displacement between the LOS and the radial direction, and the second is the elevation of the LOS above (or below) the orbital plane. During each period the optimal set of angles (two for each satellites) is selected using a heuristic particle-swarm optimization algorithm to maximize the scientific return (GRBs triangulated during the period). Figure~\ref{fig:strategy} shows the position and pointing of the HERMES-TP/SP payloads within the LVLH pointing strategy (left panel) as well as the associated map of overlapped FoVs.  
 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.45,angle=-90]{pointying_strategy}
-
+\vspace{-2.5cm}
 \caption{LVLH optimal pointing strategy} 
 \label{fig:strategy}
 \end{figure}
+
+\subsubsection{Pointing strategy}
+The selection of the nominal pointing strategy significantly affects the HTP/HSP performances in terms of detection and localization of GRBs. During the mission analysis and the spacecraft design activity, specific trade-off studies have been carried out on the topic taking advantage of the quite advance attitude control performances of the HERMES CubeSats. In fact, the pointing direction of the payload’s Line Of Sight (LOS) can be controlled and even varied along the mission time-line, according to the short-medium planning for the payload utilization, compliant with the space segment capabilities, to maximize the science mission outcome. 
+Three different pointing strategies have been explored:
+\begin{itemize} 
+\item Zenith pointing for each payload LOS; 
+\item Co-alignment of $n\geq3$ payload LOSs on an Inertial-selected direction; 
+\item Co-alignment of $n\geq3$ payload LOSs on a LVLH-selected direction (i.e. LOSs aligned on the zenith direction of a specific satellite in the fleet).
+\end{itemize} 
+
+The third pointing strategy, that will be used for the analysis discussed in this document, is preferred to maximize the scientific outcome of the mission. To do that, periodical optimization of the LOS direction of each satellite are foreseen in order to maximize the overlapping Field of View (FoV) and hence the number of GRBs potentially triangulated. More in details, the whole mission is divided in periods (from days to weeks) in which the pointing directions of each satellite is kept fixed in the non-inertial LVLH (Local Vertical-Local Horizontal) reference frame. The pointing direction of each satellite in the LVLH frame is uniquely defined by two angles: the first, in the orbital plane, is the angular displacement between the LOS and the radial direction, and the second is the elevation of the LOS above (or below) the orbital plane. During each period, the optimal set of angles (two for each satellites) is selected using a heuristic particle-swarm optimization algorithm to maximize the scientific return, i.e. the number of GRBs triangulated during that frame time. Figure~\ref{fig:strategy} shows the position and pointing of the HTP/HSP detectors within the LVLH pointing strategy (left panel) as well as the associated map of the overlapping FoVs.  
+
+
+
+\subsubsection{Simulation strategy}
+To investigate the level of accuracy on the detection and localization of GRBs with respect to the mission scenarios previously described we adopted the following strategy: 
+\begin{itemize}
+	
+\item following the results reported in the Fourth Fermi-GBM GRB catalogue [\citenumber{vonKienlin20}], we generated GRB events assuming a uniform distribution in the plane-of-the-sky. The number of simulated GRBs during the mission duration (2 years) reflects the Fermi GBM detection rate $α_{GBM} \simeq 0.083$ GRB/sr/d, which corresponds approximately to a total of 760 GRB events in the whole sky ($4\pi$ steradians) within the assumed HTP/HSP mission life-time; 
+
+\item we temporally located the 760 simulated GRB events by sampling uniformly at random from the time data-set associated to the positions of the fleet elements. More specifically, we randomly extracted 760 time-intervals (1-minute length) among the 1051201 available from the simulation of the satellite positions. With that, we are assuming that the process of detection of a GRB has a duration shorter or equal to 1 minute. We note that this assumption is surely valid for short GRBs, whilst it is not applicable for 30\%-40\% of the long GRBs showing duration larger than 60 seconds; 
+
+\item for each GRB event, we determined the number of active satellites (non-transiting within the South Atlantic Anomaly) able to detect it, by verifying that the direction of the GRB and the LoS of the instrument identify an angle lower or equal 60 degrees. This guarantees that the GRB event falls within the $3\pi$ steradians FoV (Full Width at Half Maximum) of the detector. 
+
+\item we processed only GRB events observed by a minimum of 3 satellites, or equivalently, for which a minimum of 3 satellites have the GRB in their FoVs. This guarantees the possibility to apply \emph{Temporal Triangulation} techniques to determine the position of the GRB in the sky. 
+
+\end{itemize}
+
+For each of the GRB potentially localizable, we determined the expected time delays $\Delta t_{ij}(\hat{d})$ between pairs of satellites by using Eq.~\ref{eq:delayexp}. The associated real (measured) time delay $\Delta \tau_{ij}$ will be then generated as:
+\begin{equation} 
+     \Delta \tau_{ij}=\Delta t_{ij}(\hat{d})+N(0,\sigma_{cc}),
+\end{equation}              
+where $N(0,\sigma_{cc})$ is the cross-correlation uncertainty randomly extracted assuming a normal distribution with zero mean and standard deviation equal to the results obtained from the analysis of the sample of long and short GRBs described above. More specifically, among the 760 GRBs, 83\% (following to Fermi GBM statistics) will be simulated assigning characteristics of the long GRBs and $\sigma_{cc-long} = 1$ ms, while the remaining 17\% will be simulated as short GRBs with $\sigma_{cc-short} = 5$ ms.
+Using Eq.~\ref{eq:chisq}, we then calculated a $\chi^2$ map of the whole sky by creating a grid of points uniformly sampling the equatorial coordinates. Finally, we estimated the most probable position of the simulated GRB by calculating the values of $\alpha$ and $\delta$ that minimise the $\chi^2$ function. Confidence intervals at $1\sigma$ level represent the coordinate intervals $\sigma_\alpha$ and $\sigma_delta$ for which $\Delta \chi^2 (\hat{d}) = 
+\Delta 
+\chi^2(\nu, 68\%)$, where $\nu$ is the number of parameters in the function. We emphasise that the coordinate intervals obtained by marginalising the confidence region, especially $\sigma_\alpha$, can be overestimated. 
+
+
+\begin{figure}
+\begin{center}
+\begin{tabular}{cc}
+\includegraphics[scale=0.4,angle=0.0]{fig_loc_30deg} &
+\includegraphics[scale=0.4,angle=90.0]{fig_loc_70deg}\\
+a) & b)\\
+\end{tabular}
+\end{center}
+\vspace{-3.5cm}
+\caption[example] 
+%>>>> use \label inside caption to get Fig. number with \ref{}
+{ \label{fig:conf_reg} 
+Example of GRB localization obtained by simulating a GRB with latitude < 30 deg (left panel) and latitude > 70 deg (right panel). The GRB position and best-fit position are represented with the green X-symbol and the red +-symbol, respectively.  The red contour line shows the 1$\sigma$ confidence level region associated with the best fit position. The blue-filled region represents the overlapping FoVs of the 3 satellites observing simultaneously the GRB. The light-green contour line shows the 1$\sigma$ confidence level region taking into account the FoVs of the detectors.}
+\end{figure}
+
+
+
+In Figure~\ref{fig:conf_reg} we report an example of two possible outcomes obtained from the simulations described above. Panels a) and b) the figure summarise the results of the simulation displaying the GRB real position in the plane of the sky (green X-symbol), the best-fit position of the GRB (red +symbol) and the corresponding $1\sigma$ confidence region shown both in spherical and bi-dimensional representations. Moreover, in light-green we report the positional $1\sigma$ confidence region corrected by overlapping FoVs of detectors (blue-filled region) observing simultaneously the event. Both cases describe the localisation of GRB events detected simultaneously by 3 satellites. While for the event shown in the panel a) of Figure~\ref{fig:conf_reg} the confidence region of the GRB coordinates is nearly unconstrained in the $\delta$ coordinate, panel b) describes a more favourable scenario in which the uncertainty on the GRB position is limited to a relatively small region. For the former case, we note that, although limited, two confidence regions are present but only one includes the position of the GRB. This ambiguity reflects the planar symmetry of the signal delays with respect to the satellite orbital plane. Differences between these two cases are the superposition of several aspects such as the accuracy in the determination of the time signal time delays, physical distances between the satellites and projected distances of the satellites with respect to the direction of the GRB event. Moreover, for the two cases discussed above (but also for the larger set of results obtained with the simulations) we note that the Right Ascension is always relatively well constrained, leaving the largest uncertainty in the Declination. This result is expected when considering triplets of satellites laying in the equatorial plane. Improvements in $\delta$ can be obtained by increasing the number of satellites simultaneously observing the GRB event and located in inclined plane with respect to the equatorial one.
+
+
+
+\section{Results and Discussion}
 
 
 

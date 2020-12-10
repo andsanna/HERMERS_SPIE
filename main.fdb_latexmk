@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1607556354 "main.aux" "main.bbl" "main" 1607556397
+["bibtex main"] 1607602328 "main.aux" "main.bbl" "main" 1607602331
   "./spiebib.bst" 1607380278 20917 5ac1fce8241b571b46fcef3fee4fa580 ""
-  "main.aux" 1607556394 5407 aa215e9ddefa4d76f1994fc83cd0e176 ""
-  "report.bib" 1607381021 5636 2b5d9b4a53e3db9882885ff5d996f590 ""
+  "main.aux" 1607602329 5765 024e4bf82343122c169a026c07af7d71 ""
+  "report.bib" 1607588056 6682 ebeaec419b0c1bb3e7fb24ecb6732482 ""
   (generated)
-  "main.bbl"
   "main.blg"
-["pdflatex"] 1607556393 "main.tex" "main.pdf" "main" 1607556397
+  "main.bbl"
+["pdflatex"] 1607602328 "main.tex" "main.pdf" "main" 1607602331
   "/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/txfonts/rtxb.tfm" 1480098718 1020 c53143d3e3747b5c1149bd9a5ecd7b55 ""
@@ -104,10 +104,12 @@
   "fig/CrossCorrelation_fit_Short.pdf" 1607534664 82968 a640a0dde1f4eba101b0888d46c2423e ""
   "fig/Template_comparison_Long.pdf" 1607380278 78231 42f3cffcc89d6800b74b2e96534ff02d ""
   "fig/Template_comparison_Short.pdf" 1607380278 21476 28c7763c0579302db01d5563b5c3bbd0 ""
-  "main.aux" 1607556394 5407 aa215e9ddefa4d76f1994fc83cd0e176 ""
-  "main.bbl" 1607556354 1841 54e45b3cd181e6a2e1b1680b1d3327a7 "bibtex main"
-  "main.out" 1607556394 602 321e8f078e9969075cd189bf9da15bac ""
-  "main.tex" 1607556392 73607 1214c45b8af7045b6d9e07bb4d063c38 ""
+  "fig_loc_30deg.pdf" 1607600511 788287 7d4ef678dc00aa41e60e7fb424146ea5 ""
+  "fig_loc_70deg.pdf" 1607600587 819480 b80a753751c70adbab0965aaa501caf5 ""
+  "main.aux" 1607602329 5765 024e4bf82343122c169a026c07af7d71 ""
+  "main.bbl" 1607602328 1841 54e45b3cd181e6a2e1b1680b1d3327a7 "bibtex main"
+  "main.out" 1607602329 738 815bca2adeb0180c11697601826cc61a ""
+  "main.tex" 1607602322 80361 d167c6e7a41292fb93ede6cec99e34af ""
   "pointying_strategy.pdf" 1607556275 378046 65e802900dcb2b697966837798c12f9c ""
   "short_GRB_sigma_dist.pdf" 1607554404 23762 6d55f94f8b8ae6d6c6ef644d019b2ada ""
   "short_GRB_sigma_flux.pdf" 1607554419 28412 7bbaac80d42df5a489c4c183c885acbc ""
@@ -118,7 +120,7 @@
   "triangulation.pdf" 1607416355 523194 db0bd5bf795eb31dcee859c39ad7bb7d ""
   "trinag_fig1.png" 1607419310 82792 6cc2c154f89e5f212ac102e2899554b3 ""
   (generated)
-  "main.out"
-  "main.pdf"
-  "main.log"
   "main.aux"
+  "main.pdf"
+  "main.out"
+  "main.log"

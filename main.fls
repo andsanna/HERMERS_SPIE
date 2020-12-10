@@ -290,6 +290,12 @@ INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/txfonts/rtxptmri.tfm
 INPUT pointying_strategy.pdf
 INPUT ./pointying_strategy.pdf
 INPUT ./pointying_strategy.pdf
+INPUT fig_loc_30deg.pdf
+INPUT ./fig_loc_30deg.pdf
+INPUT ./fig_loc_30deg.pdf
+INPUT fig_loc_70deg.pdf
+INPUT ./fig_loc_70deg.pdf
+INPUT ./fig_loc_70deg.pdf
 INPUT main.bbl
 INPUT main.bbl
 INPUT main.aux
