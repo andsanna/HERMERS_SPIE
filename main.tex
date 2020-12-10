@@ -212,7 +212,7 @@ In the following, we describe in details the analysis performed, as well as the 
 The key to accurately locate an event by means of the temporal triangulation method described above is to decrease as much as possible the uncertainties summarised by the term $\Theta^2$ of Eq.\ref{eq:chisq}. Starting from the HTP/SP technical properties, we can investigate the positional uncertainty budget to be able to identify the most crucial limiting factors. The final design of the spacecraft including GPS receivers and accelerometers, guarantees the possibility to reconstruct the position of the CubeSats with an accuracy smaller than 30 meters, that translates into an temporal accuracy lower than 30 ns (see SPIE PoliMi). Moreover, the absolute timing accuracy achievable from the detector is going to be lower than 0.4 $\mu$s for both the X and S modes [see SPIE Evangelista]. As we show in more detail later, considering the HERMES-TP/SP set up, we can conclude that, even for the brightest GRBs, the uncertainty on the GRB position will be dominated by the accuracy on the time delay between the GRB light-curves and possibly by unknown systematics still to be investigated. In the following we will show that on average uncertainties on the time delays obtained applying cross-correlation techniques are of the other of tenths of milliseconds, a few orders of magnitude larger than the uncertainties discussed above.
 
 \subsection{GRB structure and time delay accuracy}
-
+\label{sec:grbcc}
 To be able to investigate the achievable accuracy in the measurement of the time delays between the arrival times for photons emitted by a generic GRB and observed by different detectors of the HTP/SP mini-constellation, we built a procedure that includes the creation of GRB templates, the application of cross-correlation techniques as well as Monte Carlo simulations.
 
 As a first step, we searched the available Fermi GBM archive seeking for GRBs characterised by variability on time scales as short as a few milliseconds. The hypothesis being that fast variability should enhance the sensitivity on time delay measurements, especially when the statistics of the available data is relatively limited. We then isolated two candidates, one belonging the so-called short GRBs and the other from the long class. More specifically, the short GRB (id. GRB120323507) has been observed on 2012 March 23, and it is characterised by a $t_{90}$\footnote{Time interval in which the integrated photon counts increase from 5\% to 95\% of the total counts.} duration of $\sim0.4$ seconds with a fluence of $\sim1\times10^{-5}$ erg cm$^{-2}$. On the other hand, the long GRB (id. GRB13052327) has been detected on 2013 May 2, and it is characterised by a $t_{90}$ duration of $\sim24$ seconds with a fluence of $\sim1\times10^{-2}$ erg cm$^{-2}$.
@@ -329,6 +329,7 @@ The third pointing strategy, that will be used for the analysis discussed in thi
 
 
 \subsubsection{Simulation strategy}
+\label{sec:strat}
 To investigate the level of accuracy on the detection and localization of GRBs with respect to the mission scenarios previously described we adopted the following strategy: 
 \begin{itemize}
 	
@@ -375,7 +376,7 @@ In Figure~\ref{fig:conf_reg} we report an example of two possible outcomes obtai
 
 \section{Results and Discussion}
 
-We applied the method described in Sec. 4.5 for each of the 760 GRBs simulated within the 2-years time interval characterising the life time of the HERMES project. To estimate confidence intervals of these quantities, we performed 1000 Monte-Carlo simulations in which we applied the method extensively discussed earlier on. We note that by assuming the σcc-long and σcc-short values reported in Sec. 4.5 for all the simulated long and short GRBs, respectively, we are not correctly representing the GRB sample propertied, hence the localisation capabilities of the mini-constellation are not fully represented. To mitigate this issue, the results reported below have been rescaled to take into account that σcc-long and σcc-short characterise only 55\% and 30\% of the long and the short GRB populations investigated, respectively.
+We applied the method described in Sec.~\ref{sec:strat} for each of the 760 GRBs simulated within the 2-years time interval characterising the life time of the HTP/HSP mission. To estimate confidence intervals of these quantities, we performed 1000 Monte-Carlo simulations in which we applied the method extensively discussed earlier on. We note that by assuming the $\sigma_{cc-long}$ and $\sigma_{cc-short}$ values reported in Sec.~\ref{sec:grbcc} for all the simulated long and short GRBs, respectively, we are not correctly representing the GRB sample propertied. To mitigate this issue, the results reported below have been rescaled to take into account that $\sigma_{cc-long}$ and $\sigma_{cc-short}$ characterise only 55\% and 30\% of the long and the short GRB populations investigated, respectively.
 
 
 
