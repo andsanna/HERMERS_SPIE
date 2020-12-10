@@ -10,45 +10,45 @@ Warning--empty booktitle or editor in Evangelista20
 Warning--empty publisher in Evangelista20
 Warning--empty booktitle or editor in Fiore20
 Warning--empty publisher in Fiore20
-You've used 6 entries,
+You've used 7 entries,
             1993 wiz_defined-function locations,
-            537 strings with 5246 characters,
-and the built_in function-call counts, 1570 in all, are:
-= -- 86
-> -- 140
+            544 strings with 5751 characters,
+and the built_in function-call counts, 2017 in all, are:
+= -- 104
+> -- 205
 < -- 0
-+ -- 50
-- -- 44
-* -- 175
-:= -- 266
-add.period$ -- 6
-call.type$ -- 6
-change.case$ -- 5
++ -- 72
+- -- 65
+* -- 232
+:= -- 351
+add.period$ -- 7
+call.type$ -- 7
+change.case$ -- 6
 chr.to.int$ -- 0
-cite$ -- 13
-duplicate$ -- 61
-empty$ -- 129
-format.name$ -- 44
-if$ -- 331
+cite$ -- 14
+duplicate$ -- 72
+empty$ -- 147
+format.name$ -- 65
+if$ -- 418
 int.to.chr$ -- 0
-int.to.str$ -- 6
-missing$ -- 7
-newline$ -- 21
-num.names$ -- 6
-pop$ -- 25
+int.to.str$ -- 7
+missing$ -- 8
+newline$ -- 24
+num.names$ -- 7
+pop$ -- 27
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 27
+skip$ -- 35
 stack$ -- 0
-substring$ -- 26
-swap$ -- 21
+substring$ -- 30
+swap$ -- 27
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 7
-while$ -- 9
-width$ -- 7
-write$ -- 51
+while$ -- 11
+width$ -- 8
+write$ -- 60
 (There were 7 warnings)

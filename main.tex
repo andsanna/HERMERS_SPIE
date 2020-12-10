@@ -310,6 +310,7 @@ Here, we will consider the second injection strategy to perform the localization
 \end{figure}
 
 \subsubsection{Pointing strategy}
+\label{sec:po_strat}
 The selection of the nominal pointing strategy significantly affects the HTP/HSP performances in terms of detection and localization of GRBs. During the mission analysis and the spacecraft design activity, specific trade-off studies have been carried out on the topic taking advantage of the quite advance attitude control performances of the HERMES CubeSats. In fact, the pointing direction of the payload’s Line Of Sight (LOS) can be controlled and even varied along the mission time-line, according to the short-medium planning for the payload utilization, compliant with the space segment capabilities, to maximize the science mission outcome. 
 Three different pointing strategies have been explored:
 \begin{itemize} 
@@ -369,7 +370,81 @@ In Figure~\ref{fig:conf_reg} we report an example of two possible outcomes obtai
 
 \section{Results and Discussion}
 
+We applied the method described in Sec. 4.5 for each of the 760 GRBs simulated within the 2-years time interval characterising the life time of the HERMES project. To estimate confidence intervals of these quantities, we performed 1000 Monte-Carlo simulations in which we applied the method extensively discussed earlier on. We note that by assuming the σcc-long and σcc-short values reported in Sec. 4.5 for all the simulated long and short GRBs, respectively, we are not correctly representing the GRB sample propertied, hence the localisation capabilities of the mini-constellation are not fully represented. To mitigate this issue, the results reported below have been rescaled to take into account that σcc-long and σcc-short characterise only 55\% and 30\% of the long and the short GRB populations investigated, respectively.
 
+
+
+\subsection{Long GRBs}
+
+Figure~\ref{fig:res_long} shows an example of the distribution of $\sigma_\alpha$ and $\sigma_\delta$ obtained from the observed GRBs within a 2-year long simulation. We emphasise that the number of observed GRBs reported in Figure~\ref{fig:res_long} needs to be rescaled by a factor of $\sim1.8$ to account for the assumed value of delay accuracy achievable $\sigma_{cc-long}$. In red and white (hatched region) we highlighted the detected GRBs for which the uncertainties on the two coordinates are lower or equal to 30 degrees (40 degrees for $\delta$) and 15 degrees, respectively. Figure~\ref{fig:res_long} clearly confirms the expected capabilities of the HTP/HSP set up, that allows us to be more sensitive to the Right Ascension with respect to the Declination coordinate.  
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.45,angle=0]{res_long_pos}
+\vspace{-2.5cm}
+\caption{Distribution of the Right Ascension (left panel) and Declination (right panel) uncertainties from one of simulations of long GRBs. The red and white-hatched regions highlight the GRBs with $\alpha$ and $\delta$ uncertainties lower than 30 degrees (40 degrees for $\delta$) and 15 degrees, respectively.} 
+\label{fig:res_long}
+\end{figure}
+
+Combining the results from the 1000 Monte-Carlo simulations, we obtained that among the nearly 630 long GRBs generated in each simulation, $240\pm11$ are detected simultaneously by at least 3 detectors. We can further identify the following quantities:
+\begin{itemize}
+\item $66\pm5$ events with $\sigma_\alpha < 30$ deg;
+\item	$20\pm3$ events with $\sigma_\alpha < 30$ deg and $\sigma_\delta < 40$ deg;
+\item	$57\pm4$ events with $\sigma_\alpha < 15$ deg;
+\item	$16\pm2$ events with $\sigma_\alpha < 15$ deg and $\sigma_\delta < 40$ deg;
+\item	$7\pm2$ events with $\sigma_\alpha < 5$ deg;
+\item	$4\pm1$ events with $\sigma_\alpha < 5$ deg and $\sigma_\delta < 40$ deg;
+\item	$1\pm0.6$ events with $\sigma_\alpha < 5$ deg and $\sigma_\delta < 10$ deg;
+\end{itemize}
+
+
+\subsection{Short GRBs}
+
+Figure~\ref{fig:res_short} shows the distribution of σα and σδ obtained from one simulation of the observed GRBs within a 2-year long mission (to be rescaled by a factor of $\sim3$ to consider the assumed value of $\sigma_{cc-short}$). Red and white(hatched) regions represent the detected GRBs for which the uncertainties on the $\alpha$ coordinate are lower or equal to 30 degrees and 15 degrees, respectively. Combining the results from the 1000 Monte-Carlo simulations, we obtained that among the $\sim130$ short GRBs generated in each simulation, $48\pm5$ are detected simultaneously by at least 3 detectors. As clear from Figure~\ref{fig:res_short}, short GRBs are less likely to be precisely localised with the adopted pointing strategy. In fact, the combination of the relatively large cross-correlation uncertainty ($\sigma_{cc-short} = 5$ ms) and the projected baselines allows us to predict only $2\pm1$ short GRBs located with $\sigma_\alpha < 30$ deg. In the following section we will investigate alternative approaches on the pointing strategy to improve the localisation capabilities for long and short GRBs.
+
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.45,angle=0]{res_short_pos}
+\vspace{-2.5cm}
+\caption{Distribution of the Right Ascension (left panel) and Declination (right panel) uncertainties from one of simulations of short GRBs. The red and white-hatched regions highlight the GRBs with $\alpha$ uncertainties lower than 30 degrees and 15 degrees, respectively.} 
+\label{fig:res_short}
+\end{figure}
+
+
+\subsection{Localisation capabilities v.s. satellite baselines}
+As discussed in Sec.\ref{sec:po_strat}, it is worth stressing that the pointing strategy LVLH aims at optimising the overlapping FoVs of the detectors composing a triplet of satellites, in order to guarantee the maximisation of the number of GRBs observed with the possibility to potentially localise them by means of \emph{temporal triangulation}. As clear from the analysis reported above, a large number of events observed simultaneously by 3 (or more) satellites, although desirable, does not guarantee a large number of GRBs well located in the sky. With that in mind, adjustments on the pointing strategy could be applied to improve the localisation capabilities of the HTP/HSP mini-constellation.
+Combining Eq. 2 and Eq.~\ref{eq:chisquare}, it is possible to deduce that the key elements to accurately locate an event in the sky are the accuracy in determining the time delay between the observations in different detectors as well as their projected distance with respect the observed event. In Sec. 4.4 we extensively discussed the former aspect, while here we will focus on the latter by discussing different aspects of the performed simulations. We start by exploring possible correlations between the projected baseline, parameter that describes the relative positions of two satellites with respect a generic GRB direction in the sky, and the accuracy on the two coordinates RA and DEC used to localise an event in the sky. Taking as a reference a triplet of satellite, we can define three different projected baselines, one of which will depend upon the others. As a reference parameter we consider the smallest of the projected baselines defined within the triplet, we then take the whole dataset of long and short simulated GRBs for a specific orbit and we correlate them against the minimum projected baselines. 
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.45,angle=0]{fig_all_pos_long_sim}
+\vspace{-2.5cm}
+\caption{Uncertainties on the Right Ascension $\sigma_\alpha$ (left panel) and Declination $\sigma_\alpha$ (right panel) coordinates as a function of the minimum projected baseline within the triplet (or multiplet) of satellites that observed simultaneously the simulated long GRBs.} 
+\label{fig:all_pos_long_sim}
+\end{figure}
+
+
+Figure~\ref{fig:all_pos_long_sim} shows an example of the correlation between $\sigma_\alpha$ (left panel) and $\sigma_\delta$ (right panel) with respect to the minimum projected baseline for all the long GRBs. The two plots clearly show a dispersion of the values $\sigma_\alpha$ and $\sigma_\delta$. Interestingly and in line with the predictions, this dispersion as well as the absolute value of the uncertainty significantly decrease at large values of the minimum projected baseline. To further investigate the correlations shown in Figure~\ref{fig:all_pos_long_sim}, we apply binning techniques to the datasets creating equally spaced intervals in the projected baseline parameter and averaging the values of $\sigma_\alpha$ and $\sigma_\delta$ within the selections. Figure~\ref{fig:all_pos_long_reb} (empty circles) shows the results of the binning method for the long GRB dataset of Figure~\ref{fig:all_pos_long_sim}. The figure describes the average localisation capabilities of the HTP/HSP configuration while observing randomly distributed long GRBs characterised by $σ_{cc-long} = 1$ ms. It is interesting to note that both the uncertenties on the equatorial coordinates decrease coherently with increasing values of the minimum projected baseline. To be able to quantify the variation of these parameters, we modelled the data with a generic power-law function $a\cdot x^b$. Based on the best-fit models (solid black lines in Figure~\ref{fig:all_pos_long_sim}), we can extrapolate the localisation capabilities of the mini-constellation at different values of the minimum projected baseline of a generic triplet defined within the LVLH pointing strategy. It is worth to notice that by operating the two triplets with an average minimum projected baseline of the order of 6000 km, the mini-constellation will be able to routinely locate all the long GRBs characterised by $σ_{cc-long} = 1$ ms (half of observable sample) with an accuracy $\sigma_\alpha \leq 10$ deg and $\sigma_\delta \leq 42$ deg (red-dashed lines). By increasing the minimum projected baseline up to 10000 km, the accuracies will become of the order of $\sigma_\alpha \leq 7$ deg and $\sigma_\alpha \leq 35$ deg (cyan-dashed lines). 
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.45,angle=0]{fig_all_pos_long_reb}
+\vspace{-2.5cm}
+\caption{Average correlation between the uncertainties in the Right Ascension $\sigma_\alpha$ (left panel) and Declination $\sigma_\alpha$ (right panel) coordinates as a function of the minimum projected baseline obtained by binning the results from the simulated long GRB as detected by the HTP/HSP mini-constellation. The black-solid lines represent the best-fitting model to the data, whilst dashed red and cyan lines mark the achievable values of $\sigma_\alpha$ and $\sigma_\alpha$ for minimum projected baselines of 6000 km and 10000 km, respectively} 
+\label{fig:all_pos_long_reb}
+\end{figure}
+
+We performed a similar analysis for the short GRBs. In analogy with the analysis of the long GRBs, Figure 14 (empty circles) represents the average localisation capabilities of the HTP-HSP configuration with respect to randomly distributed short GRBs characterised by σcc-long = 5 ms. Also in this case, both σα and σδ decrease coherently with increasing values of the minimum projected baseline, although the behaviour at large value of baseline starts to be more complex. To be able to quantify the variation of these parameters, we modelled the data with an ad-hoc function reported in the figure legend. Based on the best-fit models (solid black lines in Figure 14), we can extrapolate the localisation capabilities of the mini-constellation at different values of the minimum projected baseline of a generic triplet. It is interesting to notice that by operating the two triplets with an average minimum projected baseline of the order of 6000 km would allow us to routinely locate all the short GRBs characterised by σcc-short = 5 ms (~30\% of the complete sample) with an accuracy σα ≲ 50 deg and σδ ≲ 85 deg (red-dashed lines Figure 14). Increasing the minimum projected baseline up to 10000 km would allow accuracies such as σα ≲ 28 deg and σδ ≲ 35 deg (cyan-dashed lines in Figure 14).
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.45,angle=0]{fig_all_pos_short_reb}
+\vspace{-2.5cm}
+\caption{Average correlation between the uncertainties in the Right Ascension $\sigma_\alpha$ (left panel) and Declination $\sigma_\alpha$ (right panel) coordinates as a function of the minimum projected baseline obtained by binning the results from the simulated short GRB as detected by the HTP/HSP mini-constellation. The black-solid lines represent the best-fitting model to the data, whilst dashed red and cyan lines mark the achievable values of $\sigma_\alpha$ and $\sigma_\alpha$ for minimum projected baselines of 6000 km and 10000 km, respectively} 
+\label{fig:all_pos_short_reb}
+\end{figure}
+
+It is noteworthy that, from simple geometrical considerations, increasing the projected baseline of the satellites will imply the reduction of overlapping FoV of the detectors with a consequent decrease in number of GRB detected. On the other hand, the fraction of events with good localisation will significantly increase. Therefore, a trade-off study will be carried out to define adjustments on the mission strategy able to maximise the scientific outcomes by defining the compromising number of accurately localised GRBs events.
+As a final remark, we emphasise that these results and predictions are part of an on-going investigation of the HTP-HSP scientific performances, therefore updates as well as improvements in the techniques applied to the data analysis are be expected. Indeed, we are currently investigating the localisation capabilities of the HTP-HSP constellation combining the technique previously described in combination with an independent approach that takes advantage of the differences in measured count rates from the detectors observing the source at different aspect angles (similar to the technique used by Fermi GBM to localise the observed GRBs). With this strategy, we expect to be able to reduce the positional uncertainty, however, further investigation are required to be able to quantify the improvement.
 
 \begin{comment}
 \section{Discussion}
