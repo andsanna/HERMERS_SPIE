@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.23)  11 DEC 2020 08:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.23)  11 DEC 2020 09:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -532,8 +532,13 @@ Missing character: There is no   in font txr!
  [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+txr on input line 156.
 
+LaTeX Warning: Citation `Delia17' on page 2 undefined on input line 149.
+
+
+LaTeX Warning: Citation `' on page 2 undefined on input line 149.
+
+LaTeX Font Info:    Try loading font information for OMS+txr on input line 156.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/omstxr.fd
 File: omstxr.fd 2000/12/15 v3.1
@@ -812,10 +817,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 534.
  ) 
 Here is how much of TeX's memory you used:
- 7780 strings out of 492995
- 109096 string characters out of 6132704
+ 7782 strings out of 492995
+ 109107 string characters out of 6132704
  208972 words of memory out of 5000000
- 11099 multiletter control sequences out of 15000+600000
+ 11101 multiletter control sequences out of 15000+600000
  59635 words of font info for 146 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,16n,35p,2707b,390s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -829,7 +834,7 @@ e1/public/txfonts/txsy.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/
 times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmb
 i8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></
 usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (18 pages, 7054461 bytes).
+Output written on main.pdf (18 pages, 7054514 bytes).
 PDF statistics:
  602 PDF objects out of 1000 (max. 8388607)
  355 compressed objects within 4 object streams
