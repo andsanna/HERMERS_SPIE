@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1607643401 "main.aux" "main.bbl" "main" 1607643522
+["bibtex main"] 1607643401 "main.aux" "main.bbl" "main" 1607672728
   "./spiebib.bst" 1607380278 20917 5ac1fce8241b571b46fcef3fee4fa580 ""
-  "main.aux" 1607643521 11094 ab573b8edd59715bdc99a60c9542a056 ""
+  "main.aux" 1607672726 11094 ab573b8edd59715bdc99a60c9542a056 ""
   "report.bib" 1607588056 6682 ebeaec419b0c1bb3e7fb24ecb6732482 ""
   (generated)
-  "main.blg"
   "main.bbl"
-["pdflatex"] 1607643520 "main.tex" "main.pdf" "main" 1607643522
+  "main.blg"
+["pdflatex"] 1607672725 "main.tex" "main.pdf" "main" 1607672728
   "/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/txfonts/rtxb.tfm" 1480098718 1020 c53143d3e3747b5c1149bd9a5ecd7b55 ""
@@ -119,10 +119,10 @@
   "fig_all_pos_short_reb.pdf" 1607613507 301809 27ff38cf5be679fb86962d6eb7fb78ec ""
   "fig_loc_30deg.pdf" 1607600511 788287 7d4ef678dc00aa41e60e7fb424146ea5 ""
   "fig_loc_70deg.pdf" 1607600587 819480 b80a753751c70adbab0965aaa501caf5 ""
-  "main.aux" 1607643521 11094 ab573b8edd59715bdc99a60c9542a056 ""
+  "main.aux" 1607672726 11094 ab573b8edd59715bdc99a60c9542a056 ""
   "main.bbl" 1607643401 2340 52011c5cf4f8ec85e59cb3259f085806 "bibtex main"
-  "main.out" 1607643521 1000 82bf977256586fe7409e79ee141f801b ""
-  "main.tex" 1607643518 69766 0fcf0301fa2f95b84b91c390dcdd44dd ""
+  "main.out" 1607672726 1000 82bf977256586fe7409e79ee141f801b ""
+  "main.tex" 1607672723 68099 c42fe19638d0fdea87f13af08e549743 ""
   "pointying_strategy.pdf" 1607556275 378046 65e802900dcb2b697966837798c12f9c ""
   "res_long_pos.pdf" 1607605032 344130 d7fc69facfddc5836a145d5788a1b6f4 ""
   "res_short_pos.pdf" 1607604974 280782 35c68fb7a405754361e751f32c6ef585 ""
@@ -135,7 +135,7 @@
   "triangulation.pdf" 1607416355 523194 db0bd5bf795eb31dcee859c39ad7bb7d ""
   "trinag_fig1.png" 1607419310 82792 6cc2c154f89e5f212ac102e2899554b3 ""
   (generated)
-  "main.aux"
   "main.pdf"
-  "main.out"
   "main.log"
+  "main.out"
+  "main.aux"

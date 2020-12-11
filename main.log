@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.23)  11 DEC 2020 00:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.23)  11 DEC 2020 08:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -566,49 +566,49 @@ File: triangulation.pdf Graphic file (type pdf)
 Package pdftex.def Info: triangulation.pdf used on input line 187.
 (pdftex.def)             Requested size: 271.07964pt x 227.62204pt.
 
-Excluding 'comment' comment. [4 <./triangulation.pdf>]
-<trinag_fig1.png, id=113, 519.9425pt x 381.425pt>
+[4 <./triangulation.pdf>] <trinag_fig1.png, id=113, 519.9425pt x 381.425pt>
 File: trinag_fig1.png Graphic file (type png)
- <use trinag_fig1.png>
-Package pdftex.def Info: trinag_fig1.png used on input line 220.
+
+<use trinag_fig1.png>
+Package pdftex.def Info: trinag_fig1.png used on input line 207.
 (pdftex.def)             Requested size: 193.92278pt x 142.26378pt.
-
-<triang_fig2.png, id=115, 213.79875pt x 404.51125pt>
+ <triang_fig2.png, id=115, 213.79875pt x 404.51125pt>
 File: triang_fig2.png Graphic file (type png)
- <use triang_fig2.png>
-Package pdftex.def Info: triang_fig2.png used on input line 221.
-(pdftex.def)             Requested size: 90.232pt x 170.71652pt.
 
-<triang_fig3.png, id=116, 359.3425pt x 401.5pt>
+<use triang_fig2.png>
+Package pdftex.def Info: triang_fig2.png used on input line 208.
+(pdftex.def)             Requested size: 90.232pt x 170.71652pt.
+ <triang_fig3.png, id=116, 359.3425pt x 401.5pt>
 File: triang_fig3.png Graphic file (type png)
- <use triang_fig3.png>
-Package pdftex.def Info: triang_fig3.png used on input line 222.
+
+<use triang_fig3.png>
+Package pdftex.def Info: triang_fig3.png used on input line 209.
 (pdftex.def)             Requested size: 152.79256pt x 170.71652pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--241
+Underfull \hbox (badness 10000) in paragraph at lines 225--228
 
  []
 
 [5 <./trinag_fig1.png> <./triang_fig2.png> <./triang_fig3.png>]
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <7> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 291.
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 278.
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <6> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 291.
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 278.
  [6]
 <fig/Template_comparison_Long.pdf, id=141, 462.52798pt x 346.89601pt>
 File: fig/Template_comparison_Long.pdf Graphic file (type pdf)
 
 <use fig/Template_comparison_Long.pdf>
-Package pdftex.def Info: fig/Template_comparison_Long.pdf used on input line 30
-4.
+Package pdftex.def Info: fig/Template_comparison_Long.pdf used on input line 29
+1.
 (pdftex.def)             Requested size: 240.51593pt x 180.38696pt.
 
 <fig/Template_comparison_Short.pdf, id=142, 462.52798pt x 346.89601pt>
 File: fig/Template_comparison_Short.pdf Graphic file (type pdf)
 
 <use fig/Template_comparison_Short.pdf>
-Package pdftex.def Info: fig/Template_comparison_Short.pdf used on input line 3
-05.
+Package pdftex.def Info: fig/Template_comparison_Short.pdf used on input line 2
+92.
 (pdftex.def)             Requested size: 240.51593pt x 180.38696pt.
 
 
@@ -619,7 +619,7 @@ File: fig/CrossCorrelation_fit_LONG.pdf Graphic file (type pdf)
 
 <use fig/CrossCorrelation_fit_LONG.pdf>
 Package pdftex.def Info: fig/CrossCorrelation_fit_LONG.pdf used on input line 3
-17.
+04.
 (pdftex.def)             Requested size: 240.51593pt x 180.38696pt.
 
 <fig/CrossCorrelation_fit_Short.pdf, id=146, 462.52798pt x 346.89601pt>
@@ -627,7 +627,7 @@ File: fig/CrossCorrelation_fit_Short.pdf Graphic file (type pdf)
 
 <use fig/CrossCorrelation_fit_Short.pdf>
 Package pdftex.def Info: fig/CrossCorrelation_fit_Short.pdf used on input line 
-318.
+305.
 (pdftex.def)             Requested size: 240.51593pt x 180.38696pt.
 
 
@@ -637,14 +637,14 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: sigma_cc_sim.pdf Graphic file (type pdf)
 
 <use sigma_cc_sim.pdf>
-Package pdftex.def Info: sigma_cc_sim.pdf used on input line 329.
+Package pdftex.def Info: sigma_cc_sim.pdf used on input line 316.
 (pdftex.def)             Requested size: 380.31737pt x 268.75157pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 335--338
+Underfull \hbox (badness 10000) in paragraph at lines 322--325
 
  []
 
@@ -664,28 +664,28 @@ sion: multiple pdfs with page group included in a single page
 File: Long_GRB_sigma_dist.pdf Graphic file (type pdf)
 
 <use Long_GRB_sigma_dist.pdf>
-Package pdftex.def Info: Long_GRB_sigma_dist.pdf used on input line 345.
+Package pdftex.def Info: Long_GRB_sigma_dist.pdf used on input line 332.
 (pdftex.def)             Requested size: 228.83553pt x 170.71652pt.
 
 <short_GRB_sigma_dist.pdf, id=332, 591.71063pt x 445.16313pt>
 File: short_GRB_sigma_dist.pdf Graphic file (type pdf)
 
 <use short_GRB_sigma_dist.pdf>
-Package pdftex.def Info: short_GRB_sigma_dist.pdf used on input line 346.
+Package pdftex.def Info: short_GRB_sigma_dist.pdf used on input line 333.
 (pdftex.def)             Requested size: 226.91093pt x 170.71652pt.
 
 <Long_GRB_sigma_flux.pdf, id=333, 596.72937pt x 445.16313pt>
 File: Long_GRB_sigma_flux.pdf Graphic file (type pdf)
 
 <use Long_GRB_sigma_flux.pdf>
-Package pdftex.def Info: Long_GRB_sigma_flux.pdf used on input line 347.
+Package pdftex.def Info: Long_GRB_sigma_flux.pdf used on input line 334.
 (pdftex.def)             Requested size: 228.83553pt x 170.71652pt.
 
 <short_GRB_sigma_flux.pdf, id=334, 591.71063pt x 445.16313pt>
 File: short_GRB_sigma_flux.pdf Graphic file (type pdf)
 
 <use short_GRB_sigma_flux.pdf>
-Package pdftex.def Info: short_GRB_sigma_flux.pdf used on input line 348.
+Package pdftex.def Info: short_GRB_sigma_flux.pdf used on input line 335.
 (pdftex.def)             Requested size: 226.91093pt x 170.71652pt.
  [9 <./sigma_cc_sim.pdf, page is rotated 90 degrees>] [10 <./Long_GRB_sigma_dis
 t.pdf> <./short_GRB_sigma_dist.pdf> <./Long_GRB_sigma_flux.pdf> <./short_GRB_si
@@ -694,13 +694,13 @@ gma_flux.pdf>]
 File: pointying_strategy.pdf Graphic file (type pdf)
 
 <use pointying_strategy.pdf>
-Package pdftex.def Info: pointying_strategy.pdf used on input line 384.
+Package pdftex.def Info: pointying_strategy.pdf used on input line 371.
 (pdftex.def)             Requested size: 268.75157pt x 380.31737pt.
 Missing character: There is no â in font txr!
 Missing character: There is no € in font txr!
 Missing character: There is no ™ in font txr!
  [11 <./pointying_strategy.pdf>]
-Overfull \hbox (1.55711pt too wide) in paragraph at lines 413--414
+Overfull \hbox (1.55711pt too wide) in paragraph at lines 400--401
 []\OT1/txr/m/n/10 for each GRB event, we de-ter-mined the num-ber of ac-tive sa
 tel-lites (non-transiting within the South At-lantic Anomaly)
  []
@@ -708,16 +708,16 @@ tel-lites (non-transiting within the South At-lantic Anomaly)
 <fig_loc_30deg.pdf, id=432, 597.23125pt x 845.1575pt>
 File: fig_loc_30deg.pdf Graphic file (type pdf)
  <use fig_loc_30deg.pdf>
-Package pdftex.def Info: fig_loc_30deg.pdf used on input line 432.
+Package pdftex.def Info: fig_loc_30deg.pdf used on input line 419.
 (pdftex.def)             Requested size: 238.88826pt x 338.057pt.
 
 <fig_loc_70deg.pdf, id=433, 845.1575pt x 597.23125pt>
 File: fig_loc_70deg.pdf Graphic file (type pdf)
  <use fig_loc_70deg.pdf>
-Package pdftex.def Info: fig_loc_70deg.pdf used on input line 433.
+Package pdftex.def Info: fig_loc_70deg.pdf used on input line 420.
 (pdftex.def)             Requested size: 338.057pt x 238.88826pt.
 
-Overfull \hbox (13.95403pt too wide) in paragraph at lines 431--436
+Overfull \hbox (13.95403pt too wide) in paragraph at lines 418--423
  [] 
  []
 
@@ -726,10 +726,10 @@ f>] <res_long_pos.pdf, id=470, 845.1575pt x 597.23125pt>
 File: res_long_pos.pdf Graphic file (type pdf)
 
 <use res_long_pos.pdf>
-Package pdftex.def Info: res_long_pos.pdf used on input line 462.
+Package pdftex.def Info: res_long_pos.pdf used on input line 449.
 (pdftex.def)             Requested size: 507.09842pt x 358.3415pt.
 
-Overfull \hbox (19.27592pt too wide) in paragraph at lines 462--464
+Overfull \hbox (19.27592pt too wide) in paragraph at lines 449--451
  [][] 
  []
 
@@ -737,25 +737,25 @@ Overfull \hbox (19.27592pt too wide) in paragraph at lines 462--464
 <res_short_pos.pdf, id=486, 845.1575pt x 597.23125pt>
 File: res_short_pos.pdf Graphic file (type pdf)
  <use res_short_pos.pdf>
-Package pdftex.def Info: res_short_pos.pdf used on input line 487.
+Package pdftex.def Info: res_short_pos.pdf used on input line 474.
 (pdftex.def)             Requested size: 507.09842pt x 358.3415pt.
 
-Overfull \hbox (19.27592pt too wide) in paragraph at lines 487--489
+Overfull \hbox (19.27592pt too wide) in paragraph at lines 474--476
  [][] 
  []
 
 
-LaTeX Warning: Reference `eq:chisquare' on page 15 undefined on input line 496.
+LaTeX Warning: Reference `eq:chisquare' on page 15 undefined on input line 483.
 
 
 <fig_all_pos_long_sim.pdf, id=488, 845.1575pt x 597.23125pt>
 File: fig_all_pos_long_sim.pdf Graphic file (type pdf)
 
 <use fig_all_pos_long_sim.pdf>
-Package pdftex.def Info: fig_all_pos_long_sim.pdf used on input line 500.
+Package pdftex.def Info: fig_all_pos_long_sim.pdf used on input line 487.
 (pdftex.def)             Requested size: 507.09842pt x 358.3415pt.
 
-Overfull \hbox (19.27592pt too wide) in paragraph at lines 500--502
+Overfull \hbox (19.27592pt too wide) in paragraph at lines 487--489
  [][] 
  []
 
@@ -767,10 +767,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: fig_all_pos_long_reb.pdf Graphic file (type pdf)
 
 <use fig_all_pos_long_reb.pdf>
-Package pdftex.def Info: fig_all_pos_long_reb.pdf used on input line 511.
+Package pdftex.def Info: fig_all_pos_long_reb.pdf used on input line 498.
 (pdftex.def)             Requested size: 507.09842pt x 358.3415pt.
 
-Overfull \hbox (19.27592pt too wide) in paragraph at lines 511--513
+Overfull \hbox (19.27592pt too wide) in paragraph at lines 498--500
  [][] 
  []
 
@@ -781,10 +781,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: fig_all_pos_short_reb.pdf Graphic file (type pdf)
 
 <use fig_all_pos_short_reb.pdf>
-Package pdftex.def Info: fig_all_pos_short_reb.pdf used on input line 523.
+Package pdftex.def Info: fig_all_pos_short_reb.pdf used on input line 510.
 (pdftex.def)             Requested size: 507.09842pt x 358.3415pt.
 
-Overfull \hbox (19.27592pt too wide) in paragraph at lines 523--525
+Overfull \hbox (19.27592pt too wide) in paragraph at lines 510--512
  [][] 
  []
 
@@ -796,26 +796,26 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: Text page 17 contains only floats.
 
 [17 <./fig_all_pos_long_reb.pdf> <./fig_all_pos_short_reb.pdf>] (./main.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 547.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 534.
 
 [18]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 547.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 534.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 547.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 547.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 534.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 534.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 82BF977256586FE7409E79EE141F801B;1000.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 547.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 534.
  ) 
 Here is how much of TeX's memory you used:
- 7781 strings out of 492995
- 109106 string characters out of 6132704
+ 7780 strings out of 492995
+ 109096 string characters out of 6132704
  208972 words of memory out of 5000000
- 11100 multiletter control sequences out of 15000+600000
+ 11099 multiletter control sequences out of 15000+600000
  59635 words of font info for 146 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,16n,35p,2707b,390s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -829,7 +829,7 @@ e1/public/txfonts/txsy.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/
 times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmb
 i8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></
 usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (18 pages, 7054268 bytes).
+Output written on main.pdf (18 pages, 7054462 bytes).
 PDF statistics:
  602 PDF objects out of 1000 (max. 8388607)
  355 compressed objects within 4 object streams

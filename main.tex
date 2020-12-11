@@ -194,19 +194,6 @@ Schematic representation of the \emph{Temporal Triangulation} principle applied 
 \end{figure} 
 
 
-
-\begin{comment}
-\subsection{Intro Angelo}
-\label{sec:intro}  % \label{} allows reference to this section
-
-
-The Gamma Ray bursts are transient celestial events that are thought to be produced by the collapse of massive stars or by the coalescence of two compact objects. Their main observational characteristics are the huge luminosity and fast variability, often as short as one millisecond, with a spectral emission localized between the hard X-rays and soft Gamma rays. This phenomena have duration that can vary in each case, starting from few decimals of seconds up to hundreds of seconds. For this reason the GRBs population is catalogued according to the time scale during which the 90\% of the flux is emitted by the source (F$_{90}$). The population of Short GRBs includes bursts with T$_{90}$ $\lesssim$2 s, whilst GRBs with larger values of T$_{90}$ are catalogues as Long GRBs.
-Assuming isotropic emission the energy released can attain 10$^{54}$ erg, i. e. the rest mass energy of the Sun (see e.g. Bloom et al. 2009, ApJ, 691, 723), in about 100s duration. However it is now believed that strong beaming reduces the energetic budget up to three orders of magnitude (Abdo et al. 2009, Science, 323, 1688).\\
-The coalescence of compact objects, neutron stars (NS) and black holes (BH), and the sudden collapse to form a BH, are fundamental to investigate both the physics of matter under extreme conditions, and the ultimate structure of space-time. For this reason, a fast and accurate localization of the prompt emission of the GRBs is fundamental, especially for the syncronous observation of the GRB phenomenology with different observatories. 
-
-
-\end{comment}
-
 \section{Triangulation technique}
 The aim of this work is to investigate the localisation capabilities of the HTP/HSP mini-constellation composed of six 3U units. The main targets that will be discussed in the following are the highly energetic high-energy transients GRBs. 
 
@@ -234,7 +221,7 @@ A first proxy on the accuracy in determining the source position $\sigma_{PA}$ c
 
 \begin{equation}
 \label{eq:sigma_pos}
-\sigma_{PA} = \dfrac{(\sigma_{delay}+\sigma_{tpos}+\sigma_{time})^2}{<Baseline>\sqrt{(N-1-2)}},
+\sigma_{PA} = \dfrac{\sqrt{(\sigma^2_{delay}+\sigma^2_{tpos}+\sigma^2_{time})}}{<Baseline>\sqrt{(N-1-2)}},
 \end{equation}
 %
 where $\sigma_{delay}$ is the error on the delay measurement obtained combining the light-curves recorded by two detectors, $\sigma_{tpos}=\sigma_{pos}/c$ is the error induced by the uncertainties on the space localisation of the detectors, $\sigma_{time}$ is the uncertainty on the absolute time reconstruction, $<Baseline>$ is the average distance between the detectors ad N$_{ind} = N-1$ is the number of statistically independent pairs of satellites used to determine the delay measurements.\\
