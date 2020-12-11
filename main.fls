@@ -300,12 +300,12 @@ INPUT ./fig/CrossCorrelation_fit_LONG.pdf
 INPUT fig/CrossCorrelation_fit_Short.pdf
 INPUT ./fig/CrossCorrelation_fit_Short.pdf
 INPUT ./fig/CrossCorrelation_fit_Short.pdf
-INPUT sigma_cc_sim.pdf
-INPUT ./sigma_cc_sim.pdf
-INPUT ./sigma_cc_sim.pdf
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/vf/public/txfonts/txr.vf
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/txfonts/rtxptmr.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/txfonts/rtxr.tfm
+INPUT sigma_cc_sim.pdf
+INPUT ./sigma_cc_sim.pdf
+INPUT ./sigma_cc_sim.pdf
 INPUT Long_GRB_sigma_dist.pdf
 INPUT ./Long_GRB_sigma_dist.pdf
 INPUT ./Long_GRB_sigma_dist.pdf

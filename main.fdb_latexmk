@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1607684925 "main.aux" "main.bbl" "main" 1607684929
+["bibtex main"] 1607686010 "main.aux" "main.bbl" "main" 1607686408
   "./spiebib.bst" 1607380278 20917 5ac1fce8241b571b46fcef3fee4fa580 ""
-  "main.aux" 1607684926 11295 b362a08434bc7bdd112f1bce5ca5363e ""
+  "main.aux" 1607686407 11312 00f35b05c708fd047c89cc3932ed9449 ""
   "reported.bib" 0 -1 0 ""
   (generated)
-  "main.blg"
   "main.bbl"
-["pdflatex"] 1607684925 "main.tex" "main.pdf" "main" 1607684929
+  "main.blg"
+["pdflatex"] 1607686406 "main.tex" "main.pdf" "main" 1607686408
   "/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/txfonts/rtxb.tfm" 1480098718 1020 c53143d3e3747b5c1149bd9a5ecd7b55 ""
@@ -119,10 +119,10 @@
   "fig_all_pos_short_reb.pdf" 1607613507 301809 27ff38cf5be679fb86962d6eb7fb78ec ""
   "fig_loc_30deg.pdf" 1607600511 788287 7d4ef678dc00aa41e60e7fb424146ea5 ""
   "fig_loc_70deg.pdf" 1607600587 819480 b80a753751c70adbab0965aaa501caf5 ""
-  "main.aux" 1607684926 11295 b362a08434bc7bdd112f1bce5ca5363e ""
+  "main.aux" 1607686407 11312 00f35b05c708fd047c89cc3932ed9449 ""
   "main.bbl" 1607681139 49 0eba253fc001332e731e8aba3f23127b "bibtex main"
-  "main.out" 1607684926 1000 82bf977256586fe7409e79ee141f801b ""
-  "main.tex" 1607684920 68377 68946d4610153ea5b7f813a5f4e86cc7 ""
+  "main.out" 1607686407 1000 82bf977256586fe7409e79ee141f801b ""
+  "main.tex" 1607686404 68393 f8167224dd12e31ea74402be1e233830 ""
   "pointying_strategy.pdf" 1607556275 378046 65e802900dcb2b697966837798c12f9c ""
   "res_long_pos.pdf" 1607605032 344130 d7fc69facfddc5836a145d5788a1b6f4 ""
   "res_short_pos.pdf" 1607604974 280782 35c68fb7a405754361e751f32c6ef585 ""
@@ -135,7 +135,7 @@
   "triangulation.pdf" 1607416355 523194 db0bd5bf795eb31dcee859c39ad7bb7d ""
   "trinag_fig1.png" 1607419310 82792 6cc2c154f89e5f212ac102e2899554b3 ""
   (generated)
-  "main.pdf"
   "main.aux"
-  "main.out"
   "main.log"
+  "main.pdf"
+  "main.out"
