@@ -1,56 +1,63 @@
 This is BibTeX, Version 0.99d (TeX Live 2017)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
-The top-level auxiliary file: main.aux
+The top-level auxiliary file: ./main.aux
+I couldn't open database file spiebib.bib
+---line 73 of file ./main.aux
+ : \bibdata{spiebib
+ :                 }
+I'm skipping whatever remains of this command
 The style file: spiebib.bst
-Database file #1: report.bib
-Warning--I didn't find a database entry for "Delia17"
-Warning--I didn't find a database entry for ""
-Warning--empty publisher in Schilling02
-Warning--empty booktitle or editor in Fuschino20
-Warning--empty publisher in Fuschino20
-Warning--empty booktitle or editor in Evangelista20
-Warning--empty publisher in Evangelista20
-Warning--empty booktitle or editor in Fiore20
-Warning--empty publisher in Fiore20
-You've used 7 entries,
+I found no database files---while reading file ./main.aux
+Warning--I didn't find a database entry for "GW170817_GW"
+Warning--I didn't find a database entry for "Troja17"
+Warning--I didn't find a database entry for "Cowperthwaite17"
+Warning--I didn't find a database entry for "Siebert17"
+Warning--I didn't find a database entry for "douglas19"
+Warning--I didn't find a database entry for "Shkolnik18"
+Warning--I didn't find a database entry for "Schilling02"
+Warning--I didn't find a database entry for "Fuschino20"
+Warning--I didn't find a database entry for "Evangelista20"
+Warning--I didn't find a database entry for "Fiore20"
+Warning--I didn't find a database entry for "vonKienlin20"
+You've used 0 entries,
             1993 wiz_defined-function locations,
-            546 strings with 5765 characters,
-and the built_in function-call counts, 2017 in all, are:
-= -- 104
-> -- 205
+            522 strings with 3927 characters,
+and the built_in function-call counts, 20 in all, are:
+= -- 0
+> -- 0
 < -- 0
-+ -- 72
-- -- 65
-* -- 232
-:= -- 351
-add.period$ -- 7
-call.type$ -- 7
-change.case$ -- 6
++ -- 0
+- -- 0
+* -- 2
+:= -- 9
+add.period$ -- 0
+call.type$ -- 0
+change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 14
-duplicate$ -- 72
-empty$ -- 147
-format.name$ -- 65
-if$ -- 418
+cite$ -- 0
+duplicate$ -- 0
+empty$ -- 1
+format.name$ -- 0
+if$ -- 1
 int.to.chr$ -- 0
-int.to.str$ -- 7
-missing$ -- 8
-newline$ -- 24
-num.names$ -- 7
-pop$ -- 27
+int.to.str$ -- 0
+missing$ -- 0
+newline$ -- 3
+num.names$ -- 0
+pop$ -- 0
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 35
+skip$ -- 1
 stack$ -- 0
-substring$ -- 30
-swap$ -- 27
+substring$ -- 0
+swap$ -- 0
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 7
-while$ -- 11
-width$ -- 8
-write$ -- 60
-(There were 9 warnings)
+warning$ -- 0
+while$ -- 0
+width$ -- 0
+write$ -- 2
+(There were 2 error messages)

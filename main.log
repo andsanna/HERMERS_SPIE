@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.23)  11 DEC 2020 09:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.23)  11 DEC 2020 09:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -533,10 +533,23 @@ Missing character: There is no † in font txr!
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
-LaTeX Warning: Citation `Delia17' on page 2 undefined on input line 149.
+LaTeX Warning: Citation `GW170817_GW' on page 2 undefined on input line 149.
 
 
-LaTeX Warning: Citation `' on page 2 undefined on input line 149.
+LaTeX Warning: Citation `Troja17' on page 2 undefined on input line 149.
+
+
+LaTeX Warning: Citation `Cowperthwaite17' on page 2 undefined on input line 149
+.
+
+
+LaTeX Warning: Citation `Siebert17' on page 2 undefined on input line 149.
+
+
+LaTeX Warning: Citation `douglas19' on page 2 undefined on input line 151.
+
+
+LaTeX Warning: Citation `Shkolnik18' on page 2 undefined on input line 151.
 
 LaTeX Font Info:    Try loading font information for OMS+txr on input line 156.
 
@@ -545,13 +558,29 @@ File: omstxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <10> not available
 (Font)              Font shape `OMS/txsy/m/n' tried instead on input line 156.
+
+
+LaTeX Warning: Citation `Schilling02' on page 2 undefined on input line 161.
+
+
+LaTeX Warning: Citation `GW170817_GW' on page 2 undefined on input line 161.
+
+
+LaTeX Warning: Citation `Troja17' on page 2 undefined on input line 161.
+
 Missing character: There is no ‚ in font txr!
 Missing character: There is no Ä in font txr!
 Missing character: There is no ú in font txr!
 Missing character: There is no ‚ in font txr!
 Missing character: There is no Ä in font txr!
 Missing character: There is no ù in font txr!
- [2]
+[2]
+
+LaTeX Warning: Citation `Fuschino20' on page 3 undefined on input line 173.
+
+
+LaTeX Warning: Citation `Evangelista20' on page 3 undefined on input line 173.
+
 Missing character: There is no ‚ in font txr!
 Missing character: There is no Ä in font txr!
 Missing character: There is no ô in font txr!
@@ -560,30 +589,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 176--177
 
  []
 
-
+[3]
 Underfull \hbox (badness 10000) in paragraph at lines 177--178
 
  []
 
-[3] <triangulation.pdf, id=93, 525.965pt x 441.65pt>
+
+LaTeX Warning: Citation `Fiore20' on page 4 undefined on input line 181.
+
+<triangulation.pdf, id=80, 525.965pt x 441.65pt>
 File: triangulation.pdf Graphic file (type pdf)
  <use triangulation.pdf>
 Package pdftex.def Info: triangulation.pdf used on input line 187.
 (pdftex.def)             Requested size: 271.07964pt x 227.62204pt.
 
-[4 <./triangulation.pdf>] <trinag_fig1.png, id=113, 519.9425pt x 381.425pt>
+[4 <./triangulation.pdf>] <trinag_fig1.png, id=99, 519.9425pt x 381.425pt>
 File: trinag_fig1.png Graphic file (type png)
 
 <use trinag_fig1.png>
 Package pdftex.def Info: trinag_fig1.png used on input line 207.
 (pdftex.def)             Requested size: 193.92278pt x 142.26378pt.
- <triang_fig2.png, id=115, 213.79875pt x 404.51125pt>
+ <triang_fig2.png, id=101, 213.79875pt x 404.51125pt>
 File: triang_fig2.png Graphic file (type png)
 
 <use triang_fig2.png>
 Package pdftex.def Info: triang_fig2.png used on input line 208.
 (pdftex.def)             Requested size: 90.232pt x 170.71652pt.
- <triang_fig3.png, id=116, 359.3425pt x 401.5pt>
+ <triang_fig3.png, id=102, 359.3425pt x 401.5pt>
 File: triang_fig3.png Graphic file (type png)
 
 <use triang_fig3.png>
@@ -600,7 +632,7 @@ LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <7> not available
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <6> not available
 (Font)              Font shape `OMS/txsy/m/n' tried instead on input line 278.
  [6]
-<fig/Template_comparison_Long.pdf, id=141, 462.52798pt x 346.89601pt>
+<fig/Template_comparison_Long.pdf, id=127, 462.52798pt x 346.89601pt>
 File: fig/Template_comparison_Long.pdf Graphic file (type pdf)
 
 <use fig/Template_comparison_Long.pdf>
@@ -608,7 +640,7 @@ Package pdftex.def Info: fig/Template_comparison_Long.pdf used on input line 29
 1.
 (pdftex.def)             Requested size: 240.51593pt x 180.38696pt.
 
-<fig/Template_comparison_Short.pdf, id=142, 462.52798pt x 346.89601pt>
+<fig/Template_comparison_Short.pdf, id=128, 462.52798pt x 346.89601pt>
 File: fig/Template_comparison_Short.pdf Graphic file (type pdf)
 
 <use fig/Template_comparison_Short.pdf>
@@ -619,7 +651,7 @@ Package pdftex.def Info: fig/Template_comparison_Short.pdf used on input line 2
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<fig/CrossCorrelation_fit_LONG.pdf, id=145, 462.52798pt x 346.89601pt>
+[7] <fig/CrossCorrelation_fit_LONG.pdf, id=139, 462.52798pt x 346.89601pt>
 File: fig/CrossCorrelation_fit_LONG.pdf Graphic file (type pdf)
 
 <use fig/CrossCorrelation_fit_LONG.pdf>
@@ -627,33 +659,14 @@ Package pdftex.def Info: fig/CrossCorrelation_fit_LONG.pdf used on input line 3
 04.
 (pdftex.def)             Requested size: 240.51593pt x 180.38696pt.
 
-<fig/CrossCorrelation_fit_Short.pdf, id=146, 462.52798pt x 346.89601pt>
+<fig/CrossCorrelation_fit_Short.pdf, id=140, 462.52798pt x 346.89601pt>
 File: fig/CrossCorrelation_fit_Short.pdf Graphic file (type pdf)
 
 <use fig/CrossCorrelation_fit_Short.pdf>
 Package pdftex.def Info: fig/CrossCorrelation_fit_Short.pdf used on input line 
 305.
 (pdftex.def)             Requested size: 240.51593pt x 180.38696pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[7] <sigma_cc_sim.pdf, id=158, 845.1575pt x 597.23125pt>
-File: sigma_cc_sim.pdf Graphic file (type pdf)
-
-<use sigma_cc_sim.pdf>
-Package pdftex.def Info: sigma_cc_sim.pdf used on input line 316.
-(pdftex.def)             Requested size: 380.31737pt x 268.75157pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 322--325
-
- []
-
-[8 <./fig/Template_comparison_Long.pdf> <./fig/Template_comparison_Short.pdf
+ [8 <./fig/Template_comparison_Long.pdf> <./fig/Template_comparison_Short.pdf
 
 pdfTeX warning: pdflatex (file ./fig/Template_comparison_Short.pdf): PDF inclus
 ion: multiple pdfs with page group included in a single page
@@ -665,28 +678,38 @@ ion: multiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./fig/CrossCorrelation_fit_Short.pdf): PDF inclu
 sion: multiple pdfs with page group included in a single page
->] <Long_GRB_sigma_dist.pdf, id=331, 596.72937pt x 445.16313pt>
+>] <sigma_cc_sim.pdf, id=311, 845.1575pt x 597.23125pt>
+File: sigma_cc_sim.pdf Graphic file (type pdf)
+ <use sigma_cc_sim.pdf>
+Package pdftex.def Info: sigma_cc_sim.pdf used on input line 316.
+(pdftex.def)             Requested size: 380.31737pt x 268.75157pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--325
+
+ []
+
+<Long_GRB_sigma_dist.pdf, id=316, 596.72937pt x 445.16313pt>
 File: Long_GRB_sigma_dist.pdf Graphic file (type pdf)
 
 <use Long_GRB_sigma_dist.pdf>
 Package pdftex.def Info: Long_GRB_sigma_dist.pdf used on input line 332.
 (pdftex.def)             Requested size: 228.83553pt x 170.71652pt.
 
-<short_GRB_sigma_dist.pdf, id=332, 591.71063pt x 445.16313pt>
+<short_GRB_sigma_dist.pdf, id=317, 591.71063pt x 445.16313pt>
 File: short_GRB_sigma_dist.pdf Graphic file (type pdf)
 
 <use short_GRB_sigma_dist.pdf>
 Package pdftex.def Info: short_GRB_sigma_dist.pdf used on input line 333.
 (pdftex.def)             Requested size: 226.91093pt x 170.71652pt.
 
-<Long_GRB_sigma_flux.pdf, id=333, 596.72937pt x 445.16313pt>
+<Long_GRB_sigma_flux.pdf, id=318, 596.72937pt x 445.16313pt>
 File: Long_GRB_sigma_flux.pdf Graphic file (type pdf)
 
 <use Long_GRB_sigma_flux.pdf>
 Package pdftex.def Info: Long_GRB_sigma_flux.pdf used on input line 334.
 (pdftex.def)             Requested size: 228.83553pt x 170.71652pt.
 
-<short_GRB_sigma_flux.pdf, id=334, 591.71063pt x 445.16313pt>
+<short_GRB_sigma_flux.pdf, id=319, 591.71063pt x 445.16313pt>
 File: short_GRB_sigma_flux.pdf Graphic file (type pdf)
 
 <use short_GRB_sigma_flux.pdf>
@@ -695,7 +718,7 @@ Package pdftex.def Info: short_GRB_sigma_flux.pdf used on input line 335.
  [9 <./sigma_cc_sim.pdf, page is rotated 90 degrees>] [10 <./Long_GRB_sigma_dis
 t.pdf> <./short_GRB_sigma_dist.pdf> <./Long_GRB_sigma_flux.pdf> <./short_GRB_si
 gma_flux.pdf>]
-<pointying_strategy.pdf, id=414, 597.23125pt x 845.1575pt>
+<pointying_strategy.pdf, id=400, 597.23125pt x 845.1575pt>
 File: pointying_strategy.pdf Graphic file (type pdf)
 
 <use pointying_strategy.pdf>
@@ -705,18 +728,22 @@ Missing character: There is no ‚ in font txr!
 Missing character: There is no Ä in font txr!
 Missing character: There is no ô in font txr!
  [11 <./pointying_strategy.pdf>]
+
+LaTeX Warning: Citation `vonKienlin20' on page 12 undefined on input line 396.
+
+
 Overfull \hbox (1.55711pt too wide) in paragraph at lines 400--401
 []\OT1/txr/m/n/10 for each GRB event, we de-ter-mined the num-ber of ac-tive sa
 tel-lites (non-transiting within the South At-lantic Anomaly)
  []
 
-<fig_loc_30deg.pdf, id=432, 597.23125pt x 845.1575pt>
+<fig_loc_30deg.pdf, id=417, 597.23125pt x 845.1575pt>
 File: fig_loc_30deg.pdf Graphic file (type pdf)
  <use fig_loc_30deg.pdf>
 Package pdftex.def Info: fig_loc_30deg.pdf used on input line 419.
 (pdftex.def)             Requested size: 238.88826pt x 338.057pt.
 
-<fig_loc_70deg.pdf, id=433, 845.1575pt x 597.23125pt>
+<fig_loc_70deg.pdf, id=418, 845.1575pt x 597.23125pt>
 File: fig_loc_70deg.pdf Graphic file (type pdf)
  <use fig_loc_70deg.pdf>
 Package pdftex.def Info: fig_loc_70deg.pdf used on input line 420.
@@ -727,7 +754,7 @@ Overfull \hbox (13.95403pt too wide) in paragraph at lines 418--423
  []
 
 [12] [13 <./fig_loc_30deg.pdf, page is rotated 270 degrees> <./fig_loc_70deg.pd
-f>] <res_long_pos.pdf, id=470, 845.1575pt x 597.23125pt>
+f>] <res_long_pos.pdf, id=454, 845.1575pt x 597.23125pt>
 File: res_long_pos.pdf Graphic file (type pdf)
 
 <use res_long_pos.pdf>
@@ -739,7 +766,7 @@ Overfull \hbox (19.27592pt too wide) in paragraph at lines 449--451
  []
 
 [14 <./res_long_pos.pdf>]
-<res_short_pos.pdf, id=486, 845.1575pt x 597.23125pt>
+<res_short_pos.pdf, id=470, 845.1575pt x 597.23125pt>
 File: res_short_pos.pdf Graphic file (type pdf)
  <use res_short_pos.pdf>
 Package pdftex.def Info: res_short_pos.pdf used on input line 474.
@@ -753,7 +780,7 @@ Overfull \hbox (19.27592pt too wide) in paragraph at lines 474--476
 LaTeX Warning: Reference `eq:chisquare' on page 15 undefined on input line 483.
 
 
-<fig_all_pos_long_sim.pdf, id=488, 845.1575pt x 597.23125pt>
+<fig_all_pos_long_sim.pdf, id=472, 845.1575pt x 597.23125pt>
 File: fig_all_pos_long_sim.pdf Graphic file (type pdf)
 
 <use fig_all_pos_long_sim.pdf>
@@ -768,7 +795,7 @@ Overfull \hbox (19.27592pt too wide) in paragraph at lines 487--489
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [15 <./res_short_pos.pdf>]
-<fig_all_pos_long_reb.pdf, id=509, 845.1575pt x 597.23125pt>
+<fig_all_pos_long_reb.pdf, id=493, 845.1575pt x 597.23125pt>
 File: fig_all_pos_long_reb.pdf Graphic file (type pdf)
 
 <use fig_all_pos_long_reb.pdf>
@@ -782,7 +809,7 @@ Overfull \hbox (19.27592pt too wide) in paragraph at lines 498--500
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<fig_all_pos_short_reb.pdf, id=511, 845.1575pt x 597.23125pt>
+<fig_all_pos_short_reb.pdf, id=495, 845.1575pt x 597.23125pt>
 File: fig_all_pos_short_reb.pdf Graphic file (type pdf)
 
 <use fig_all_pos_short_reb.pdf>
@@ -800,30 +827,42 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: Text page 17 contains only floats.
 
-[17 <./fig_all_pos_long_reb.pdf> <./fig_all_pos_short_reb.pdf>] (./main.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 534.
+[17 <./fig_all_pos_long_reb.pdf> <./fig_all_pos_short_reb.pdf>] (./main.bbl
 
-[18]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 534.
+./main.bbl:3: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \end{thebibliography}
+                         
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 535.
+ [18]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 535.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 534.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 534.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 535.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 535.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 82BF977256586FE7409E79EE141F801B;1000.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 534.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 535.
  ) 
 Here is how much of TeX's memory you used:
- 7782 strings out of 492995
- 109107 string characters out of 6132704
- 208972 words of memory out of 5000000
+ 7775 strings out of 492995
+ 109024 string characters out of 6132704
+ 207747 words of memory out of 5000000
  11101 multiletter control sequences out of 15000+600000
  59635 words of font info for 146 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,16n,35p,2707b,390s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,16n,35p,2707b,388s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2017/texmf-dist/fonts/type1/public/txfonts/rtxbmi.pfb></usr/local/texliv
 e/2017/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/local/texlive/2017/
@@ -834,10 +873,10 @@ e1/public/txfonts/txsy.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/
 times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmb
 i8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></
 usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (18 pages, 7054514 bytes).
+Output written on main.pdf (18 pages, 7050182 bytes).
 PDF statistics:
- 602 PDF objects out of 1000 (max. 8388607)
- 355 compressed objects within 4 object streams
- 63 named destinations out of 1000 (max. 500000)
+ 585 PDF objects out of 1000 (max. 8388607)
+ 338 compressed objects within 4 object streams
+ 56 named destinations out of 1000 (max. 500000)
  218 words of extra memory for PDF output out of 10000 (max. 10000000)
 
