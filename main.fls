@@ -223,9 +223,6 @@ INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/txfonts/rtxb.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/vf/public/txfonts/txr.vf
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/txfonts/rtxptmr.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/txfonts/rtxr.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/vf/public/txfonts/txi.vf
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/txfonts/rtxptmri.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/txfonts/rtxi.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/vf/public/txfonts/txr.vf
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/txfonts/rtxptmr.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/txfonts/rtxr.tfm
@@ -233,6 +230,9 @@ INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/txfonts/txb.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/omstxr.fd
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/omstxr.fd
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/txfonts/txsy.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/vf/public/txfonts/txi.vf
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/txfonts/rtxptmri.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/txfonts/rtxi.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/vf/public/txfonts/txb.vf
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/txfonts/rtxptmb.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/txfonts/rtxb.tfm
