@@ -1,10 +1,10 @@
 This is BibTeX, Version 0.99d (TeX Live 2017)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: ./main.aux
-I couldn't open database file spiebib.bib
----line 73 of file ./main.aux
- : \bibdata{spiebib
- :                 }
+I couldn't open database file reported.bib
+---line 79 of file ./main.aux
+ : \bibdata{reported
+ :                  }
 I'm skipping whatever remains of this command
 The style file: spiebib.bst
 I found no database files---while reading file ./main.aux
@@ -14,14 +14,22 @@ Warning--I didn't find a database entry for "Cowperthwaite17"
 Warning--I didn't find a database entry for "Siebert17"
 Warning--I didn't find a database entry for "douglas19"
 Warning--I didn't find a database entry for "Shkolnik18"
+Warning--I didn't find a database entry for "Boella97"
+Warning--I didn't find a database entry for "vanParadijs97"
 Warning--I didn't find a database entry for "Schilling02"
+Warning--I didn't find a database entry for "Piran99"
+Warning--I didn't find a database entry for "Kobayashi97"
+Warning--I didn't find a database entry for "Nakar02"
+Warning--I didn't find a database entry for "Morsony2010"
+Warning--I didn't find a database entry for "Walker00"
+Warning--I didn't find a database entry for "MacLachlan13"
 Warning--I didn't find a database entry for "Fuschino20"
 Warning--I didn't find a database entry for "Evangelista20"
 Warning--I didn't find a database entry for "Fiore20"
 Warning--I didn't find a database entry for "vonKienlin20"
 You've used 0 entries,
             1993 wiz_defined-function locations,
-            522 strings with 3927 characters,
+            539 strings with 4089 characters,
 and the built_in function-call counts, 20 in all, are:
 = -- 0
 > -- 0
