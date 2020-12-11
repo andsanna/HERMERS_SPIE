@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1607681136 "main.aux" "main.bbl" "main" 1607681896
+["bibtex main"] 1607684925 "main.aux" "main.bbl" "main" 1607684929
   "./spiebib.bst" 1607380278 20917 5ac1fce8241b571b46fcef3fee4fa580 ""
-  "main.aux" 1607681894 11171 ac8d7558800244d4829bee06d5334249 ""
+  "main.aux" 1607684926 11295 b362a08434bc7bdd112f1bce5ca5363e ""
   "reported.bib" 0 -1 0 ""
   (generated)
-  "main.bbl"
   "main.blg"
-["pdflatex"] 1607681893 "main.tex" "main.pdf" "main" 1607681896
+  "main.bbl"
+["pdflatex"] 1607684925 "main.tex" "main.pdf" "main" 1607684929
   "/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/txfonts/rtxb.tfm" 1480098718 1020 c53143d3e3747b5c1149bd9a5ecd7b55 ""
@@ -112,17 +112,17 @@
   "aas_macros.sty" 1607634825 4829 e32f091b1e6ab5842aa0e349a9203d7e ""
   "fig/CrossCorrelation_fit_LONG.pdf" 1607603457 110766 f842e762e0c258f484d574a1cf171a2d ""
   "fig/CrossCorrelation_fit_Short.pdf" 1607534664 82968 a640a0dde1f4eba101b0888d46c2423e ""
-  "fig/Template_comparison_Long.pdf" 1607380278 78231 42f3cffcc89d6800b74b2e96534ff02d ""
-  "fig/Template_comparison_Short.pdf" 1607380278 21476 28c7763c0579302db01d5563b5c3bbd0 ""
+  "fig/Template_comparison_Long.pdf" 1607683243 78250 a85b2cb8dcaf38743edef7ed9e5fe59d ""
+  "fig/Template_comparison_Short.pdf" 1607683243 21488 1a64890de6b95cdf58fb6912fa3ef7c0 ""
   "fig_all_pos_long_reb.pdf" 1607613457 300395 4f1a30aef9f880d3ae3ba258d63f4dd2 ""
   "fig_all_pos_long_sim.pdf" 1607613411 660347 11b6e2c374a1d04bba4ece0601c4018c ""
   "fig_all_pos_short_reb.pdf" 1607613507 301809 27ff38cf5be679fb86962d6eb7fb78ec ""
   "fig_loc_30deg.pdf" 1607600511 788287 7d4ef678dc00aa41e60e7fb424146ea5 ""
   "fig_loc_70deg.pdf" 1607600587 819480 b80a753751c70adbab0965aaa501caf5 ""
-  "main.aux" 1607681894 11171 ac8d7558800244d4829bee06d5334249 ""
+  "main.aux" 1607684926 11295 b362a08434bc7bdd112f1bce5ca5363e ""
   "main.bbl" 1607681139 49 0eba253fc001332e731e8aba3f23127b "bibtex main"
-  "main.out" 1607681894 1000 82bf977256586fe7409e79ee141f801b ""
-  "main.tex" 1607681892 68217 9a25a9faa71790eb3a32c3ad60f302c6 ""
+  "main.out" 1607684926 1000 82bf977256586fe7409e79ee141f801b ""
+  "main.tex" 1607684920 68377 68946d4610153ea5b7f813a5f4e86cc7 ""
   "pointying_strategy.pdf" 1607556275 378046 65e802900dcb2b697966837798c12f9c ""
   "res_long_pos.pdf" 1607605032 344130 d7fc69facfddc5836a145d5788a1b6f4 ""
   "res_short_pos.pdf" 1607604974 280782 35c68fb7a405754361e751f32c6ef585 ""
@@ -136,6 +136,6 @@
   "trinag_fig1.png" 1607419310 82792 6cc2c154f89e5f212ac102e2899554b3 ""
   (generated)
   "main.pdf"
+  "main.aux"
   "main.out"
   "main.log"
-  "main.aux"
